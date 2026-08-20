@@ -34,7 +34,12 @@ jobs:
 
       - run: npm run build
 
+      # `enablement` turns Pages on and sets its source to GitHub Actions, so a
+      # fresh clone of this repo deploys without anyone visiting Settings first.
+      # Without it the very first run fails with "Get Pages site failed".
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:

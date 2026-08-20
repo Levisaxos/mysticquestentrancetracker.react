@@ -1,0 +1,3232 @@
+[
+  {
+    "apLocationId": 4325727,
+    "roomId": 220,
+    "objectId": 1,
+    "type": "Battlefield",
+    "rawType": "BattlefieldXp",
+    "name": "Foresta South Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325728,
+    "roomId": 220,
+    "objectId": 2,
+    "type": "Battlefield",
+    "rawType": "BattlefieldItem",
+    "name": "Foresta West Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325729,
+    "roomId": 220,
+    "objectId": 3,
+    "type": "Battlefield",
+    "rawType": "BattlefieldGp",
+    "name": "Foresta East Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325730,
+    "roomId": 221,
+    "objectId": 4,
+    "type": "Battlefield",
+    "rawType": "BattlefieldXp",
+    "name": "South of Libra Temple Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325731,
+    "roomId": 221,
+    "objectId": 5,
+    "type": "Battlefield",
+    "rawType": "BattlefieldGp",
+    "name": "East of Libra Temple Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325732,
+    "roomId": 221,
+    "objectId": 6,
+    "type": "Battlefield",
+    "rawType": "BattlefieldItem",
+    "name": "South of Aquaria Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325733,
+    "roomId": 221,
+    "objectId": 7,
+    "type": "Battlefield",
+    "rawType": "BattlefieldXp",
+    "name": "South of Wintry Cave Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325734,
+    "roomId": 221,
+    "objectId": 8,
+    "type": "Battlefield",
+    "rawType": "BattlefieldGp",
+    "name": "West of Wintry Cave Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325735,
+    "roomId": 221,
+    "objectId": 9,
+    "type": "Battlefield",
+    "rawType": "BattlefieldXp",
+    "name": "Ice Pyramid Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325736,
+    "roomId": 223,
+    "objectId": 10,
+    "type": "Battlefield",
+    "rawType": "BattlefieldItem",
+    "name": "North of Libra Temple Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325737,
+    "roomId": 223,
+    "objectId": 11,
+    "type": "Battlefield",
+    "rawType": "BattlefieldXp",
+    "name": "Aquaria Frozen Field Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325738,
+    "roomId": 224,
+    "objectId": 12,
+    "type": "Battlefield",
+    "rawType": "BattlefieldGp",
+    "name": "Path to Fireburg Southern Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325739,
+    "roomId": 224,
+    "objectId": 13,
+    "type": "Battlefield",
+    "rawType": "BattlefieldItem",
+    "name": "Path to Fireburg Central Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325740,
+    "roomId": 224,
+    "objectId": 14,
+    "type": "Battlefield",
+    "rawType": "BattlefieldXp",
+    "name": "Path to Fireburg Northern Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325741,
+    "roomId": 224,
+    "objectId": 15,
+    "type": "Battlefield",
+    "rawType": "BattlefieldGp",
+    "name": "Sealed Temple Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325742,
+    "roomId": 224,
+    "objectId": 16,
+    "type": "Battlefield",
+    "rawType": "BattlefieldItem",
+    "name": "Mine Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325743,
+    "roomId": 224,
+    "objectId": 17,
+    "type": "Battlefield",
+    "rawType": "BattlefieldXp",
+    "name": "Boulder Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325744,
+    "roomId": 225,
+    "objectId": 18,
+    "type": "Battlefield",
+    "rawType": "BattlefieldXp",
+    "name": "Volcano Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325745,
+    "roomId": 226,
+    "objectId": 19,
+    "type": "Battlefield",
+    "rawType": "BattlefieldXp",
+    "name": "Kaidge Temple Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325746,
+    "roomId": 226,
+    "objectId": 20,
+    "type": "Battlefield",
+    "rawType": "BattlefieldXp",
+    "name": "South of Windia Battlefield",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325377,
+    "roomId": 1,
+    "objectId": 1,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Doom Castle B2 - Southeast Chest",
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325406,
+    "roomId": 1,
+    "objectId": 30,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle B2 - Bone Ledge Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325407,
+    "roomId": 1,
+    "objectId": 31,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle B2 - Hook Platform Box",
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325376,
+    "roomId": 2,
+    "objectId": 0,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Doom Castle B2 - Sun Door Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325409,
+    "roomId": 6,
+    "objectId": 33,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Focus Tower 1F - Main Lobby Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325379,
+    "roomId": 10,
+    "objectId": 3,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Focus Tower 2F - Sand Door Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325378,
+    "roomId": 12,
+    "objectId": 2,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Focus Tower 2F - Back Door Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325685,
+    "roomId": 12,
+    "objectId": 9,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Focus Tower 2F - Venus Chest",
+    "access": [
+      "Bomb",
+      "VenusKey"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      },
+      {
+        "type": "item",
+        "item": "Venus Key",
+        "raw": "VenusKey"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325410,
+    "roomId": 13,
+    "objectId": 34,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Focus Tower 3F - River Door Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325416,
+    "roomId": 15,
+    "objectId": 40,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Level Forest - Northwest Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325417,
+    "roomId": 15,
+    "objectId": 41,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Level Forest - Northeast Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325418,
+    "roomId": 15,
+    "objectId": 42,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Level Forest - Middle Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325419,
+    "roomId": 15,
+    "objectId": 43,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Level Forest - Southwest Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325420,
+    "roomId": 15,
+    "objectId": 44,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Level Forest - Southeast Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325676,
+    "roomId": 15,
+    "objectId": 0,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Level Forest - Old Man",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325677,
+    "roomId": 15,
+    "objectId": 1,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Level Forest - Kaeli",
+    "access": [
+      "TreeWitherPerson",
+      "Minotaur"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Tree Wither Person",
+        "raw": "TreeWitherPerson"
+      },
+      {
+        "type": "item",
+        "item": "Minotaur",
+        "raw": "Minotaur"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325421,
+    "roomId": 16,
+    "objectId": 45,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Foresta - Outside Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325422,
+    "roomId": 17,
+    "objectId": 46,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Foresta - Kaeli's House Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325381,
+    "roomId": 19,
+    "objectId": 5,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Foresta - Old Man House Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325423,
+    "roomId": 20,
+    "objectId": 47,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Foresta - Rest House Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325426,
+    "roomId": 21,
+    "objectId": 50,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Alive Forest - Libra Treehouse Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325427,
+    "roomId": 22,
+    "objectId": 51,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Alive Forest - Gemini Treehouse Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325424,
+    "roomId": 23,
+    "objectId": 48,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Alive Forest - Mobius Treehouse West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325425,
+    "roomId": 23,
+    "objectId": 49,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Alive Forest - Mobius Treehouse East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325429,
+    "roomId": 25,
+    "objectId": 53,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon 1F - Entrance Room West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325430,
+    "roomId": 25,
+    "objectId": 54,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon 1F - Entrance Room Middle Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325431,
+    "roomId": 25,
+    "objectId": 55,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon 1F - Entrance Room East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325382,
+    "roomId": 26,
+    "objectId": 6,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Bone Dungeon B1 - Skull Chest",
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325678,
+    "roomId": 26,
+    "objectId": 2,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Bone Dungeon B1 - Tristam",
+    "access": [
+      "Tristam"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Tristam",
+        "raw": "Tristam"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325432,
+    "roomId": 28,
+    "objectId": 56,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon B1 - Checker Room Box",
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325433,
+    "roomId": 29,
+    "objectId": 57,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon B1 - Ribcage Waterway Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325435,
+    "roomId": 30,
+    "objectId": 59,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon B2 - Spines Room Alcove Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325434,
+    "roomId": 31,
+    "objectId": 58,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon B2 - Spines Room Looped Hallway Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325437,
+    "roomId": 33,
+    "objectId": 61,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon B2 - Lone Room Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325383,
+    "roomId": 34,
+    "objectId": 7,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Bone Dungeon B2 - Penultimate Room Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325436,
+    "roomId": 35,
+    "objectId": 60,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon B2 - Two Skulls Room Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325438,
+    "roomId": 38,
+    "objectId": 62,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon B2 - North Box",
+    "access": [
+      "FlamerusRex"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Flamerus Rex",
+        "raw": "FlamerusRex"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325439,
+    "roomId": 38,
+    "objectId": 63,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Bone Dungeon B2 - South Box",
+    "access": [
+      "FlamerusRex"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Flamerus Rex",
+        "raw": "FlamerusRex"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325384,
+    "roomId": 38,
+    "objectId": 8,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Bone Dungeon B2 - Flamerus Rex Chest",
+    "access": [
+      "FlamerusRex"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Flamerus Rex",
+        "raw": "FlamerusRex"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325380,
+    "roomId": 38,
+    "objectId": 4,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Bone Dungeon B2 - Tristam's Treasure Chest",
+    "access": [
+      "FlamerusRex"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Flamerus Rex",
+        "raw": "FlamerusRex"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325440,
+    "roomId": 39,
+    "objectId": 64,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Libra Temple - Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325441,
+    "roomId": 41,
+    "objectId": 65,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Aquaria - Phoebe's House Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325680,
+    "roomId": 42,
+    "objectId": 4,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Aquaria - Vendor",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325442,
+    "roomId": 42,
+    "objectId": 66,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Aquaria - Vendor House Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325443,
+    "roomId": 45,
+    "objectId": 67,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 1F - North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325446,
+    "roomId": 45,
+    "objectId": 70,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 1F - Entrance Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325444,
+    "roomId": 45,
+    "objectId": 68,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 1F - Slippery Cliff Box",
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325681,
+    "roomId": 45,
+    "objectId": 5,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Wintry Cave 1F - Phoebe",
+    "access": [
+      "Phoebe"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Phoebe",
+        "raw": "Phoebe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325445,
+    "roomId": 46,
+    "objectId": 69,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 1F - Scenic Overlook Box",
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325447,
+    "roomId": 48,
+    "objectId": 71,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 2F - West Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325448,
+    "roomId": 48,
+    "objectId": 72,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 2F - West Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325449,
+    "roomId": 48,
+    "objectId": 73,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 2F - East Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325450,
+    "roomId": 48,
+    "objectId": 74,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 2F - East Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325451,
+    "roomId": 49,
+    "objectId": 75,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 3F - West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325452,
+    "roomId": 49,
+    "objectId": 76,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 3F - East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325385,
+    "roomId": 50,
+    "objectId": 9,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Wintry Cave 3F - Squidite Chest",
+    "access": [
+      "Squidite"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Squidite",
+        "raw": "Squidite"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325453,
+    "roomId": 50,
+    "objectId": 77,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Cave 3F - Before Boss Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325454,
+    "roomId": 51,
+    "objectId": 78,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Life Temple - Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325682,
+    "roomId": 51,
+    "objectId": 6,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Life Temple - Mysterious Man",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325386,
+    "roomId": 52,
+    "objectId": 10,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Falls Basin - Snow Crab Chest",
+    "access": [
+      "SnowCrab"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Snow Crab",
+        "raw": "SnowCrab"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325455,
+    "roomId": 52,
+    "objectId": 79,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Falls Basin - Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325387,
+    "roomId": 53,
+    "objectId": 11,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Ice Pyramid B1 - Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325456,
+    "roomId": 53,
+    "objectId": 80,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid B1 - West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325457,
+    "roomId": 53,
+    "objectId": 81,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid B1 - North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325458,
+    "roomId": 53,
+    "objectId": 82,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid B1 - East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325389,
+    "roomId": 55,
+    "objectId": 13,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Ice Pyramid 1F - East Alcove Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325459,
+    "roomId": 55,
+    "objectId": 83,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 1F - Sandwiched Alcove Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325460,
+    "roomId": 55,
+    "objectId": 84,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 1F - Southwest Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325461,
+    "roomId": 55,
+    "objectId": 85,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 1F - Southwest Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325463,
+    "roomId": 56,
+    "objectId": 87,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 2F - South Side Glass Door Box",
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325467,
+    "roomId": 56,
+    "objectId": 91,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 2F - South Side East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325466,
+    "roomId": 57,
+    "objectId": 90,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 2F - Northwest Room Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325462,
+    "roomId": 58,
+    "objectId": 86,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 2F - Center Room Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325464,
+    "roomId": 59,
+    "objectId": 88,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 2F - North Room Glass Door Box",
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325465,
+    "roomId": 60,
+    "objectId": 89,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 2F - North Corridor Glass Door Box",
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325470,
+    "roomId": 61,
+    "objectId": 94,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 3F - Staircase Dead End Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325471,
+    "roomId": 61,
+    "objectId": 95,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 3F - Staircase Dead End Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325468,
+    "roomId": 62,
+    "objectId": 92,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 3F - Inner Room North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325469,
+    "roomId": 62,
+    "objectId": 93,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 3F - Inner Room South Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325472,
+    "roomId": 62,
+    "objectId": 96,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 3F - East Alcove Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325473,
+    "roomId": 62,
+    "objectId": 97,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 3F - Leapfrog Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325388,
+    "roomId": 65,
+    "objectId": 12,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Ice Pyramid 4F - Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325474,
+    "roomId": 65,
+    "objectId": 98,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 4F - Northwest Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325475,
+    "roomId": 65,
+    "objectId": 99,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 4F - West Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325476,
+    "roomId": 65,
+    "objectId": 100,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 4F - West Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325477,
+    "roomId": 65,
+    "objectId": 101,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 4F - South Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325478,
+    "roomId": 65,
+    "objectId": 102,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 4F - South Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325479,
+    "roomId": 65,
+    "objectId": 103,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 4F - East Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325480,
+    "roomId": 65,
+    "objectId": 104,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 4F - East Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325481,
+    "roomId": 66,
+    "objectId": 105,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 5F - Glass Door Left Box",
+    "access": [
+      "IcePyramid5FStatue"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ice Pyramid 5F Statue",
+        "raw": "IcePyramid5FStatue"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325482,
+    "roomId": 66,
+    "objectId": 106,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 5F - West Ledge Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325483,
+    "roomId": 66,
+    "objectId": 107,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 5F - South Shelf Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325484,
+    "roomId": 66,
+    "objectId": 108,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 5F - South Leapfrog Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325485,
+    "roomId": 66,
+    "objectId": 109,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 5F - Glass Door Right Box",
+    "access": [
+      "IcePyramid5FStatue"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ice Pyramid 5F Statue",
+        "raw": "IcePyramid5FStatue"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325486,
+    "roomId": 66,
+    "objectId": 110,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Ice Pyramid 5F - North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325390,
+    "roomId": 70,
+    "objectId": 14,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Ice Pyramid 6F - Ice Golem Chest",
+    "access": [
+      "IceGolem"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ice Golem",
+        "raw": "IceGolem"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325487,
+    "roomId": 72,
+    "objectId": 111,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Spencer's Cave - Box",
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325684,
+    "roomId": 72,
+    "objectId": 8,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Spencer's Cave - Spencer",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325689,
+    "roomId": 72,
+    "objectId": 13,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Spencer's Cave - Locked Chest",
+    "access": [
+      "VenusKey"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Venus Key",
+        "raw": "VenusKey"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325391,
+    "roomId": 207,
+    "objectId": 15,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Spencer's Cave - Mobius Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325488,
+    "roomId": 75,
+    "objectId": 112,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Temple - West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325489,
+    "roomId": 75,
+    "objectId": 113,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Wintry Temple - North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325492,
+    "roomId": 208,
+    "objectId": 116,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Fireburg - Hidden Tunnel Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325690,
+    "roomId": 77,
+    "objectId": 14,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Fireburg - Reuben's House Arion",
+    "access": [
+      "ReubenDadSaved"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Reuben Dad Saved",
+        "raw": "ReubenDadSaved"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325493,
+    "roomId": 77,
+    "objectId": 117,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Fireburg - Reuben's House Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325688,
+    "roomId": 78,
+    "objectId": 12,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Fireburg - Locked House Man",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325687,
+    "roomId": 80,
+    "objectId": 11,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Fireburg - Vendor",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325686,
+    "roomId": 82,
+    "objectId": 10,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Fireburg - Tristam",
+    "access": [
+      "Tristam",
+      "TristamBoneItemGiven"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Tristam",
+        "raw": "Tristam"
+      },
+      {
+        "type": "item",
+        "item": "Tristam Bone Item Given",
+        "raw": "TristamBoneItemGiven"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325495,
+    "roomId": 88,
+    "objectId": 119,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mine - Parallel Room West Box",
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325496,
+    "roomId": 88,
+    "objectId": 120,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mine - Parallel Room East Box",
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325392,
+    "roomId": 89,
+    "objectId": 16,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Mine - Crescent Room Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325494,
+    "roomId": 90,
+    "objectId": 118,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mine - Glitchy Collision Cave Box",
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325497,
+    "roomId": 91,
+    "objectId": 121,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mine - Cliff Southwest Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325498,
+    "roomId": 91,
+    "objectId": 122,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mine - Cliff Northwest Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325499,
+    "roomId": 91,
+    "objectId": 123,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mine - Cliff Northeast Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325500,
+    "roomId": 91,
+    "objectId": 124,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mine - Cliff Southeast Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325683,
+    "roomId": 91,
+    "objectId": 7,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Mine - Reuben",
+    "access": [
+      "Reuben"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Reuben",
+        "raw": "Reuben"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325501,
+    "roomId": 92,
+    "objectId": 125,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Sealed Temple - West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325502,
+    "roomId": 92,
+    "objectId": 126,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Sealed Temple - East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325393,
+    "roomId": 93,
+    "objectId": 17,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Volcano - Base Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325503,
+    "roomId": 93,
+    "objectId": 127,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Volcano - Base West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325504,
+    "roomId": 93,
+    "objectId": 128,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Volcano - Base East Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325505,
+    "roomId": 93,
+    "objectId": 129,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Volcano - Base East Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325394,
+    "roomId": 94,
+    "objectId": 18,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Volcano - Medusa Chest",
+    "access": [
+      "Medusa"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Medusa",
+        "raw": "Medusa"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325506,
+    "roomId": 94,
+    "objectId": 130,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Volcano - Behind Medusa Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325507,
+    "roomId": 95,
+    "objectId": 131,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Volcano - Top of the Volcano Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325508,
+    "roomId": 95,
+    "objectId": 132,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Volcano - Top of the Volcano Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325511,
+    "roomId": 96,
+    "objectId": 135,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Volcano - Right Path Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325510,
+    "roomId": 98,
+    "objectId": 134,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Volcano - Left Path Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325509,
+    "roomId": 209,
+    "objectId": 133,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Volcano - Crossover Section Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325512,
+    "roomId": 100,
+    "objectId": 136,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Exterior Caldera Near Switch Cliff Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325513,
+    "roomId": 100,
+    "objectId": 137,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Exterior South Cliff Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325514,
+    "roomId": 101,
+    "objectId": 138,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Exterior Center Dropoff Ledge Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325515,
+    "roomId": 106,
+    "objectId": 139,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Exterior Dead End Caldera Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325516,
+    "roomId": 107,
+    "objectId": 140,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Gold Maze Northwest Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325622,
+    "roomId": 107,
+    "objectId": 246,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Gold Maze Southwest Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325623,
+    "roomId": 107,
+    "objectId": 247,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Gold Maze Northeast Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325624,
+    "roomId": 107,
+    "objectId": 248,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Gold Maze North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325625,
+    "roomId": 107,
+    "objectId": 249,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Gold Maze Center Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325626,
+    "roomId": 107,
+    "objectId": 250,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Gold Maze Southeast Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325517,
+    "roomId": 109,
+    "objectId": 141,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Bare Maze Leapfrog Alcove North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325518,
+    "roomId": 109,
+    "objectId": 142,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Bare Maze Leapfrog Alcove South Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325519,
+    "roomId": 109,
+    "objectId": 143,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Bare Maze Center Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325520,
+    "roomId": 109,
+    "objectId": 144,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Bare Maze Southwest Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325522,
+    "roomId": 111,
+    "objectId": 146,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - U-Bend Room North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325523,
+    "roomId": 111,
+    "objectId": 147,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - U-Bend Room South Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325395,
+    "roomId": 112,
+    "objectId": 19,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Lava Dome - Beyond River Room Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325521,
+    "roomId": 112,
+    "objectId": 145,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Beyond River Room Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325526,
+    "roomId": 113,
+    "objectId": 150,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Three Jumps Room Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325404,
+    "roomId": 114,
+    "objectId": 28,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Lava Dome - Gold Bar Room Boulder Chest",
+    "access": [
+      "MegaGrenade"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325524,
+    "roomId": 115,
+    "objectId": 148,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Gold Bar Room Leapfrog Alcove Box West",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325525,
+    "roomId": 115,
+    "objectId": 149,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Gold Bar Room Leapfrog Alcove Box East",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325528,
+    "roomId": 116,
+    "objectId": 152,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Lava River Room North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325529,
+    "roomId": 116,
+    "objectId": 153,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Lava River Room East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325530,
+    "roomId": 116,
+    "objectId": 154,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Lava River Room South Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325527,
+    "roomId": 118,
+    "objectId": 151,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Split Corridor Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325531,
+    "roomId": 120,
+    "objectId": 155,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Caldera Stairway West Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325532,
+    "roomId": 120,
+    "objectId": 156,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Caldera Stairway West Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325533,
+    "roomId": 120,
+    "objectId": 157,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Caldera Stairway East Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325534,
+    "roomId": 120,
+    "objectId": 158,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Caldera Stairway East Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325396,
+    "roomId": 121,
+    "objectId": 20,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Lava Dome - Dualhead Hydra Chest",
+    "access": [
+      "DualheadHydra"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dualhead Hydra",
+        "raw": "DualheadHydra"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325535,
+    "roomId": 121,
+    "objectId": 159,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Hydra Room Northwest Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325536,
+    "roomId": 121,
+    "objectId": 160,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Lava Dome - Hydra Room Southweast Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325539,
+    "roomId": 123,
+    "objectId": 163,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Rope Bridge - West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325540,
+    "roomId": 123,
+    "objectId": 164,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Rope Bridge - East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325397,
+    "roomId": 124,
+    "objectId": 21,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Alive Forest - Tree Stump Chest",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325541,
+    "roomId": 124,
+    "objectId": 165,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Alive Forest - Near Entrance Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325542,
+    "roomId": 124,
+    "objectId": 166,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Alive Forest - After Bridge Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325543,
+    "roomId": 124,
+    "objectId": 167,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Alive Forest - Gemini Stump Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325544,
+    "roomId": 125,
+    "objectId": 168,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 1F - Northwest Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325545,
+    "roomId": 125,
+    "objectId": 169,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 1F - Southwest Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325546,
+    "roomId": 125,
+    "objectId": 170,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 1F - Center Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325547,
+    "roomId": 125,
+    "objectId": 171,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 1F - East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325548,
+    "roomId": 127,
+    "objectId": 172,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 2F - North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325550,
+    "roomId": 128,
+    "objectId": 174,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 2F - Dropdown Ledge Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325549,
+    "roomId": 129,
+    "objectId": 173,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 2F - South Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325398,
+    "roomId": 132,
+    "objectId": 22,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Giant Tree 2F - Gidrah Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325551,
+    "roomId": 133,
+    "objectId": 175,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 2F - Mushroom Tunnel West Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325552,
+    "roomId": 133,
+    "objectId": 176,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 2F - Mushroom Tunnel East Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325555,
+    "roomId": 135,
+    "objectId": 179,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 3F - Central Island Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325553,
+    "roomId": 136,
+    "objectId": 177,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 3F - Center North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325554,
+    "roomId": 136,
+    "objectId": 178,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 3F - Center West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325556,
+    "roomId": 138,
+    "objectId": 180,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 3F - West Side Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325557,
+    "roomId": 142,
+    "objectId": 181,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 3F - Worm Room North Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325558,
+    "roomId": 142,
+    "objectId": 182,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 3F - Worm Room South Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325559,
+    "roomId": 144,
+    "objectId": 183,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 4F - Highest Platform North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325560,
+    "roomId": 144,
+    "objectId": 184,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 4F - Highest Platform South Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325561,
+    "roomId": 146,
+    "objectId": 185,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 4F - Hook Ledge Northeast Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325562,
+    "roomId": 146,
+    "objectId": 186,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 4F - Hook Ledge Southwest Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325564,
+    "roomId": 147,
+    "objectId": 188,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 4F - East Slime Room Box",
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325563,
+    "roomId": 149,
+    "objectId": 187,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 4F - West Slime Room Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325565,
+    "roomId": 150,
+    "objectId": 189,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 5F - Northwest Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325566,
+    "roomId": 150,
+    "objectId": 190,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 5F - Northwest Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325567,
+    "roomId": 150,
+    "objectId": 191,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 5F - South Left Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325568,
+    "roomId": 150,
+    "objectId": 192,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Giant Tree 5F - South Right Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325569,
+    "roomId": 153,
+    "objectId": 193,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Kaidge Temple - Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325570,
+    "roomId": 154,
+    "objectId": 194,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Windhole Temple - Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325399,
+    "roomId": 155,
+    "objectId": 23,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Mount Gale - Dullahan Chest",
+    "access": [
+      "DragonClaw",
+      "Dullahan"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      },
+      {
+        "type": "item",
+        "item": "Dullahan",
+        "raw": "Dullahan"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325571,
+    "roomId": 155,
+    "objectId": 195,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mount Gale - East Box",
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325572,
+    "roomId": 155,
+    "objectId": 196,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mount Gale - West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325573,
+    "roomId": 158,
+    "objectId": 197,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Windia - Otto's Attic Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325576,
+    "roomId": 162,
+    "objectId": 200,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Windia - Mobius Basement West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325577,
+    "roomId": 162,
+    "objectId": 201,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Windia - Mobius Basement East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325574,
+    "roomId": 164,
+    "objectId": 198,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Windia - Inn Bedroom North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325575,
+    "roomId": 164,
+    "objectId": 199,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Windia - Inn Bedroom South Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325691,
+    "roomId": 164,
+    "objectId": 15,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Windia - Kaeli",
+    "access": [
+      "HealedPerson"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Healed Person",
+        "raw": "HealedPerson"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325692,
+    "roomId": 165,
+    "objectId": 16,
+    "type": "NPC",
+    "rawType": "NPC",
+    "name": "Windia - Vendor",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325578,
+    "roomId": 167,
+    "objectId": 202,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 1F - Descent Bomb Wall West Box",
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325579,
+    "roomId": 167,
+    "objectId": 203,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 1F - Descent Bomb Wall Center Box",
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325580,
+    "roomId": 167,
+    "objectId": 204,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 1F - Descent Bomb Wall East Box",
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325581,
+    "roomId": 167,
+    "objectId": 205,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 1F - Descent Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325582,
+    "roomId": 169,
+    "objectId": 206,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 2F - East Room West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325583,
+    "roomId": 169,
+    "objectId": 207,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 2F - East Room East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325584,
+    "roomId": 170,
+    "objectId": 208,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 3F - Guest Room West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325585,
+    "roomId": 170,
+    "objectId": 209,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 3F - Guest Room East Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325586,
+    "roomId": 172,
+    "objectId": 210,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 3F - South Ledge Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325587,
+    "roomId": 173,
+    "objectId": 211,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 4F - Elevator West Box",
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325588,
+    "roomId": 173,
+    "objectId": 212,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 4F - Elevator East Box",
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325400,
+    "roomId": 173,
+    "objectId": 24,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Pazuzu's Tower 4F - East Storage Room Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325589,
+    "roomId": 175,
+    "objectId": 213,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 5F - North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325590,
+    "roomId": 175,
+    "objectId": 214,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 5F - South Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325591,
+    "roomId": 176,
+    "objectId": 215,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Pazuzu's Tower 6F - Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325401,
+    "roomId": 176,
+    "objectId": 25,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Pazuzu's Tower 6F - Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325402,
+    "roomId": 179,
+    "objectId": 26,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Pazuzu's Tower 7F - Pazuzu Chest",
+    "access": [
+      "Pazuzu"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Pazuzu",
+        "raw": "Pazuzu"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325592,
+    "roomId": 185,
+    "objectId": 216,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Light Temple - Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325593,
+    "roomId": 187,
+    "objectId": 217,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mac's Ship Deck - North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325594,
+    "roomId": 187,
+    "objectId": 218,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mac's Ship Deck - Center Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325595,
+    "roomId": 187,
+    "objectId": 219,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mac's Ship Deck - South Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325604,
+    "roomId": 188,
+    "objectId": 228,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mac's Ship B1 - Northwest Hook Platform Box",
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325605,
+    "roomId": 188,
+    "objectId": 229,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mac's Ship B1 - Center Hook Platform Box",
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325606,
+    "roomId": 190,
+    "objectId": 230,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mac's Ship B1 - Central Corridor Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325599,
+    "roomId": 193,
+    "objectId": 223,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mac's Ship B2 - Barrel Room South Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325600,
+    "roomId": 193,
+    "objectId": 224,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mac's Ship B2 - Barrel Room North Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325601,
+    "roomId": 193,
+    "objectId": 225,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mac's Ship B2 - Southwest Room Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325602,
+    "roomId": 193,
+    "objectId": 226,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Mac's Ship B2 - Southeast Room Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325403,
+    "roomId": 194,
+    "objectId": 27,
+    "type": "Chest",
+    "rawType": "Chest",
+    "name": "Mac's Ship B1 - Mac Room Chest",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325607,
+    "roomId": 196,
+    "objectId": 231,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle 4F - Northwest Room Box",
+    "access": [
+      "Sword",
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      },
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325608,
+    "roomId": 196,
+    "objectId": 232,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle 4F - Southwest Room Box",
+    "access": [
+      "Sword",
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      },
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325609,
+    "roomId": 196,
+    "objectId": 233,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle 4F - Northeast Room Box",
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325610,
+    "roomId": 196,
+    "objectId": 234,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle 4F - Southeast Room Box",
+    "access": [
+      "Sword",
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      },
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325611,
+    "roomId": 197,
+    "objectId": 235,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle 5F - North Left Box",
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325612,
+    "roomId": 197,
+    "objectId": 236,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle 5F - North Right Box",
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325613,
+    "roomId": 197,
+    "objectId": 237,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle 5F - South Left Box",
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325614,
+    "roomId": 197,
+    "objectId": 238,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle 5F - South Right Box",
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "apLocationId": 4325615,
+    "roomId": 198,
+    "objectId": 239,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle 6F - West Box",
+    "access": [],
+    "requirements": []
+  },
+  {
+    "apLocationId": 4325616,
+    "roomId": 198,
+    "objectId": 240,
+    "type": "Box",
+    "rawType": "Box",
+    "name": "Doom Castle 6F - East Box",
+    "access": [],
+    "requirements": []
+  }
+]

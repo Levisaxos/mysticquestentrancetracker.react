@@ -1,0 +1,980 @@
+[
+  {
+    "roomId": 15,
+    "objectId": 0,
+    "name": "Minotaur",
+    "grants": [
+      "Minotaur"
+    ],
+    "access": [
+      "TreeWitherPerson"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Tree Wither Person",
+        "raw": "TreeWitherPerson"
+      }
+    ]
+  },
+  {
+    "roomId": 17,
+    "objectId": 0,
+    "name": "Kaeli Companion",
+    "grants": [
+      "Kaeli"
+    ],
+    "access": [
+      "TreeWither"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Tree Wither",
+        "raw": "TreeWither"
+      }
+    ]
+  },
+  {
+    "roomId": 17,
+    "objectId": 0,
+    "name": "Tree Wither Person",
+    "grants": [
+      "Tree Wither Person"
+    ],
+    "access": [
+      "TreeWither"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Tree Wither",
+        "raw": "TreeWither"
+      }
+    ]
+  },
+  {
+    "roomId": 17,
+    "objectId": 0,
+    "name": "Sick Person",
+    "grants": [
+      "Healed Person"
+    ],
+    "access": [
+      "TreeWitherPerson",
+      "Minotaur",
+      "Elixir"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Tree Wither Person",
+        "raw": "TreeWitherPerson"
+      },
+      {
+        "type": "item",
+        "item": "Minotaur",
+        "raw": "Minotaur"
+      },
+      {
+        "type": "item",
+        "item": "Elixir",
+        "raw": "Elixir"
+      }
+    ]
+  },
+  {
+    "roomId": 19,
+    "objectId": 0,
+    "name": "Old Man Barrel",
+    "grants": [
+      "Barrel Pushed"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 24,
+    "objectId": 0,
+    "name": "Tristam Companion",
+    "grants": [
+      "Tristam"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 26,
+    "objectId": 0,
+    "name": "Tristam Bone Dungeon Item Given",
+    "grants": [
+      "Tristam Bone Item Given"
+    ],
+    "access": [
+      "Tristam"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Tristam",
+        "raw": "Tristam"
+      }
+    ]
+  },
+  {
+    "roomId": 26,
+    "objectId": 0,
+    "name": "Waterway Entrance Bombed",
+    "grants": [
+      "Bone Waterway Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 30,
+    "objectId": 0,
+    "name": "Long Spine",
+    "grants": [
+      "Long Spine Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 31,
+    "objectId": 0,
+    "name": "Short Spine",
+    "grants": [
+      "Short Spine Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 35,
+    "objectId": 0,
+    "name": "Skull 1",
+    "grants": [
+      "Skull 1 Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 36,
+    "objectId": 0,
+    "name": "Skull 2",
+    "grants": [
+      "Skull 2 Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 37,
+    "objectId": 0,
+    "name": "Skull 3",
+    "grants": [
+      "Skull 3 Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 38,
+    "objectId": 0,
+    "name": "Flamerus Rex",
+    "grants": [
+      "Flamerus Rex"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 39,
+    "objectId": 0,
+    "name": "Phoebe Companion",
+    "grants": [
+      "Phoebe"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 40,
+    "objectId": 0,
+    "name": "Summer Aquaria",
+    "grants": [
+      "Summer Aquaria"
+    ],
+    "access": [
+      "WakeWater"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Wakewater",
+        "raw": "WakeWater"
+      }
+    ]
+  },
+  {
+    "roomId": 45,
+    "objectId": 0,
+    "name": "Wintry Cave Visite with Phoebe",
+    "grants": [
+      "Phoebe Visited Cave"
+    ],
+    "access": [
+      "Phoebe"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Phoebe",
+        "raw": "Phoebe"
+      }
+    ]
+  },
+  {
+    "roomId": 45,
+    "objectId": 0,
+    "name": "Wintry Cave 1F - 3F Entrance Bombed",
+    "grants": [
+      "Wintry 3F Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 47,
+    "objectId": 0,
+    "name": "Wintry Cave 1F - 2F Entrance Bombed",
+    "grants": [
+      "Wintry 2F Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 50,
+    "objectId": 0,
+    "name": "Squidite",
+    "grants": [
+      "Squidite"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 52,
+    "objectId": 0,
+    "name": "SnowCrab",
+    "grants": [
+      "Snow Crab"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 54,
+    "objectId": 0,
+    "name": "Ice Pyramid 1F Statue",
+    "grants": [
+      "Ice Pyramid 1F Statue"
+    ],
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "roomId": 62,
+    "objectId": 0,
+    "name": "Ice Pyramid 3F Statue",
+    "grants": [
+      "Ice Pyramid 3F Statue"
+    ],
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "roomId": 65,
+    "objectId": 0,
+    "name": "Ice Pyramid 4F Statue",
+    "grants": [
+      "Ice Pyramid 4F Statue"
+    ],
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "roomId": 67,
+    "objectId": 0,
+    "name": "Ice Pyramid 5F Statue",
+    "grants": [
+      "Ice Pyramid 5F Statue"
+    ],
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "roomId": 70,
+    "objectId": 0,
+    "name": "Ice Golem",
+    "grants": [
+      "Ice Golem"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 73,
+    "objectId": 0,
+    "name": "Liberate Ship",
+    "grants": [
+      "Ship Liberated"
+    ],
+    "access": [
+      "MegaGrenade"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      }
+    ]
+  },
+  {
+    "roomId": 73,
+    "objectId": 0,
+    "name": "Collapse Spencer's Cave",
+    "grants": [
+      "Spencer Caved In"
+    ],
+    "access": [
+      "MegaGrenade"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      }
+    ]
+  },
+  {
+    "roomId": 204,
+    "objectId": 0,
+    "name": "Bomb Libra Block",
+    "grants": [
+      "Spencer Cave Libra Block Bombed"
+    ],
+    "access": [
+      "MegaGrenade",
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "roomId": 77,
+    "objectId": 0,
+    "name": "Reuben Companion",
+    "grants": [
+      "Reuben"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 84,
+    "objectId": 0,
+    "name": "Mine Parallel Room Entrance Bombed",
+    "grants": [
+      "Mine Parallel Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 85,
+    "objectId": 0,
+    "name": "Mine Climbing Room Entrance Bombed",
+    "grants": [
+      "Mine Climbing Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 86,
+    "objectId": 0,
+    "name": "Mine Crescent Room Entrance Bombed",
+    "grants": [
+      "Mine Crescent Bombed"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 87,
+    "objectId": 0,
+    "name": "Jinn",
+    "grants": [
+      "Jinn"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 91,
+    "objectId": 0,
+    "name": "Mine visited with Reuben",
+    "grants": [
+      "Reuben Visited Mine"
+    ],
+    "access": [
+      "Reuben"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Reuben",
+        "raw": "Reuben"
+      }
+    ]
+  },
+  {
+    "roomId": 91,
+    "objectId": 0,
+    "name": "Reuben's dad Saved",
+    "grants": [
+      "Reuben Dad Saved"
+    ],
+    "access": [
+      "MegaGrenade"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      }
+    ]
+  },
+  {
+    "roomId": 94,
+    "objectId": 0,
+    "name": "Medusa",
+    "grants": [
+      "Medusa"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 102,
+    "objectId": 0,
+    "name": "Lava Dome Plate",
+    "grants": [
+      "Lava Dome Plate"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 121,
+    "objectId": 0,
+    "name": "Dualhead Hydra",
+    "grants": [
+      "Dualhead Hydra"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 151,
+    "objectId": 0,
+    "name": "Gidrah",
+    "grants": [
+      "Gidrah"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 155,
+    "objectId": 0,
+    "name": "Dullahan",
+    "grants": [
+      "Dullahan"
+    ],
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "roomId": 157,
+    "objectId": 0,
+    "name": "Otto",
+    "grants": [
+      "Rainbow Bridge"
+    ],
+    "access": [
+      "ThunderRock"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Thunder Rock",
+        "raw": "ThunderRock"
+      }
+    ]
+  },
+  {
+    "roomId": 166,
+    "objectId": 0,
+    "name": "Pazuzu 1F",
+    "grants": [
+      "Pazuzu 1F"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 169,
+    "objectId": 0,
+    "name": "Pazuzu 2F Lock",
+    "grants": [
+      "Pazuzu 2F Lock"
+    ],
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "roomId": 169,
+    "objectId": 0,
+    "name": "Pazuzu 2F",
+    "grants": [
+      "Pazuzu 2F"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 170,
+    "objectId": 0,
+    "name": "Pazuzu 3F",
+    "grants": [
+      "Pazuzu 3F"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 173,
+    "objectId": 0,
+    "name": "Pazuzu 4F Lock",
+    "grants": [
+      "Pazuzu 4F Lock"
+    ],
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "roomId": 173,
+    "objectId": 0,
+    "name": "Pazuzu 4F",
+    "grants": [
+      "Pazuzu 4F"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 174,
+    "objectId": 0,
+    "name": "Pazuzu 5F",
+    "grants": [
+      "Pazuzu 5F"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 176,
+    "objectId": 0,
+    "name": "Pazuzu 6F Lock",
+    "grants": [
+      "Pazuzu 6F Lock"
+    ],
+    "access": [
+      "Bomb",
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "roomId": 176,
+    "objectId": 0,
+    "name": "Pazuzu 6F",
+    "grants": [
+      "Pazuzu 6F"
+    ],
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "roomId": 179,
+    "objectId": 0,
+    "name": "Pazuzu",
+    "grants": [
+      "Pazuzu"
+    ],
+    "access": [
+      "Pazuzu2FLock",
+      "Pazuzu4FLock",
+      "Pazuzu6FLock",
+      "Pazuzu1F",
+      "Pazuzu2F",
+      "Pazuzu3F",
+      "Pazuzu4F",
+      "Pazuzu5F",
+      "Pazuzu6F"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Pazuzu 2F Lock",
+        "raw": "Pazuzu2FLock"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 4F Lock",
+        "raw": "Pazuzu4FLock"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 6F Lock",
+        "raw": "Pazuzu6FLock"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 1F",
+        "raw": "Pazuzu1F"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 2F",
+        "raw": "Pazuzu2F"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 3F",
+        "raw": "Pazuzu3F"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 4F",
+        "raw": "Pazuzu4F"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 5F",
+        "raw": "Pazuzu5F"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 6F",
+        "raw": "Pazuzu6F"
+      }
+    ]
+  },
+  {
+    "roomId": 186,
+    "objectId": 0,
+    "name": "Ship Dock Access",
+    "grants": [
+      "Ship Dock Access"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 187,
+    "objectId": 0,
+    "name": "Mac Ship Steering Wheel",
+    "grants": [
+      "Ship Steering Wheel"
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "roomId": 194,
+    "objectId": 0,
+    "name": "Captain Mac",
+    "grants": [
+      "Ship Loaned"
+    ],
+    "access": [
+      "CaptainCap"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Captain's Cap",
+        "raw": "CaptainCap"
+      }
+    ]
+  },
+  {
+    "roomId": 196,
+    "objectId": 0,
+    "name": "Stone Golem",
+    "grants": [
+      "Stone Golem"
+    ],
+    "access": [
+      "Sword",
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      },
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "roomId": 197,
+    "objectId": 0,
+    "name": "Twinhead Wyvern",
+    "grants": [
+      "Twinhead Wyvern"
+    ],
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "roomId": 198,
+    "objectId": 0,
+    "name": "Zuh",
+    "grants": [
+      "Zuh"
+    ],
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  }
+]

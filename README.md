@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Mystic Quest Entrance Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An entrance tracker for the **Final Fantasy Mystic Quest randomizer** ([FFMQR](https://www.ffmqrando.net/)).
 
-## Available Scripts
+Link the entrances you discover as you explore, tick off chests and boxes, and
+keep track of where each door actually goes across all 121 maps.
 
-In the project directory, you can run:
+**It is a plain static site**: React, JSON data, and your browser's localStorage.
+No backend, no database, no account, no API calls at runtime. Once loaded it
+works offline.
 
-### `npm start`
+## Status
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Early. The entrance tracking works end to end; item tracking, logic and
+Archipelago auto-tracking are planned. See [docs/PLAN.md](docs/PLAN.md) for the
+roadmap and [docs/STATUS.md](docs/STATUS.md) for an honest account of what does
+and doesn't work today.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Running it locally
 
-### `npm test`
+```bash
+npm install
+npm run dev
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| script | what it does |
+|---|---|
+| `npm run dev` | dev server on http://localhost:3000 |
+| `npm run build` | production build into `build/` |
+| `npm run preview` | serve the production build locally |
+| `npm test` | tests in watch mode |
+| `npm run test:ci` | tests once, for CI |
 
-### `npm run build`
+## Deploying
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Pushing to `master` builds and publishes to GitHub Pages automatically
+(`.github/workflows/deploy.yml`). The workflow runs the tests first and won't
+publish a failing build.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The site is served from a sub-path, so `vite.config.mjs` sets `base` to the repo
+name. Deploying somewhere else — a custom domain, say — means overriding it:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+VITE_BASE=/ npm run build
+```
 
-### `npm run eject`
+Anything that renders an image from our data files must go through
+`assetUrl()` in [src/utils/assetUrl.js](src/utils/assetUrl.js), or it will 404
+under the sub-path.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Your data
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Everything lives in your browser's localStorage. That means:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- it is per-browser and per-machine — nothing syncs
+- clearing site data destroys your runs
+- **Export is the only backup.** Use the Export button and keep the file.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Archipelago auto-tracking (planned)
 
-## Learn More
+The tracker will connect to an Archipelago room as a read-only tracker to fill
+in items and checks automatically. Entrances always stay manual — discovering
+them is the point.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Connection support:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| setup | works? |
+|---|---|
+| Rooms hosted on archipelago.gg | ✅ |
+| Self-hosted on `localhost` | ✅ — loopback is exempt from mixed-content rules |
+| Self-hosted on a LAN or remote address | needs `wss://`, via `MultiServer.py --cert ... --cert_key ...` |
 
-### Code Splitting
+Auto-tracking requires Archipelago. A plain (non-AP) FFMQR seed can only be
+tracked manually, because a browser cannot read your emulator's memory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Credits
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Game data, logic rules and shuffle constraints come from
+  [FFMQRando](https://github.com/wildham0/FFMQRando) (MIT) by wildham, via the
+  [Archipelago](https://github.com/ArchipelagoMW/Archipelago) FFMQ world.
+- Final Fantasy Mystic Quest is © Square Enix. This is an unofficial fan tool.

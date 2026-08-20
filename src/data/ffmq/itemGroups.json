@@ -1,0 +1,117 @@
+{
+  "Key Items": [
+    "Elixir",
+    "Tree Wither",
+    "Wakewater",
+    "Venus Key",
+    "Multi Key",
+    "Mask",
+    "Magic Mirror",
+    "Thunder Rock",
+    "Captain's Cap",
+    "Libra Crest",
+    "Gemini Crest",
+    "Mobius Crest",
+    "Sand Coin",
+    "River Coin",
+    "Sun Coin",
+    "Sky Coin",
+    "Sky Fragment"
+  ],
+  "Coins": [
+    "Sand Coin",
+    "River Coin",
+    "Sun Coin",
+    "Sky Coin"
+  ],
+  "Consumables": [
+    "Cure Potion",
+    "Heal Potion",
+    "Seed",
+    "Refresher"
+  ],
+  "Spells": [
+    "Exit Book",
+    "Cure Book",
+    "Heal Book",
+    "Life Book",
+    "Quake Book",
+    "Blizzard Book",
+    "Fire Book",
+    "Aero Book",
+    "Thunder Seal",
+    "White Seal",
+    "Meteor Seal",
+    "Flare Seal"
+  ],
+  "Weapons": [
+    "Progressive Sword",
+    "Steel Sword",
+    "Knight Sword",
+    "Excalibur",
+    "Progressive Axe",
+    "Axe",
+    "Battle Axe",
+    "Giant's Axe",
+    "Progressive Claw",
+    "Cat Claw",
+    "Charm Claw",
+    "Dragon Claw",
+    "Progressive Bomb",
+    "Bomb",
+    "Jumbo Bomb",
+    "Mega Grenade"
+  ],
+  "Swords": [
+    "Progressive Sword",
+    "Steel Sword",
+    "Knight Sword",
+    "Excalibur"
+  ],
+  "Axes": [
+    "Progressive Axe",
+    "Axe",
+    "Battle Axe",
+    "Giant's Axe"
+  ],
+  "Claws": [
+    "Progressive Claw",
+    "Cat Claw",
+    "Charm Claw",
+    "Dragon Claw"
+  ],
+  "Bombs": [
+    "Progressive Bomb",
+    "Bomb",
+    "Jumbo Bomb",
+    "Mega Grenade"
+  ],
+  "Helms": [
+    "Progressive Helm",
+    "Steel Helm",
+    "Moon Helm",
+    "Apollo Helm"
+  ],
+  "Armors": [
+    "Progressive Armor",
+    "Steel Armor",
+    "Noble Armor",
+    "Gaia's Armor"
+  ],
+  "Shields": [
+    "Progressive Shield",
+    "Steel Shield",
+    "Venus Shield",
+    "Aegis Shield"
+  ],
+  "Accessories": [
+    "Progressive Accessory",
+    "Charm",
+    "Magic Ring",
+    "Cupid Locket"
+  ],
+  "Refills": [
+    "Bomb Refill",
+    "Projectile Refill"
+  ]
+}

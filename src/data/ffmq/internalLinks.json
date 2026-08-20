@@ -1,0 +1,2116 @@
+[
+  {
+    "fromRoomId": 0,
+    "toRoomId": 220,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 220,
+    "toRoomId": 221,
+    "access": [
+      "SandCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 220,
+    "toRoomId": 224,
+    "access": [
+      "RiverCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 220,
+    "toRoomId": 226,
+    "access": [
+      "SunCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 221,
+    "toRoomId": 220,
+    "access": [
+      "SandCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 221,
+    "toRoomId": 224,
+    "access": [
+      "SandCoin",
+      "RiverCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      },
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 221,
+    "toRoomId": 226,
+    "access": [
+      "SandCoin",
+      "SunCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      },
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 221,
+    "toRoomId": 223,
+    "access": [
+      "SummerAquaria"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Summer Aquaria",
+        "raw": "SummerAquaria"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 223,
+    "toRoomId": 221,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 223,
+    "toRoomId": 225,
+    "access": [
+      "SummerAquaria",
+      "DualheadHydra"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Summer Aquaria",
+        "raw": "SummerAquaria"
+      },
+      {
+        "type": "item",
+        "item": "Dualhead Hydra",
+        "raw": "DualheadHydra"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 224,
+    "toRoomId": 220,
+    "access": [
+      "RiverCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 224,
+    "toRoomId": 221,
+    "access": [
+      "SandCoin",
+      "RiverCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      },
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 224,
+    "toRoomId": 226,
+    "access": [
+      "RiverCoin",
+      "SunCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      },
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 224,
+    "toRoomId": 225,
+    "access": [
+      "DualheadHydra"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dualhead Hydra",
+        "raw": "DualheadHydra"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 225,
+    "toRoomId": 224,
+    "access": [
+      "DualheadHydra"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dualhead Hydra",
+        "raw": "DualheadHydra"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 225,
+    "toRoomId": 223,
+    "access": [
+      "SummerAquaria"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Summer Aquaria",
+        "raw": "SummerAquaria"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 226,
+    "toRoomId": 220,
+    "access": [
+      "SunCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 226,
+    "toRoomId": 221,
+    "access": [
+      "SandCoin",
+      "SunCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      },
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 226,
+    "toRoomId": 224,
+    "access": [
+      "RiverCoin",
+      "SunCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      },
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 226,
+    "toRoomId": 227,
+    "access": [
+      "RainbowBridge"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Rainbow Bridge",
+        "raw": "RainbowBridge"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 227,
+    "toRoomId": 226,
+    "access": [
+      "RainbowBridge"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Rainbow Bridge",
+        "raw": "RainbowBridge"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 228,
+    "toRoomId": 229,
+    "access": [
+      "ShipLiberated",
+      "ShipDockAccess"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ship Liberated",
+        "raw": "ShipLiberated"
+      },
+      {
+        "type": "item",
+        "item": "Ship Dock Access",
+        "raw": "ShipDockAccess"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 229,
+    "toRoomId": 228,
+    "access": [
+      "ShipLiberated",
+      "ShipDockAccess"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ship Liberated",
+        "raw": "ShipLiberated"
+      },
+      {
+        "type": "item",
+        "item": "Ship Dock Access",
+        "raw": "ShipDockAccess"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 229,
+    "toRoomId": 231,
+    "access": [
+      "ShipLoaned",
+      "ShipDockAccess",
+      "ShipSteeringWheel"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ship Loaned",
+        "raw": "ShipLoaned"
+      },
+      {
+        "type": "item",
+        "item": "Ship Dock Access",
+        "raw": "ShipDockAccess"
+      },
+      {
+        "type": "item",
+        "item": "Ship Steering Wheel",
+        "raw": "ShipSteeringWheel"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 231,
+    "toRoomId": 229,
+    "access": [
+      "ShipLoaned",
+      "ShipDockAccess",
+      "ShipSteeringWheel"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ship Loaned",
+        "raw": "ShipLoaned"
+      },
+      {
+        "type": "item",
+        "item": "Ship Dock Access",
+        "raw": "ShipDockAccess"
+      },
+      {
+        "type": "item",
+        "item": "Ship Steering Wheel",
+        "raw": "ShipSteeringWheel"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 6,
+    "toRoomId": 7,
+    "access": [
+      "SandCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 6,
+    "toRoomId": 8,
+    "access": [
+      "RiverCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 6,
+    "toRoomId": 9,
+    "access": [
+      "SunCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 7,
+    "toRoomId": 6,
+    "access": [
+      "SandCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 8,
+    "toRoomId": 6,
+    "access": [
+      "RiverCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 9,
+    "toRoomId": 6,
+    "access": [
+      "SunCoin"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 18,
+    "toRoomId": 19,
+    "access": [
+      "BarrelPushed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Barrel Pushed",
+        "raw": "BarrelPushed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 19,
+    "toRoomId": 18,
+    "access": [
+      "BarrelPushed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Barrel Pushed",
+        "raw": "BarrelPushed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 30,
+    "toRoomId": 31,
+    "access": [
+      "LongSpineBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Long Spine Bombed",
+        "raw": "LongSpineBombed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 31,
+    "toRoomId": 32,
+    "access": [
+      "ShortSpineBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Short Spine Bombed",
+        "raw": "ShortSpineBombed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 31,
+    "toRoomId": 30,
+    "access": [
+      "LongSpineBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Long Spine Bombed",
+        "raw": "LongSpineBombed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 32,
+    "toRoomId": 31,
+    "access": [
+      "ShortSpineBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Short Spine Bombed",
+        "raw": "ShortSpineBombed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 35,
+    "toRoomId": 36,
+    "access": [
+      "Skull1Bombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Skull 1 Bombed",
+        "raw": "Skull1Bombed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 36,
+    "toRoomId": 37,
+    "access": [
+      "Skull2Bombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Skull 2 Bombed",
+        "raw": "Skull2Bombed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 36,
+    "toRoomId": 35,
+    "access": [
+      "Skull1Bombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Skull 1 Bombed",
+        "raw": "Skull1Bombed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 37,
+    "toRoomId": 36,
+    "access": [
+      "Skull2Bombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Skull 2 Bombed",
+        "raw": "Skull2Bombed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 45,
+    "toRoomId": 46,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 46,
+    "toRoomId": 45,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 46,
+    "toRoomId": 47,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 47,
+    "toRoomId": 46,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 54,
+    "toRoomId": 55,
+    "access": [
+      "IcePyramid1FStatue"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ice Pyramid 1F Statue",
+        "raw": "IcePyramid1FStatue"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 55,
+    "toRoomId": 54,
+    "access": [
+      "IcePyramid1FStatue"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ice Pyramid 1F Statue",
+        "raw": "IcePyramid1FStatue"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 62,
+    "toRoomId": 63,
+    "access": [
+      "IcePyramid3FStatue"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ice Pyramid 3F Statue",
+        "raw": "IcePyramid3FStatue"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 63,
+    "toRoomId": 62,
+    "access": [
+      "IcePyramid3FStatue"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ice Pyramid 3F Statue",
+        "raw": "IcePyramid3FStatue"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 64,
+    "toRoomId": 65,
+    "access": [
+      "IcePyramid4FStatue"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ice Pyramid 4F Statue",
+        "raw": "IcePyramid4FStatue"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 65,
+    "toRoomId": 64,
+    "access": [
+      "IcePyramid4FStatue"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Ice Pyramid 4F Statue",
+        "raw": "IcePyramid4FStatue"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 66,
+    "toRoomId": 65,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 66,
+    "toRoomId": 53,
+    "access": [
+      "Bomb",
+      "Claw",
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 67,
+    "toRoomId": 65,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 68,
+    "toRoomId": 69,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 69,
+    "toRoomId": 68,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 70,
+    "toRoomId": 66,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 71,
+    "toRoomId": 203,
+    "access": [
+      "SpencerCavedIn"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Spencer Caved In",
+        "raw": "SpencerCavedIn"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 72,
+    "toRoomId": 73,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 73,
+    "toRoomId": 72,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 73,
+    "toRoomId": 203,
+    "access": [
+      "SpencerCavedIn"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Spencer Caved In",
+        "raw": "SpencerCavedIn"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 203,
+    "toRoomId": 73,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 203,
+    "toRoomId": 204,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 203,
+    "toRoomId": 205,
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 204,
+    "toRoomId": 203,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 204,
+    "toRoomId": 71,
+    "access": [
+      "Claw",
+      "SummerAquaria"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      },
+      {
+        "type": "item",
+        "item": "Summer Aquaria",
+        "raw": "SummerAquaria"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 206,
+    "toRoomId": 207,
+    "access": [
+      "SpencerCaveLibraBlockBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Spencer Cave Libra Block Bombed",
+        "raw": "SpencerCaveLibraBlockBombed"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 207,
+    "toRoomId": 206,
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 76,
+    "toRoomId": 208,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 208,
+    "toRoomId": 76,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 84,
+    "toRoomId": 85,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 84,
+    "toRoomId": 86,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 84,
+    "toRoomId": 87,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 85,
+    "toRoomId": 84,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 86,
+    "toRoomId": 85,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 87,
+    "toRoomId": 86,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 87,
+    "toRoomId": 85,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 101,
+    "toRoomId": 100,
+    "access": [
+      "DragonClaw",
+      "MegaGrenade",
+      "Sword",
+      "Axe",
+      "SandCoin",
+      "RiverCoin",
+      "SunCoin",
+      "LibraCrest",
+      "GeminiCrest",
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      },
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      },
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      },
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      },
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      },
+      {
+        "type": "item",
+        "item": "Libra Crest",
+        "raw": "LibraCrest"
+      },
+      {
+        "type": "item",
+        "item": "Gemini Crest",
+        "raw": "GeminiCrest"
+      },
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 103,
+    "toRoomId": 104,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 103,
+    "toRoomId": 100,
+    "access": [
+      "DragonClaw",
+      "MegaGrenade",
+      "Sword",
+      "Axe",
+      "SandCoin",
+      "RiverCoin",
+      "SunCoin",
+      "LibraCrest",
+      "GeminiCrest",
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      },
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      },
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      },
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      },
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      },
+      {
+        "type": "item",
+        "item": "Libra Crest",
+        "raw": "LibraCrest"
+      },
+      {
+        "type": "item",
+        "item": "Gemini Crest",
+        "raw": "GeminiCrest"
+      },
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 104,
+    "toRoomId": 103,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 114,
+    "toRoomId": 115,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 115,
+    "toRoomId": 114,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 116,
+    "toRoomId": 117,
+    "access": [
+      "MegaGrenade"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 117,
+    "toRoomId": 116,
+    "access": [
+      "Bomb"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Bombs",
+        "raw": "Bomb"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 125,
+    "toRoomId": 202,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 202,
+    "toRoomId": 125,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 202,
+    "toRoomId": 126,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 126,
+    "toRoomId": 202,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 127,
+    "toRoomId": 126,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 127,
+    "toRoomId": 129,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 128,
+    "toRoomId": 130,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 129,
+    "toRoomId": 130,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 129,
+    "toRoomId": 131,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 130,
+    "toRoomId": 129,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 131,
+    "toRoomId": 129,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 131,
+    "toRoomId": 130,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 135,
+    "toRoomId": 136,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 135,
+    "toRoomId": 137,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 136,
+    "toRoomId": 135,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 136,
+    "toRoomId": 127,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 136,
+    "toRoomId": 131,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 137,
+    "toRoomId": 135,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 138,
+    "toRoomId": 128,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 139,
+    "toRoomId": 136,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 140,
+    "toRoomId": 139,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 140,
+    "toRoomId": 141,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 141,
+    "toRoomId": 139,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 141,
+    "toRoomId": 136,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 142,
+    "toRoomId": 210,
+    "access": [
+      "Axe",
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 144,
+    "toRoomId": 145,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 144,
+    "toRoomId": 146,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 145,
+    "toRoomId": 144,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 146,
+    "toRoomId": 144,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 148,
+    "toRoomId": 149,
+    "access": [
+      "Axe",
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 149,
+    "toRoomId": 148,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 150,
+    "toRoomId": 151,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 150,
+    "toRoomId": 143,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 151,
+    "toRoomId": 150,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 152,
+    "toRoomId": 153,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 153,
+    "toRoomId": 152,
+    "access": [
+      "Claw"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Claws",
+        "raw": "Claw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 168,
+    "toRoomId": 166,
+    "access": [
+      "DragonClaw",
+      "MegaGrenade",
+      "Sword",
+      "Axe",
+      "SandCoin",
+      "RiverCoin",
+      "SunCoin",
+      "LibraCrest",
+      "GeminiCrest",
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      },
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      },
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      },
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      },
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      },
+      {
+        "type": "item",
+        "item": "Libra Crest",
+        "raw": "LibraCrest"
+      },
+      {
+        "type": "item",
+        "item": "Gemini Crest",
+        "raw": "GeminiCrest"
+      },
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 171,
+    "toRoomId": 170,
+    "access": [
+      "DragonClaw",
+      "MegaGrenade",
+      "Sword",
+      "Axe",
+      "SandCoin",
+      "RiverCoin",
+      "SunCoin",
+      "LibraCrest",
+      "GeminiCrest",
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      },
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      },
+      {
+        "type": "item",
+        "item": "Sand Coin",
+        "raw": "SandCoin"
+      },
+      {
+        "type": "item",
+        "item": "River Coin",
+        "raw": "RiverCoin"
+      },
+      {
+        "type": "item",
+        "item": "Sun Coin",
+        "raw": "SunCoin"
+      },
+      {
+        "type": "item",
+        "item": "Libra Crest",
+        "raw": "LibraCrest"
+      },
+      {
+        "type": "item",
+        "item": "Gemini Crest",
+        "raw": "GeminiCrest"
+      },
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 171,
+    "toRoomId": 172,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 172,
+    "toRoomId": 171,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 177,
+    "toRoomId": 178,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 178,
+    "toRoomId": 177,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 178,
+    "toRoomId": 179,
+    "access": [
+      "DragonClaw",
+      "Pazuzu2FLock",
+      "Pazuzu4FLock",
+      "Pazuzu6FLock",
+      "Pazuzu1F",
+      "Pazuzu2F",
+      "Pazuzu3F",
+      "Pazuzu4F",
+      "Pazuzu5F",
+      "Pazuzu6F"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 2F Lock",
+        "raw": "Pazuzu2FLock"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 4F Lock",
+        "raw": "Pazuzu4FLock"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 6F Lock",
+        "raw": "Pazuzu6FLock"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 1F",
+        "raw": "Pazuzu1F"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 2F",
+        "raw": "Pazuzu2F"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 3F",
+        "raw": "Pazuzu3F"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 4F",
+        "raw": "Pazuzu4F"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 5F",
+        "raw": "Pazuzu5F"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu 6F",
+        "raw": "Pazuzu6F"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 179,
+    "toRoomId": 178,
+    "access": [
+      "DragonClaw"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      }
+    ]
+  },
+  {
+    "fromRoomId": 188,
+    "toRoomId": 193,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 190,
+    "toRoomId": 193,
+    "access": [],
+    "requirements": []
+  },
+  {
+    "fromRoomId": 198,
+    "toRoomId": 197,
+    "access": [],
+    "requirements": []
+  }
+]

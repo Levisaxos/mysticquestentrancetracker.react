@@ -1,0 +1,4536 @@
+[
+  {
+    "entranceId": 445,
+    "fromRoomId": 220,
+    "toRoomId": 15,
+    "teleporter": [
+      46,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 446,
+    "fromRoomId": 220,
+    "toRoomId": 16,
+    "teleporter": [
+      2,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 447,
+    "fromRoomId": 220,
+    "toRoomId": 24,
+    "teleporter": [
+      3,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 448,
+    "fromRoomId": 220,
+    "toRoomId": 25,
+    "teleporter": [
+      4,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 449,
+    "fromRoomId": 220,
+    "toRoomId": 3,
+    "teleporter": [
+      5,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 450,
+    "fromRoomId": 221,
+    "toRoomId": 10,
+    "teleporter": [
+      19,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 451,
+    "fromRoomId": 221,
+    "toRoomId": 39,
+    "teleporter": [
+      7,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 452,
+    "fromRoomId": 221,
+    "toRoomId": 40,
+    "teleporter": [
+      8,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 453,
+    "fromRoomId": 221,
+    "toRoomId": 45,
+    "teleporter": [
+      10,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 455,
+    "fromRoomId": 221,
+    "toRoomId": 52,
+    "teleporter": [
+      12,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 456,
+    "fromRoomId": 221,
+    "toRoomId": 54,
+    "teleporter": [
+      13,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 454,
+    "fromRoomId": 222,
+    "toRoomId": 51,
+    "teleporter": [
+      11,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 458,
+    "fromRoomId": 223,
+    "toRoomId": 74,
+    "teleporter": [
+      16,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 459,
+    "fromRoomId": 223,
+    "toRoomId": 14,
+    "teleporter": [
+      17,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 460,
+    "fromRoomId": 224,
+    "toRoomId": 13,
+    "teleporter": [
+      18,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 461,
+    "fromRoomId": 224,
+    "toRoomId": 76,
+    "teleporter": [
+      20,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 462,
+    "fromRoomId": 224,
+    "toRoomId": 84,
+    "teleporter": [
+      21,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 463,
+    "fromRoomId": 224,
+    "toRoomId": 92,
+    "teleporter": [
+      22,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 464,
+    "fromRoomId": 224,
+    "toRoomId": 93,
+    "teleporter": [
+      23,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 465,
+    "fromRoomId": 224,
+    "toRoomId": 100,
+    "teleporter": [
+      24,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 466,
+    "fromRoomId": 226,
+    "toRoomId": 9,
+    "teleporter": [
+      6,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 467,
+    "fromRoomId": 226,
+    "toRoomId": 123,
+    "teleporter": [
+      25,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 468,
+    "fromRoomId": 226,
+    "toRoomId": 124,
+    "teleporter": [
+      26,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 469,
+    "fromRoomId": 226,
+    "toRoomId": 125,
+    "teleporter": [
+      27,
+      1
+    ],
+    "access": [
+      "Barred"
+    ],
+    "requirements": [
+      {
+        "type": "never",
+        "raw": "Barred"
+      }
+    ]
+  },
+  {
+    "entranceId": 470,
+    "fromRoomId": 226,
+    "toRoomId": 152,
+    "teleporter": [
+      28,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 471,
+    "fromRoomId": 226,
+    "toRoomId": 156,
+    "teleporter": [
+      29,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 472,
+    "fromRoomId": 226,
+    "toRoomId": 154,
+    "teleporter": [
+      30,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 473,
+    "fromRoomId": 226,
+    "toRoomId": 155,
+    "teleporter": [
+      31,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 474,
+    "fromRoomId": 226,
+    "toRoomId": 166,
+    "teleporter": [
+      32,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 457,
+    "fromRoomId": 227,
+    "toRoomId": 73,
+    "teleporter": [
+      48,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 475,
+    "fromRoomId": 228,
+    "toRoomId": 186,
+    "teleporter": [
+      62,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 478,
+    "fromRoomId": 229,
+    "toRoomId": 187,
+    "teleporter": [
+      36,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 477,
+    "fromRoomId": 230,
+    "toRoomId": 185,
+    "teleporter": [
+      35,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 476,
+    "fromRoomId": 231,
+    "toRoomId": 1,
+    "teleporter": [
+      33,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 479,
+    "fromRoomId": 231,
+    "toRoomId": 187,
+    "teleporter": [
+      36,
+      1
+    ],
+    "access": [
+      "Barred"
+    ],
+    "requirements": [
+      {
+        "type": "never",
+        "raw": "Barred"
+      }
+    ]
+  },
+  {
+    "entranceId": 1,
+    "fromRoomId": 1,
+    "toRoomId": 231,
+    "teleporter": [
+      1,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 0,
+    "fromRoomId": 1,
+    "toRoomId": 5,
+    "teleporter": [
+      0,
+      0
+    ],
+    "access": [
+      "DragonClaw",
+      "MegaGrenade"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dragon Claw",
+        "raw": "DragonClaw"
+      },
+      {
+        "type": "item",
+        "item": "Mega Grenade",
+        "raw": "MegaGrenade"
+      }
+    ]
+  },
+  {
+    "entranceId": 2,
+    "fromRoomId": 2,
+    "toRoomId": 4,
+    "teleporter": [
+      1,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 3,
+    "fromRoomId": 3,
+    "toRoomId": 220,
+    "teleporter": [
+      2,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 4,
+    "fromRoomId": 3,
+    "toRoomId": 6,
+    "teleporter": [
+      4,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 5,
+    "fromRoomId": 4,
+    "toRoomId": 9,
+    "teleporter": [
+      5,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 6,
+    "fromRoomId": 4,
+    "toRoomId": 2,
+    "teleporter": [
+      8,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 8,
+    "fromRoomId": 5,
+    "toRoomId": 1,
+    "teleporter": [
+      7,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 7,
+    "fromRoomId": 5,
+    "toRoomId": 201,
+    "teleporter": [
+      6,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 11,
+    "fromRoomId": 6,
+    "toRoomId": 3,
+    "teleporter": [
+      11,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 10,
+    "fromRoomId": 7,
+    "toRoomId": 10,
+    "teleporter": [
+      10,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 14,
+    "fromRoomId": 8,
+    "toRoomId": 11,
+    "teleporter": [
+      14,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 12,
+    "fromRoomId": 9,
+    "toRoomId": 4,
+    "teleporter": [
+      12,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 9,
+    "fromRoomId": 9,
+    "toRoomId": 226,
+    "teleporter": [
+      3,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 13,
+    "fromRoomId": 201,
+    "toRoomId": 195,
+    "teleporter": [
+      13,
+      0
+    ],
+    "access": [
+      "SkyCoin",
+      "FlamerusRex",
+      "IceGolem",
+      "DualheadHydra",
+      "Pazuzu"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Sky Coin",
+        "raw": "SkyCoin"
+      },
+      {
+        "type": "item",
+        "item": "Flamerus Rex",
+        "raw": "FlamerusRex"
+      },
+      {
+        "type": "item",
+        "item": "Ice Golem",
+        "raw": "IceGolem"
+      },
+      {
+        "type": "item",
+        "item": "Dualhead Hydra",
+        "raw": "DualheadHydra"
+      },
+      {
+        "type": "item",
+        "item": "Pazuzu",
+        "raw": "Pazuzu"
+      }
+    ]
+  },
+  {
+    "entranceId": 15,
+    "fromRoomId": 201,
+    "toRoomId": 5,
+    "teleporter": [
+      15,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 16,
+    "fromRoomId": 10,
+    "toRoomId": 221,
+    "teleporter": [
+      4,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 17,
+    "fromRoomId": 10,
+    "toRoomId": 7,
+    "teleporter": [
+      17,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 18,
+    "fromRoomId": 11,
+    "toRoomId": 8,
+    "teleporter": [
+      18,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 19,
+    "fromRoomId": 11,
+    "toRoomId": 13,
+    "teleporter": [
+      20,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 20,
+    "fromRoomId": 12,
+    "toRoomId": 14,
+    "teleporter": [
+      19,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 22,
+    "fromRoomId": 13,
+    "toRoomId": 224,
+    "teleporter": [
+      6,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 23,
+    "fromRoomId": 13,
+    "toRoomId": 11,
+    "teleporter": [
+      24,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 24,
+    "fromRoomId": 14,
+    "toRoomId": 223,
+    "teleporter": [
+      5,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 25,
+    "fromRoomId": 14,
+    "toRoomId": 12,
+    "teleporter": [
+      23,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 28,
+    "fromRoomId": 15,
+    "toRoomId": 220,
+    "teleporter": [
+      25,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 38,
+    "fromRoomId": 16,
+    "toRoomId": 220,
+    "teleporter": [
+      31,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 44,
+    "fromRoomId": 16,
+    "toRoomId": 17,
+    "teleporter": [
+      0,
+      5
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 42,
+    "fromRoomId": 16,
+    "toRoomId": 18,
+    "teleporter": [
+      32,
+      4
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 43,
+    "fromRoomId": 16,
+    "toRoomId": 19,
+    "teleporter": [
+      33,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 45,
+    "fromRoomId": 16,
+    "toRoomId": 20,
+    "teleporter": [
+      1,
+      5
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 46,
+    "fromRoomId": 17,
+    "toRoomId": 16,
+    "teleporter": [
+      86,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 47,
+    "fromRoomId": 18,
+    "toRoomId": 16,
+    "teleporter": [
+      34,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 48,
+    "fromRoomId": 19,
+    "toRoomId": 16,
+    "teleporter": [
+      35,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 50,
+    "fromRoomId": 20,
+    "toRoomId": 16,
+    "teleporter": [
+      87,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 51,
+    "fromRoomId": 21,
+    "toRoomId": 124,
+    "teleporter": [
+      67,
+      8
+    ],
+    "access": [
+      "LibraCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Libra Crest",
+        "raw": "LibraCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 52,
+    "fromRoomId": 22,
+    "toRoomId": 124,
+    "teleporter": [
+      68,
+      8
+    ],
+    "access": [
+      "GeminiCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Gemini Crest",
+        "raw": "GeminiCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 53,
+    "fromRoomId": 23,
+    "toRoomId": 124,
+    "teleporter": [
+      69,
+      8
+    ],
+    "access": [
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 54,
+    "fromRoomId": 24,
+    "toRoomId": 220,
+    "teleporter": [
+      36,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 55,
+    "fromRoomId": 25,
+    "toRoomId": 220,
+    "teleporter": [
+      37,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 56,
+    "fromRoomId": 25,
+    "toRoomId": 26,
+    "teleporter": [
+      2,
+      2
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 59,
+    "fromRoomId": 26,
+    "toRoomId": 25,
+    "teleporter": [
+      88,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 57,
+    "fromRoomId": 26,
+    "toRoomId": 28,
+    "teleporter": [
+      3,
+      2
+    ],
+    "access": [
+      "BoneWaterwayBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Bone Waterway Bombed",
+        "raw": "BoneWaterwayBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 61,
+    "fromRoomId": 28,
+    "toRoomId": 26,
+    "teleporter": [
+      89,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 60,
+    "fromRoomId": 28,
+    "toRoomId": 30,
+    "teleporter": [
+      4,
+      2
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 62,
+    "fromRoomId": 29,
+    "toRoomId": 31,
+    "teleporter": [
+      91,
+      3
+    ],
+    "access": [
+      "LongSpineBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Long Spine Bombed",
+        "raw": "LongSpineBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 65,
+    "fromRoomId": 30,
+    "toRoomId": 28,
+    "teleporter": [
+      90,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 63,
+    "fromRoomId": 31,
+    "toRoomId": 29,
+    "teleporter": [
+      5,
+      2
+    ],
+    "access": [
+      "LongSpineBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Long Spine Bombed",
+        "raw": "LongSpineBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 64,
+    "fromRoomId": 32,
+    "toRoomId": 35,
+    "teleporter": [
+      6,
+      2
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 66,
+    "fromRoomId": 33,
+    "toRoomId": 36,
+    "teleporter": [
+      93,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 67,
+    "fromRoomId": 34,
+    "toRoomId": 37,
+    "teleporter": [
+      94,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 71,
+    "fromRoomId": 35,
+    "toRoomId": 32,
+    "teleporter": [
+      92,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 68,
+    "fromRoomId": 36,
+    "toRoomId": 33,
+    "teleporter": [
+      7,
+      2
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 69,
+    "fromRoomId": 37,
+    "toRoomId": 34,
+    "teleporter": [
+      8,
+      2
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 70,
+    "fromRoomId": 37,
+    "toRoomId": 38,
+    "teleporter": [
+      9,
+      2
+    ],
+    "access": [
+      "Skull3Bombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Skull 3 Bombed",
+        "raw": "Skull3Bombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 74,
+    "fromRoomId": 38,
+    "toRoomId": 37,
+    "teleporter": [
+      95,
+      3
+    ],
+    "access": [
+      "Skull3Bombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Skull 3 Bombed",
+        "raw": "Skull3Bombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 75,
+    "fromRoomId": 39,
+    "toRoomId": 221,
+    "teleporter": [
+      13,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 76,
+    "fromRoomId": 39,
+    "toRoomId": 51,
+    "teleporter": [
+      59,
+      8
+    ],
+    "access": [
+      "LibraCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Libra Crest",
+        "raw": "LibraCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 77,
+    "fromRoomId": 40,
+    "toRoomId": 221,
+    "teleporter": [
+      8,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 81,
+    "fromRoomId": 40,
+    "toRoomId": 41,
+    "teleporter": [
+      10,
+      5
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 82,
+    "fromRoomId": 40,
+    "toRoomId": 42,
+    "teleporter": [
+      44,
+      4
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 83,
+    "fromRoomId": 40,
+    "toRoomId": 44,
+    "teleporter": [
+      11,
+      5
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 89,
+    "fromRoomId": 40,
+    "toRoomId": 71,
+    "teleporter": [
+      42,
+      0
+    ],
+    "access": [
+      "SummerAquaria"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Summer Aquaria",
+        "raw": "SummerAquaria"
+      }
+    ]
+  },
+  {
+    "entranceId": 90,
+    "fromRoomId": 40,
+    "toRoomId": 71,
+    "teleporter": [
+      43,
+      0
+    ],
+    "access": [
+      "SummerAquaria"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Summer Aquaria",
+        "raw": "SummerAquaria"
+      }
+    ]
+  },
+  {
+    "entranceId": 93,
+    "fromRoomId": 41,
+    "toRoomId": 40,
+    "teleporter": [
+      5,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 94,
+    "fromRoomId": 42,
+    "toRoomId": 40,
+    "teleporter": [
+      40,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 95,
+    "fromRoomId": 42,
+    "toRoomId": 43,
+    "teleporter": [
+      47,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 97,
+    "fromRoomId": 43,
+    "toRoomId": 42,
+    "teleporter": [
+      48,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 96,
+    "fromRoomId": 43,
+    "toRoomId": 81,
+    "teleporter": [
+      72,
+      8
+    ],
+    "access": [
+      "GeminiCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Gemini Crest",
+        "raw": "GeminiCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 98,
+    "fromRoomId": 44,
+    "toRoomId": 40,
+    "teleporter": [
+      75,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 99,
+    "fromRoomId": 45,
+    "toRoomId": 221,
+    "teleporter": [
+      49,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 100,
+    "fromRoomId": 45,
+    "toRoomId": 49,
+    "teleporter": [
+      14,
+      2
+    ],
+    "access": [
+      "Wintry3FBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Wintry 3F Bombed",
+        "raw": "Wintry3FBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 101,
+    "fromRoomId": 47,
+    "toRoomId": 48,
+    "teleporter": [
+      15,
+      2
+    ],
+    "access": [
+      "Wintry2FBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Wintry 2F Bombed",
+        "raw": "Wintry2FBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 104,
+    "fromRoomId": 48,
+    "toRoomId": 47,
+    "teleporter": [
+      97,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 103,
+    "fromRoomId": 48,
+    "toRoomId": 50,
+    "teleporter": [
+      50,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 105,
+    "fromRoomId": 49,
+    "toRoomId": 45,
+    "teleporter": [
+      96,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 106,
+    "fromRoomId": 50,
+    "toRoomId": 48,
+    "teleporter": [
+      51,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 107,
+    "fromRoomId": 51,
+    "toRoomId": 222,
+    "teleporter": [
+      14,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 108,
+    "fromRoomId": 51,
+    "toRoomId": 39,
+    "teleporter": [
+      60,
+      8
+    ],
+    "access": [
+      "LibraCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Libra Crest",
+        "raw": "LibraCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 111,
+    "fromRoomId": 52,
+    "toRoomId": 221,
+    "teleporter": [
+      53,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 113,
+    "fromRoomId": 53,
+    "toRoomId": 68,
+    "teleporter": [
+      55,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 114,
+    "fromRoomId": 54,
+    "toRoomId": 221,
+    "teleporter": [
+      56,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 116,
+    "fromRoomId": 55,
+    "toRoomId": 56,
+    "teleporter": [
+      57,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 117,
+    "fromRoomId": 55,
+    "toRoomId": 57,
+    "teleporter": [
+      58,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 118,
+    "fromRoomId": 55,
+    "toRoomId": 58,
+    "teleporter": [
+      59,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 119,
+    "fromRoomId": 55,
+    "toRoomId": 59,
+    "teleporter": [
+      60,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 120,
+    "fromRoomId": 55,
+    "toRoomId": 60,
+    "teleporter": [
+      61,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 122,
+    "fromRoomId": 56,
+    "toRoomId": 55,
+    "teleporter": [
+      62,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 123,
+    "fromRoomId": 56,
+    "toRoomId": 61,
+    "teleporter": [
+      67,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 124,
+    "fromRoomId": 57,
+    "toRoomId": 55,
+    "teleporter": [
+      63,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 125,
+    "fromRoomId": 58,
+    "toRoomId": 55,
+    "teleporter": [
+      64,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 126,
+    "fromRoomId": 59,
+    "toRoomId": 55,
+    "teleporter": [
+      65,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 127,
+    "fromRoomId": 60,
+    "toRoomId": 55,
+    "teleporter": [
+      66,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 128,
+    "fromRoomId": 60,
+    "toRoomId": 62,
+    "teleporter": [
+      68,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 129,
+    "fromRoomId": 61,
+    "toRoomId": 56,
+    "teleporter": [
+      69,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 130,
+    "fromRoomId": 62,
+    "toRoomId": 60,
+    "teleporter": [
+      70,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 131,
+    "fromRoomId": 63,
+    "toRoomId": 64,
+    "teleporter": [
+      71,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 133,
+    "fromRoomId": 64,
+    "toRoomId": 66,
+    "teleporter": [
+      73,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 132,
+    "fromRoomId": 64,
+    "toRoomId": 63,
+    "teleporter": [
+      72,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 134,
+    "fromRoomId": 66,
+    "toRoomId": 64,
+    "teleporter": [
+      74,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 137,
+    "fromRoomId": 67,
+    "toRoomId": 69,
+    "teleporter": [
+      76,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 136,
+    "fromRoomId": 67,
+    "toRoomId": 70,
+    "teleporter": [
+      75,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 139,
+    "fromRoomId": 68,
+    "toRoomId": 53,
+    "teleporter": [
+      78,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 140,
+    "fromRoomId": 69,
+    "toRoomId": 67,
+    "teleporter": [
+      79,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 141,
+    "fromRoomId": 70,
+    "toRoomId": 67,
+    "teleporter": [
+      80,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 143,
+    "fromRoomId": 71,
+    "toRoomId": 72,
+    "teleporter": [
+      105,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 145,
+    "fromRoomId": 71,
+    "toRoomId": 40,
+    "teleporter": [
+      82,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 148,
+    "fromRoomId": 71,
+    "toRoomId": 40,
+    "teleporter": [
+      83,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 150,
+    "fromRoomId": 72,
+    "toRoomId": 71,
+    "teleporter": [
+      85,
+      0
+    ],
+    "access": [
+      "SummerAquaria"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Summer Aquaria",
+        "raw": "SummerAquaria"
+      }
+    ]
+  },
+  {
+    "entranceId": 151,
+    "fromRoomId": 73,
+    "toRoomId": 227,
+    "teleporter": [
+      7,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 156,
+    "fromRoomId": 203,
+    "toRoomId": 207,
+    "teleporter": [
+      36,
+      8
+    ],
+    "access": [
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 153,
+    "fromRoomId": 205,
+    "toRoomId": 206,
+    "teleporter": [
+      33,
+      8
+    ],
+    "access": [
+      "LibraCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Libra Crest",
+        "raw": "LibraCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 154,
+    "fromRoomId": 206,
+    "toRoomId": 205,
+    "teleporter": [
+      34,
+      8
+    ],
+    "access": [
+      "LibraCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Libra Crest",
+        "raw": "LibraCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 155,
+    "fromRoomId": 207,
+    "toRoomId": 203,
+    "teleporter": [
+      35,
+      8
+    ],
+    "access": [
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 157,
+    "fromRoomId": 74,
+    "toRoomId": 223,
+    "teleporter": [
+      15,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 158,
+    "fromRoomId": 75,
+    "toRoomId": 92,
+    "teleporter": [
+      62,
+      8
+    ],
+    "access": [
+      "GeminiCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Gemini Crest",
+        "raw": "GeminiCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 159,
+    "fromRoomId": 76,
+    "toRoomId": 224,
+    "teleporter": [
+      9,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 163,
+    "fromRoomId": 76,
+    "toRoomId": 80,
+    "teleporter": [
+      91,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 164,
+    "fromRoomId": 76,
+    "toRoomId": 77,
+    "teleporter": [
+      98,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 165,
+    "fromRoomId": 76,
+    "toRoomId": 82,
+    "teleporter": [
+      96,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 166,
+    "fromRoomId": 208,
+    "toRoomId": 78,
+    "teleporter": [
+      11,
+      8
+    ],
+    "access": [
+      "MultiKey"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Multi Key",
+        "raw": "MultiKey"
+      }
+    ]
+  },
+  {
+    "entranceId": 167,
+    "fromRoomId": 77,
+    "toRoomId": 76,
+    "teleporter": [
+      98,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 168,
+    "fromRoomId": 78,
+    "toRoomId": 208,
+    "teleporter": [
+      9,
+      8
+    ],
+    "access": [
+      "MultiKey"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Multi Key",
+        "raw": "MultiKey"
+      }
+    ]
+  },
+  {
+    "entranceId": 169,
+    "fromRoomId": 78,
+    "toRoomId": 79,
+    "teleporter": [
+      93,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 170,
+    "fromRoomId": 79,
+    "toRoomId": 78,
+    "teleporter": [
+      94,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 171,
+    "fromRoomId": 79,
+    "toRoomId": 161,
+    "teleporter": [
+      54,
+      8
+    ],
+    "access": [
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 172,
+    "fromRoomId": 80,
+    "toRoomId": 76,
+    "teleporter": [
+      95,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 173,
+    "fromRoomId": 80,
+    "toRoomId": 81,
+    "teleporter": [
+      96,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 174,
+    "fromRoomId": 81,
+    "toRoomId": 80,
+    "teleporter": [
+      97,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 175,
+    "fromRoomId": 81,
+    "toRoomId": 43,
+    "teleporter": [
+      45,
+      8
+    ],
+    "access": [
+      "GeminiCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Gemini Crest",
+        "raw": "GeminiCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 177,
+    "fromRoomId": 82,
+    "toRoomId": 76,
+    "teleporter": [
+      99,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 176,
+    "fromRoomId": 82,
+    "toRoomId": 83,
+    "teleporter": [
+      213,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 178,
+    "fromRoomId": 83,
+    "toRoomId": 82,
+    "teleporter": [
+      214,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 179,
+    "fromRoomId": 84,
+    "toRoomId": 224,
+    "teleporter": [
+      98,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 181,
+    "fromRoomId": 84,
+    "toRoomId": 88,
+    "teleporter": [
+      20,
+      2
+    ],
+    "access": [
+      "MineParallelBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mine Parallel Bombed",
+        "raw": "MineParallelBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 183,
+    "fromRoomId": 85,
+    "toRoomId": 90,
+    "teleporter": [
+      22,
+      2
+    ],
+    "access": [
+      "MineClimbingBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mine Climbing Bombed",
+        "raw": "MineClimbingBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 182,
+    "fromRoomId": 86,
+    "toRoomId": 89,
+    "teleporter": [
+      21,
+      2
+    ],
+    "access": [
+      "MineCrescentBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mine Crescent Bombed",
+        "raw": "MineCrescentBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 180,
+    "fromRoomId": 87,
+    "toRoomId": 91,
+    "teleporter": [
+      99,
+      0
+    ],
+    "access": [
+      "Jinn"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Jinn",
+        "raw": "Jinn"
+      }
+    ]
+  },
+  {
+    "entranceId": 185,
+    "fromRoomId": 88,
+    "toRoomId": 84,
+    "teleporter": [
+      100,
+      3
+    ],
+    "access": [
+      "MineParallelBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mine Parallel Bombed",
+        "raw": "MineParallelBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 186,
+    "fromRoomId": 89,
+    "toRoomId": 86,
+    "teleporter": [
+      101,
+      3
+    ],
+    "access": [
+      "MineCrescentBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mine Crescent Bombed",
+        "raw": "MineCrescentBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 187,
+    "fromRoomId": 90,
+    "toRoomId": 85,
+    "teleporter": [
+      102,
+      3
+    ],
+    "access": [
+      "MineClimbingBombed"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mine Climbing Bombed",
+        "raw": "MineClimbingBombed"
+      }
+    ]
+  },
+  {
+    "entranceId": 188,
+    "fromRoomId": 91,
+    "toRoomId": 87,
+    "teleporter": [
+      100,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 190,
+    "fromRoomId": 92,
+    "toRoomId": 224,
+    "teleporter": [
+      16,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 191,
+    "fromRoomId": 92,
+    "toRoomId": 75,
+    "teleporter": [
+      63,
+      8
+    ],
+    "access": [
+      "GeminiCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Gemini Crest",
+        "raw": "GeminiCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 192,
+    "fromRoomId": 93,
+    "toRoomId": 224,
+    "teleporter": [
+      103,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 196,
+    "fromRoomId": 93,
+    "toRoomId": 98,
+    "teleporter": [
+      31,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 197,
+    "fromRoomId": 93,
+    "toRoomId": 96,
+    "teleporter": [
+      30,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 199,
+    "fromRoomId": 94,
+    "toRoomId": 209,
+    "teleporter": [
+      26,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 200,
+    "fromRoomId": 95,
+    "toRoomId": 99,
+    "teleporter": [
+      79,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 201,
+    "fromRoomId": 96,
+    "toRoomId": 93,
+    "teleporter": [
+      15,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 204,
+    "fromRoomId": 98,
+    "toRoomId": 93,
+    "teleporter": [
+      27,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 202,
+    "fromRoomId": 98,
+    "toRoomId": 99,
+    "teleporter": [
+      25,
+      2
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 203,
+    "fromRoomId": 98,
+    "toRoomId": 209,
+    "teleporter": [
+      26,
+      2
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 206,
+    "fromRoomId": 99,
+    "toRoomId": 95,
+    "teleporter": [
+      29,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 205,
+    "fromRoomId": 99,
+    "toRoomId": 98,
+    "teleporter": [
+      103,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 208,
+    "fromRoomId": 209,
+    "toRoomId": 98,
+    "teleporter": [
+      104,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 207,
+    "fromRoomId": 209,
+    "toRoomId": 94,
+    "teleporter": [
+      28,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 209,
+    "fromRoomId": 100,
+    "toRoomId": 224,
+    "teleporter": [
+      104,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 211,
+    "fromRoomId": 100,
+    "toRoomId": 113,
+    "teleporter": [
+      105,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 212,
+    "fromRoomId": 100,
+    "toRoomId": 114,
+    "teleporter": [
+      106,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 213,
+    "fromRoomId": 100,
+    "toRoomId": 116,
+    "teleporter": [
+      108,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 214,
+    "fromRoomId": 100,
+    "toRoomId": 118,
+    "teleporter": [
+      111,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 215,
+    "fromRoomId": 101,
+    "toRoomId": 115,
+    "teleporter": [
+      107,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 216,
+    "fromRoomId": 102,
+    "toRoomId": 119,
+    "teleporter": [
+      109,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 219,
+    "fromRoomId": 103,
+    "toRoomId": 111,
+    "teleporter": [
+      112,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 220,
+    "fromRoomId": 103,
+    "toRoomId": 108,
+    "teleporter": [
+      113,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 218,
+    "fromRoomId": 104,
+    "toRoomId": 110,
+    "teleporter": [
+      110,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 221,
+    "fromRoomId": 105,
+    "toRoomId": 107,
+    "teleporter": [
+      114,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 222,
+    "fromRoomId": 105,
+    "toRoomId": 121,
+    "teleporter": [
+      29,
+      2
+    ],
+    "access": [
+      "LavaDomePlate"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Lava Dome Plate",
+        "raw": "LavaDomePlate"
+      }
+    ]
+  },
+  {
+    "entranceId": 226,
+    "fromRoomId": 106,
+    "toRoomId": 120,
+    "teleporter": [
+      115,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 227,
+    "fromRoomId": 107,
+    "toRoomId": 105,
+    "teleporter": [
+      116,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 228,
+    "fromRoomId": 107,
+    "toRoomId": 108,
+    "teleporter": [
+      119,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 229,
+    "fromRoomId": 107,
+    "toRoomId": 120,
+    "teleporter": [
+      120,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 231,
+    "fromRoomId": 108,
+    "toRoomId": 107,
+    "teleporter": [
+      118,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 230,
+    "fromRoomId": 108,
+    "toRoomId": 103,
+    "teleporter": [
+      117,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 232,
+    "fromRoomId": 109,
+    "toRoomId": 118,
+    "teleporter": [
+      121,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 233,
+    "fromRoomId": 109,
+    "toRoomId": 111,
+    "teleporter": [
+      122,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 234,
+    "fromRoomId": 110,
+    "toRoomId": 104,
+    "teleporter": [
+      123,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 235,
+    "fromRoomId": 111,
+    "toRoomId": 103,
+    "teleporter": [
+      124,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 236,
+    "fromRoomId": 111,
+    "toRoomId": 109,
+    "teleporter": [
+      125,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 237,
+    "fromRoomId": 112,
+    "toRoomId": 117,
+    "teleporter": [
+      126,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 238,
+    "fromRoomId": 113,
+    "toRoomId": 100,
+    "teleporter": [
+      127,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 239,
+    "fromRoomId": 114,
+    "toRoomId": 100,
+    "teleporter": [
+      128,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 240,
+    "fromRoomId": 115,
+    "toRoomId": 101,
+    "teleporter": [
+      129,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 241,
+    "fromRoomId": 116,
+    "toRoomId": 100,
+    "teleporter": [
+      133,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 243,
+    "fromRoomId": 116,
+    "toRoomId": 119,
+    "teleporter": [
+      132,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 242,
+    "fromRoomId": 117,
+    "toRoomId": 112,
+    "teleporter": [
+      131,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 244,
+    "fromRoomId": 118,
+    "toRoomId": 109,
+    "teleporter": [
+      130,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 245,
+    "fromRoomId": 118,
+    "toRoomId": 100,
+    "teleporter": [
+      134,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 246,
+    "fromRoomId": 119,
+    "toRoomId": 102,
+    "teleporter": [
+      135,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 247,
+    "fromRoomId": 119,
+    "toRoomId": 116,
+    "teleporter": [
+      137,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 248,
+    "fromRoomId": 120,
+    "toRoomId": 107,
+    "teleporter": [
+      136,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 249,
+    "fromRoomId": 120,
+    "toRoomId": 106,
+    "teleporter": [
+      16,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 250,
+    "fromRoomId": 121,
+    "toRoomId": 105,
+    "teleporter": [
+      105,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 251,
+    "fromRoomId": 121,
+    "toRoomId": 122,
+    "teleporter": [
+      138,
+      0
+    ],
+    "access": [
+      "DualheadHydra"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Dualhead Hydra",
+        "raw": "DualheadHydra"
+      }
+    ]
+  },
+  {
+    "entranceId": 253,
+    "fromRoomId": 122,
+    "toRoomId": 121,
+    "teleporter": [
+      139,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 255,
+    "fromRoomId": 123,
+    "toRoomId": 226,
+    "teleporter": [
+      140,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 272,
+    "fromRoomId": 124,
+    "toRoomId": 226,
+    "teleporter": [
+      142,
+      0
+    ],
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "entranceId": 275,
+    "fromRoomId": 124,
+    "toRoomId": 21,
+    "teleporter": [
+      64,
+      8
+    ],
+    "access": [
+      "LibraCrest",
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Libra Crest",
+        "raw": "LibraCrest"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "entranceId": 276,
+    "fromRoomId": 124,
+    "toRoomId": 22,
+    "teleporter": [
+      65,
+      8
+    ],
+    "access": [
+      "GeminiCrest",
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Gemini Crest",
+        "raw": "GeminiCrest"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "entranceId": 277,
+    "fromRoomId": 124,
+    "toRoomId": 23,
+    "teleporter": [
+      66,
+      8
+    ],
+    "access": [
+      "MobiusCrest",
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      },
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "entranceId": 274,
+    "fromRoomId": 124,
+    "toRoomId": 125,
+    "teleporter": [
+      143,
+      0
+    ],
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "entranceId": 278,
+    "fromRoomId": 125,
+    "toRoomId": 124,
+    "teleporter": [
+      56,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 280,
+    "fromRoomId": 202,
+    "toRoomId": 127,
+    "teleporter": [
+      144,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 281,
+    "fromRoomId": 127,
+    "toRoomId": 125,
+    "teleporter": [
+      145,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 283,
+    "fromRoomId": 127,
+    "toRoomId": 133,
+    "teleporter": [
+      149,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 284,
+    "fromRoomId": 128,
+    "toRoomId": 140,
+    "teleporter": [
+      147,
+      0
+    ],
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "entranceId": 282,
+    "fromRoomId": 130,
+    "toRoomId": 135,
+    "teleporter": [
+      146,
+      0
+    ],
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "entranceId": 285,
+    "fromRoomId": 132,
+    "toRoomId": 133,
+    "teleporter": [
+      148,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 286,
+    "fromRoomId": 133,
+    "toRoomId": 127,
+    "teleporter": [
+      150,
+      0
+    ],
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "entranceId": 287,
+    "fromRoomId": 133,
+    "toRoomId": 132,
+    "teleporter": [
+      151,
+      0
+    ],
+    "access": [
+      "Axe",
+      "Gidrah"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      },
+      {
+        "type": "item",
+        "item": "Gidrah",
+        "raw": "Gidrah"
+      }
+    ]
+  },
+  {
+    "entranceId": 288,
+    "fromRoomId": 135,
+    "toRoomId": 130,
+    "teleporter": [
+      152,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 289,
+    "fromRoomId": 137,
+    "toRoomId": 142,
+    "teleporter": [
+      153,
+      0
+    ],
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "entranceId": 290,
+    "fromRoomId": 138,
+    "toRoomId": 210,
+    "teleporter": [
+      154,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 291,
+    "fromRoomId": 140,
+    "toRoomId": 128,
+    "teleporter": [
+      155,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 292,
+    "fromRoomId": 141,
+    "toRoomId": 143,
+    "teleporter": [
+      156,
+      0
+    ],
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "entranceId": 293,
+    "fromRoomId": 142,
+    "toRoomId": 137,
+    "teleporter": [
+      157,
+      0
+    ],
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "entranceId": 294,
+    "fromRoomId": 210,
+    "toRoomId": 138,
+    "teleporter": [
+      158,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 295,
+    "fromRoomId": 143,
+    "toRoomId": 141,
+    "teleporter": [
+      159,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 296,
+    "fromRoomId": 143,
+    "toRoomId": 148,
+    "teleporter": [
+      160,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 297,
+    "fromRoomId": 143,
+    "toRoomId": 148,
+    "teleporter": [
+      161,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 298,
+    "fromRoomId": 143,
+    "toRoomId": 147,
+    "teleporter": [
+      162,
+      0
+    ],
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "entranceId": 299,
+    "fromRoomId": 144,
+    "toRoomId": 149,
+    "teleporter": [
+      163,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 300,
+    "fromRoomId": 145,
+    "toRoomId": 150,
+    "teleporter": [
+      164,
+      0
+    ],
+    "access": [
+      "Sword"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Swords",
+        "raw": "Sword"
+      }
+    ]
+  },
+  {
+    "entranceId": 304,
+    "fromRoomId": 147,
+    "toRoomId": 143,
+    "teleporter": [
+      168,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 303,
+    "fromRoomId": 148,
+    "toRoomId": 143,
+    "teleporter": [
+      167,
+      0
+    ],
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "entranceId": 302,
+    "fromRoomId": 148,
+    "toRoomId": 143,
+    "teleporter": [
+      166,
+      0
+    ],
+    "access": [
+      "Axe"
+    ],
+    "requirements": [
+      {
+        "type": "anyOfGroup",
+        "group": "Axes",
+        "raw": "Axe"
+      }
+    ]
+  },
+  {
+    "entranceId": 301,
+    "fromRoomId": 149,
+    "toRoomId": 144,
+    "teleporter": [
+      165,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 305,
+    "fromRoomId": 150,
+    "toRoomId": 145,
+    "teleporter": [
+      169,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 307,
+    "fromRoomId": 152,
+    "toRoomId": 226,
+    "teleporter": [
+      18,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 308,
+    "fromRoomId": 153,
+    "toRoomId": 185,
+    "teleporter": [
+      71,
+      8
+    ],
+    "access": [
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 309,
+    "fromRoomId": 154,
+    "toRoomId": 226,
+    "teleporter": [
+      173,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 310,
+    "fromRoomId": 155,
+    "toRoomId": 226,
+    "teleporter": [
+      174,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 312,
+    "fromRoomId": 156,
+    "toRoomId": 226,
+    "teleporter": [
+      10,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 320,
+    "fromRoomId": 156,
+    "toRoomId": 157,
+    "teleporter": [
+      30,
+      5
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 321,
+    "fromRoomId": 156,
+    "toRoomId": 163,
+    "teleporter": [
+      97,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 322,
+    "fromRoomId": 156,
+    "toRoomId": 165,
+    "teleporter": [
+      32,
+      5
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 323,
+    "fromRoomId": 156,
+    "toRoomId": 159,
+    "teleporter": [
+      176,
+      4
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 324,
+    "fromRoomId": 156,
+    "toRoomId": 160,
+    "teleporter": [
+      177,
+      4
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 327,
+    "fromRoomId": 157,
+    "toRoomId": 156,
+    "teleporter": [
+      106,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 326,
+    "fromRoomId": 157,
+    "toRoomId": 158,
+    "teleporter": [
+      33,
+      2
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 328,
+    "fromRoomId": 158,
+    "toRoomId": 157,
+    "teleporter": [
+      107,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 329,
+    "fromRoomId": 159,
+    "toRoomId": 156,
+    "teleporter": [
+      178,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 330,
+    "fromRoomId": 159,
+    "toRoomId": 161,
+    "teleporter": [
+      180,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 331,
+    "fromRoomId": 160,
+    "toRoomId": 156,
+    "teleporter": [
+      179,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 332,
+    "fromRoomId": 160,
+    "toRoomId": 162,
+    "teleporter": [
+      181,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 333,
+    "fromRoomId": 161,
+    "toRoomId": 159,
+    "teleporter": [
+      182,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 334,
+    "fromRoomId": 161,
+    "toRoomId": 79,
+    "teleporter": [
+      44,
+      8
+    ],
+    "access": [
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 335,
+    "fromRoomId": 162,
+    "toRoomId": 160,
+    "teleporter": [
+      183,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 336,
+    "fromRoomId": 162,
+    "toRoomId": 186,
+    "teleporter": [
+      43,
+      8
+    ],
+    "access": [
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 338,
+    "fromRoomId": 163,
+    "toRoomId": 156,
+    "teleporter": [
+      135,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 337,
+    "fromRoomId": 163,
+    "toRoomId": 164,
+    "teleporter": [
+      102,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 339,
+    "fromRoomId": 164,
+    "toRoomId": 163,
+    "teleporter": [
+      216,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 340,
+    "fromRoomId": 165,
+    "toRoomId": 156,
+    "teleporter": [
+      108,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 341,
+    "fromRoomId": 166,
+    "toRoomId": 226,
+    "teleporter": [
+      184,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 345,
+    "fromRoomId": 166,
+    "toRoomId": 180,
+    "teleporter": [
+      185,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 349,
+    "fromRoomId": 167,
+    "toRoomId": 169,
+    "teleporter": [
+      187,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 346,
+    "fromRoomId": 168,
+    "toRoomId": 169,
+    "teleporter": [
+      186,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 350,
+    "fromRoomId": 169,
+    "toRoomId": 183,
+    "teleporter": [
+      188,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 351,
+    "fromRoomId": 169,
+    "toRoomId": 168,
+    "teleporter": [
+      189,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 352,
+    "fromRoomId": 169,
+    "toRoomId": 167,
+    "teleporter": [
+      190,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 353,
+    "fromRoomId": 169,
+    "toRoomId": 171,
+    "teleporter": [
+      191,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 356,
+    "fromRoomId": 170,
+    "toRoomId": 180,
+    "teleporter": [
+      192,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 357,
+    "fromRoomId": 170,
+    "toRoomId": 181,
+    "teleporter": [
+      193,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 360,
+    "fromRoomId": 171,
+    "toRoomId": 169,
+    "teleporter": [
+      194,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 361,
+    "fromRoomId": 172,
+    "toRoomId": 173,
+    "teleporter": [
+      195,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 362,
+    "fromRoomId": 173,
+    "toRoomId": 183,
+    "teleporter": [
+      196,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 363,
+    "fromRoomId": 173,
+    "toRoomId": 184,
+    "teleporter": [
+      197,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 364,
+    "fromRoomId": 173,
+    "toRoomId": 172,
+    "teleporter": [
+      198,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 365,
+    "fromRoomId": 173,
+    "toRoomId": 175,
+    "teleporter": [
+      199,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 368,
+    "fromRoomId": 174,
+    "toRoomId": 181,
+    "teleporter": [
+      200,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 369,
+    "fromRoomId": 174,
+    "toRoomId": 182,
+    "teleporter": [
+      201,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 370,
+    "fromRoomId": 175,
+    "toRoomId": 173,
+    "teleporter": [
+      202,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 371,
+    "fromRoomId": 175,
+    "toRoomId": 176,
+    "teleporter": [
+      203,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 374,
+    "fromRoomId": 176,
+    "toRoomId": 184,
+    "teleporter": [
+      204,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 375,
+    "fromRoomId": 176,
+    "toRoomId": 175,
+    "teleporter": [
+      205,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 376,
+    "fromRoomId": 176,
+    "toRoomId": 178,
+    "teleporter": [
+      206,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 377,
+    "fromRoomId": 176,
+    "toRoomId": 178,
+    "teleporter": [
+      207,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 380,
+    "fromRoomId": 177,
+    "toRoomId": 182,
+    "teleporter": [
+      26,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 381,
+    "fromRoomId": 178,
+    "toRoomId": 176,
+    "teleporter": [
+      27,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 382,
+    "fromRoomId": 178,
+    "toRoomId": 176,
+    "teleporter": [
+      28,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 385,
+    "fromRoomId": 180,
+    "toRoomId": 166,
+    "teleporter": [
+      29,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 386,
+    "fromRoomId": 180,
+    "toRoomId": 170,
+    "teleporter": [
+      30,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 387,
+    "fromRoomId": 181,
+    "toRoomId": 170,
+    "teleporter": [
+      40,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 388,
+    "fromRoomId": 181,
+    "toRoomId": 174,
+    "teleporter": [
+      41,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 389,
+    "fromRoomId": 182,
+    "toRoomId": 174,
+    "teleporter": [
+      38,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 390,
+    "fromRoomId": 182,
+    "toRoomId": 177,
+    "teleporter": [
+      39,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 391,
+    "fromRoomId": 183,
+    "toRoomId": 169,
+    "teleporter": [
+      21,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 392,
+    "fromRoomId": 183,
+    "toRoomId": 173,
+    "teleporter": [
+      22,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 393,
+    "fromRoomId": 184,
+    "toRoomId": 173,
+    "teleporter": [
+      2,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 394,
+    "fromRoomId": 184,
+    "toRoomId": 176,
+    "teleporter": [
+      3,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 395,
+    "fromRoomId": 185,
+    "toRoomId": 230,
+    "teleporter": [
+      19,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 396,
+    "fromRoomId": 185,
+    "toRoomId": 153,
+    "teleporter": [
+      70,
+      8
+    ],
+    "access": [
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 399,
+    "fromRoomId": 186,
+    "toRoomId": 228,
+    "teleporter": [
+      17,
+      6
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 397,
+    "fromRoomId": 186,
+    "toRoomId": 162,
+    "teleporter": [
+      61,
+      8
+    ],
+    "access": [
+      "MobiusCrest"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Mobius Crest",
+        "raw": "MobiusCrest"
+      }
+    ]
+  },
+  {
+    "entranceId": 400,
+    "fromRoomId": 187,
+    "toRoomId": 229,
+    "teleporter": [
+      37,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 401,
+    "fromRoomId": 187,
+    "toRoomId": 188,
+    "teleporter": [
+      50,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 402,
+    "fromRoomId": 187,
+    "toRoomId": 188,
+    "teleporter": [
+      51,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 403,
+    "fromRoomId": 187,
+    "toRoomId": 188,
+    "teleporter": [
+      52,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 404,
+    "fromRoomId": 187,
+    "toRoomId": 189,
+    "teleporter": [
+      53,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 405,
+    "fromRoomId": 188,
+    "toRoomId": 187,
+    "teleporter": [
+      208,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 406,
+    "fromRoomId": 188,
+    "toRoomId": 187,
+    "teleporter": [
+      175,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 407,
+    "fromRoomId": 188,
+    "toRoomId": 187,
+    "teleporter": [
+      172,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 408,
+    "fromRoomId": 188,
+    "toRoomId": 193,
+    "teleporter": [
+      88,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 409,
+    "fromRoomId": 189,
+    "toRoomId": 187,
+    "teleporter": [
+      141,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 410,
+    "fromRoomId": 189,
+    "toRoomId": 192,
+    "teleporter": [
+      87,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 413,
+    "fromRoomId": 190,
+    "toRoomId": 192,
+    "teleporter": [
+      86,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 412,
+    "fromRoomId": 190,
+    "toRoomId": 191,
+    "teleporter": [
+      102,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 415,
+    "fromRoomId": 191,
+    "toRoomId": 190,
+    "teleporter": [
+      55,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 414,
+    "fromRoomId": 191,
+    "toRoomId": 194,
+    "teleporter": [
+      57,
+      1
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 416,
+    "fromRoomId": 192,
+    "toRoomId": 190,
+    "teleporter": [
+      56,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 417,
+    "fromRoomId": 192,
+    "toRoomId": 189,
+    "teleporter": [
+      57,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 418,
+    "fromRoomId": 193,
+    "toRoomId": 188,
+    "teleporter": [
+      58,
+      8
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 424,
+    "fromRoomId": 194,
+    "toRoomId": 191,
+    "teleporter": [
+      101,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 428,
+    "fromRoomId": 195,
+    "toRoomId": 201,
+    "teleporter": [
+      84,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 429,
+    "fromRoomId": 195,
+    "toRoomId": 196,
+    "teleporter": [
+      35,
+      2
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 430,
+    "fromRoomId": 195,
+    "toRoomId": 197,
+    "teleporter": [
+      209,
+      0
+    ],
+    "access": [
+      "StoneGolem"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Stone Golem",
+        "raw": "StoneGolem"
+      }
+    ]
+  },
+  {
+    "entranceId": 431,
+    "fromRoomId": 195,
+    "toRoomId": 198,
+    "teleporter": [
+      211,
+      0
+    ],
+    "access": [
+      "StoneGolem",
+      "TwinheadWyvern"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Stone Golem",
+        "raw": "StoneGolem"
+      },
+      {
+        "type": "item",
+        "item": "Twinhead Wyvern",
+        "raw": "TwinheadWyvern"
+      }
+    ]
+  },
+  {
+    "entranceId": 432,
+    "fromRoomId": 195,
+    "toRoomId": 199,
+    "teleporter": [
+      13,
+      2
+    ],
+    "access": [
+      "StoneGolem",
+      "TwinheadWyvern",
+      "Zuh"
+    ],
+    "requirements": [
+      {
+        "type": "item",
+        "item": "Stone Golem",
+        "raw": "StoneGolem"
+      },
+      {
+        "type": "item",
+        "item": "Twinhead Wyvern",
+        "raw": "TwinheadWyvern"
+      },
+      {
+        "type": "item",
+        "item": "Zuh",
+        "raw": "Zuh"
+      }
+    ]
+  },
+  {
+    "entranceId": 433,
+    "fromRoomId": 196,
+    "toRoomId": 195,
+    "teleporter": [
+      109,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 434,
+    "fromRoomId": 197,
+    "toRoomId": 195,
+    "teleporter": [
+      210,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 435,
+    "fromRoomId": 198,
+    "toRoomId": 195,
+    "teleporter": [
+      212,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 436,
+    "fromRoomId": 199,
+    "toRoomId": 200,
+    "teleporter": [
+      54,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 441,
+    "fromRoomId": 199,
+    "toRoomId": 195,
+    "teleporter": [
+      110,
+      3
+    ],
+    "access": [],
+    "requirements": []
+  },
+  {
+    "entranceId": 442,
+    "fromRoomId": 200,
+    "toRoomId": 199,
+    "teleporter": [
+      52,
+      0
+    ],
+    "access": [],
+    "requirements": []
+  }
+]

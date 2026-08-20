@@ -1,0 +1,6013 @@
+{
+  "meta": {
+    "generatedBy": "scripts/build-binding.mjs",
+    "note": "Do not edit by hand; re-run the script. Marker ids are our own, from locationsData.js.",
+    "totals": {
+      "markers": 598,
+      "bound": 539,
+      "entranceHigh": 155,
+      "entranceReview": 141,
+      "battlefield": 20,
+      "container": 28,
+      "unresolved": 195
+    }
+  },
+  "floors": {
+    "20102": {
+      "areaId": 15,
+      "areaLabel": "Foresta",
+      "offset": [
+        0,
+        2
+      ],
+      "confidence": "high",
+      "matchedMarkers": 4,
+      "totalMarkers": 5,
+      "roomIds": [
+        16
+      ]
+    },
+    "20103": {
+      "areaId": 16,
+      "areaLabel": "Kaeli's House",
+      "offset": [
+        3,
+        1
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        17
+      ]
+    },
+    "20104": {
+      "areaId": 17,
+      "areaLabel": "Foresta Houses",
+      "offset": [
+        27,
+        24
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    "20105": {
+      "areaId": 26,
+      "areaLabel": "Phoebe's House",
+      "offset": [
+        21,
+        -4
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        41
+      ]
+    },
+    "20202": {
+      "areaId": 14,
+      "areaLabel": "Level Forest",
+      "offset": [
+        25,
+        -1
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 2,
+      "roomIds": [
+        15
+      ]
+    },
+    "20301": {
+      "areaId": 19,
+      "areaLabel": "Bone Dungeon 1F",
+      "offset": [
+        0,
+        37
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        25
+      ]
+    },
+    "20302": {
+      "areaId": 20,
+      "areaLabel": "Bone Dungeon B1",
+      "offset": [
+        22,
+        32
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        26,
+        28,
+        29
+      ]
+    },
+    "20304": {
+      "areaId": 22,
+      "areaLabel": "Bone Dungeon B2",
+      "offset": [
+        28,
+        18
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        38
+      ]
+    },
+    "20305": {
+      "areaId": 21,
+      "areaLabel": "Bonne Dungeon B2",
+      "offset": [
+        -2,
+        -1
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        31,
+        32,
+        30,
+        33,
+        34,
+        36,
+        37,
+        35
+      ]
+    },
+    "20307": {
+      "areaId": 31,
+      "areaLabel": "Wintry Cave 3F Bottom",
+      "offset": [
+        0,
+        18
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        50
+      ]
+    },
+    "20308": {
+      "areaId": 33,
+      "areaLabel": "Fall Basin",
+      "offset": [
+        11,
+        15
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        52
+      ]
+    },
+    "20309": {
+      "areaId": 43,
+      "areaLabel": "Spencer Waterfall",
+      "offset": [
+        38,
+        42
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        71
+      ]
+    },
+    "20501": {
+      "areaId": 18,
+      "areaLabel": "Sand Temple",
+      "offset": [
+        48,
+        2
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        24
+      ]
+    },
+    "30102": {
+      "areaId": 8,
+      "areaLabel": "Focus Tower B1",
+      "offset": [
+        34,
+        25
+      ],
+      "confidence": "high",
+      "matchedMarkers": 6,
+      "totalMarkers": 6,
+      "roomIds": [
+        3,
+        4,
+        5
+      ]
+    },
+    "30103": {
+      "areaId": 9,
+      "areaLabel": "Focus Tower 1F",
+      "offset": [
+        1,
+        2
+      ],
+      "confidence": "high",
+      "matchedMarkers": 6,
+      "totalMarkers": 6,
+      "roomIds": [
+        9,
+        7,
+        6,
+        201,
+        8
+      ]
+    },
+    "30104": {
+      "areaId": 10,
+      "areaLabel": "Focus Tower 2F",
+      "offset": [
+        33,
+        27
+      ],
+      "confidence": "high",
+      "matchedMarkers": 5,
+      "totalMarkers": 5,
+      "roomIds": [
+        10,
+        11,
+        12
+      ]
+    },
+    "30105": {
+      "areaId": 11,
+      "areaLabel": "Focus Tower 3F",
+      "offset": [
+        3,
+        34
+      ],
+      "confidence": "high",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        13,
+        14
+      ]
+    },
+    "40102": {
+      "areaId": 24,
+      "areaLabel": "Aquaria Winter",
+      "offset": [
+        1,
+        -2
+      ],
+      "confidence": "high",
+      "matchedMarkers": 4,
+      "totalMarkers": 5,
+      "roomIds": [
+        40
+      ]
+    },
+    "40103": {
+      "areaId": 25,
+      "areaLabel": "Aquaria Summer",
+      "offset": [
+        28,
+        5
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        40
+      ]
+    },
+    "40104": {
+      "areaId": 27,
+      "areaLabel": "Aquaria",
+      "offset": [
+        -1,
+        0
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        42,
+        43,
+        44
+      ]
+    },
+    "40106": {
+      "areaId": 48,
+      "areaLabel": "Reuben House",
+      "offset": [
+        22,
+        34
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        77
+      ]
+    },
+    "40201": {
+      "areaId": 35,
+      "areaLabel": "Ice Pyramid 1F Maze",
+      "offset": [
+        -1,
+        -1
+      ],
+      "confidence": "high",
+      "matchedMarkers": 6,
+      "totalMarkers": 6,
+      "roomIds": [
+        54,
+        55
+      ]
+    },
+    "40202": {
+      "areaId": 36,
+      "areaLabel": "Ice Pyramid 2F",
+      "offset": [
+        2,
+        -2
+      ],
+      "confidence": "high",
+      "matchedMarkers": 7,
+      "totalMarkers": 7,
+      "roomIds": [
+        56,
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    "40203": {
+      "areaId": 37,
+      "areaLabel": "Ice Pyramid 3F",
+      "offset": [
+        6,
+        37
+      ],
+      "confidence": "high",
+      "matchedMarkers": 3,
+      "totalMarkers": 3,
+      "roomIds": [
+        61,
+        62,
+        63
+      ]
+    },
+    "40204": {
+      "areaId": 38,
+      "areaLabel": "Ice Pyramid 4F Treasure Room",
+      "offset": [
+        39,
+        -1
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        64
+      ]
+    },
+    "40205": {
+      "areaId": 39,
+      "areaLabel": "Ice Pyramid 5F",
+      "offset": [
+        34,
+        41
+      ],
+      "confidence": "high",
+      "matchedMarkers": 3,
+      "totalMarkers": 3,
+      "roomIds": [
+        66,
+        67
+      ]
+    },
+    "40206": {
+      "areaId": 34,
+      "areaLabel": "Ice Pyramid B1 Taunt Room",
+      "offset": [
+        39,
+        -11
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        53
+      ]
+    },
+    "40207": {
+      "areaId": 42,
+      "areaLabel": "Ice Pyramid Ice Golem Room",
+      "offset": [
+        41,
+        35
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        70
+      ]
+    },
+    "40208": {
+      "areaId": 41,
+      "areaLabel": "Ice Pyramid Climbing Wall Room",
+      "offset": [
+        0,
+        43
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        68,
+        69
+      ]
+    },
+    "40301": {
+      "areaId": 93,
+      "areaLabel": "Pazuzu 2F to 4F",
+      "offset": [
+        28,
+        34
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        183
+      ]
+    },
+    "40401": {
+      "areaId": 28,
+      "areaLabel": "Wintry Cave 1F",
+      "offset": [
+        2,
+        20
+      ],
+      "confidence": "high",
+      "matchedMarkers": 3,
+      "totalMarkers": 3,
+      "roomIds": [
+        45,
+        47
+      ]
+    },
+    "40402": {
+      "areaId": 29,
+      "areaLabel": "Wintry Cave 2F",
+      "offset": [
+        51,
+        -15
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 2,
+      "roomIds": [
+        48
+      ]
+    },
+    "40403": {
+      "areaId": 30,
+      "areaLabel": "Wintry Cave 3F Top",
+      "offset": [
+        22,
+        -5
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 2,
+      "roomIds": [
+        49
+      ]
+    },
+    "40502": {
+      "areaId": 44,
+      "areaLabel": "Spencer Cave Normal",
+      "offset": [
+        -2,
+        33
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        72,
+        73
+      ]
+    },
+    "40503": {
+      "areaId": 45,
+      "areaLabel": "Spencer Cave Unplug",
+      "offset": [
+        16,
+        -2
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 4,
+      "totalMarkers": 5,
+      "roomIds": [
+        205,
+        206,
+        207,
+        203
+      ]
+    },
+    "40601": {
+      "areaId": 23,
+      "areaLabel": "Libra Temple",
+      "offset": [
+        2,
+        8
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 2,
+      "roomIds": [
+        39
+      ]
+    },
+    "40701": {
+      "areaId": 32,
+      "areaLabel": "Life Temple",
+      "offset": [
+        0,
+        36
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        51
+      ]
+    },
+    "40801": {
+      "areaId": 46,
+      "areaLabel": "Wintry Temple",
+      "offset": [
+        -1,
+        14
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        74,
+        75
+      ]
+    },
+    "50101": {
+      "areaId": 47,
+      "areaLabel": "Fireburg",
+      "offset": [
+        0,
+        -1
+      ],
+      "confidence": "high",
+      "matchedMarkers": 4,
+      "totalMarkers": 5,
+      "roomIds": [
+        76,
+        208
+      ]
+    },
+    "50103": {
+      "areaId": 94,
+      "areaLabel": "Pazuzu 4F to 6F",
+      "offset": [
+        34,
+        51
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        184
+      ]
+    },
+    "50104": {
+      "areaId": 100,
+      "areaLabel": "Mac Ship B1 Mac Room Cleared",
+      "offset": [
+        9,
+        37
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        194
+      ]
+    },
+    "50105": {
+      "areaId": 49,
+      "areaLabel": "GrenadeMan House",
+      "offset": [
+        49,
+        48
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83
+      ]
+    },
+    "50201": {
+      "areaId": 50,
+      "areaLabel": "Mine Exterior",
+      "offset": [
+        0,
+        0
+      ],
+      "confidence": "high",
+      "matchedMarkers": 5,
+      "totalMarkers": 6,
+      "roomIds": [
+        84,
+        87,
+        86,
+        85
+      ]
+    },
+    "50202": {
+      "areaId": 51,
+      "areaLabel": "Mine",
+      "offset": [
+        2,
+        40
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        88,
+        89,
+        90
+      ]
+    },
+    "50203": {
+      "areaId": 52,
+      "areaLabel": "Mine Cliff",
+      "offset": [
+        3,
+        -16
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        91
+      ]
+    },
+    "50301": {
+      "areaId": 54,
+      "areaLabel": "Volcano Base",
+      "offset": [
+        2,
+        0
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 3,
+      "roomIds": [
+        93
+      ]
+    },
+    "50302": {
+      "areaId": 56,
+      "areaLabel": "Volcano",
+      "offset": [
+        25,
+        28
+      ],
+      "confidence": "high",
+      "matchedMarkers": 3,
+      "totalMarkers": 4,
+      "roomIds": [
+        96,
+        98,
+        99,
+        209
+      ]
+    },
+    "50304": {
+      "areaId": 55,
+      "areaLabel": "Volcano Top",
+      "offset": [
+        32,
+        0
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 3,
+      "roomIds": [
+        94,
+        95
+      ]
+    },
+    "50401": {
+      "areaId": 57,
+      "areaLabel": "Lava Dome Inner Ring",
+      "offset": [
+        -17,
+        0
+      ],
+      "confidence": "high",
+      "matchedMarkers": 9,
+      "totalMarkers": 13,
+      "roomIds": [
+        100,
+        101,
+        102,
+        104,
+        103,
+        105,
+        106
+      ]
+    },
+    "50402": {
+      "areaId": 62,
+      "areaLabel": "Lava Dome",
+      "offset": [
+        27,
+        27
+      ],
+      "confidence": "high",
+      "matchedMarkers": 5,
+      "totalMarkers": 5,
+      "roomIds": [
+        116,
+        117,
+        118
+      ]
+    },
+    "50404": {
+      "areaId": 58,
+      "areaLabel": "Lava Dome",
+      "offset": [
+        30,
+        0
+      ],
+      "confidence": "high",
+      "matchedMarkers": 3,
+      "totalMarkers": 3,
+      "roomIds": [
+        107,
+        108
+      ]
+    },
+    "50405": {
+      "areaId": 59,
+      "areaLabel": "Lava Dome Jump Maze I",
+      "offset": [
+        2,
+        0
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        109
+      ]
+    },
+    "50406": {
+      "areaId": 61,
+      "areaLabel": "Lava Dome",
+      "offset": [
+        24,
+        -1
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        113,
+        114,
+        115
+      ]
+    },
+    "50407": {
+      "areaId": 65,
+      "areaLabel": "Lava Dome Escape Corridor",
+      "offset": [
+        11,
+        2
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        122
+      ]
+    },
+    "50409": {
+      "areaId": 60,
+      "areaLabel": "Lava Dome",
+      "offset": [
+        -1,
+        0
+      ],
+      "confidence": "high",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        110,
+        111,
+        112
+      ]
+    },
+    "50410": {
+      "areaId": 63,
+      "areaLabel": "Lava Dome",
+      "offset": [
+        17,
+        2
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        119,
+        120
+      ]
+    },
+    "50412": {
+      "areaId": 64,
+      "areaLabel": "Lava Dome Hydra Room",
+      "offset": [
+        -1,
+        28
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        121
+      ]
+    },
+    "50501": {
+      "areaId": 53,
+      "areaLabel": "Sealed Temple",
+      "offset": [
+        48,
+        32
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        92
+      ]
+    },
+    "60102": {
+      "areaId": 80,
+      "areaLabel": "Windia",
+      "offset": [
+        1,
+        3
+      ],
+      "confidence": "high",
+      "matchedMarkers": 5,
+      "totalMarkers": 7,
+      "roomIds": [
+        156
+      ]
+    },
+    "60105": {
+      "areaId": 81,
+      "areaLabel": "Otto's",
+      "offset": [
+        0,
+        15
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        157,
+        158
+      ]
+    },
+    "60110": {
+      "areaId": 82,
+      "areaLabel": "Windia",
+      "offset": [
+        -1,
+        0
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ]
+    },
+    "60205": {
+      "areaId": 67,
+      "areaLabel": "Alive Forest",
+      "offset": [
+        1,
+        6
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        124
+      ]
+    },
+    "60301": {
+      "areaId": 68,
+      "areaLabel": "Giant Tree 1F",
+      "offset": [
+        1,
+        -2
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        125,
+        202
+      ]
+    },
+    "60302": {
+      "areaId": 69,
+      "areaLabel": "Giant Tree",
+      "offset": [
+        30,
+        28
+      ],
+      "confidence": "high",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        127,
+        130,
+        128,
+        132
+      ]
+    },
+    "60303": {
+      "areaId": 70,
+      "areaLabel": "Giant Tree 2F Mushroom Room",
+      "offset": [
+        30,
+        3
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        133
+      ]
+    },
+    "60304": {
+      "areaId": 71,
+      "areaLabel": "Giant Tree 3F",
+      "offset": [
+        30,
+        22
+      ],
+      "confidence": "high",
+      "matchedMarkers": 5,
+      "totalMarkers": 5,
+      "roomIds": [
+        135,
+        137,
+        138,
+        140,
+        141
+      ]
+    },
+    "60305": {
+      "areaId": 72,
+      "areaLabel": "Giant Tree Worm Room",
+      "offset": [
+        1,
+        34
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        142,
+        210
+      ]
+    },
+    "60306": {
+      "areaId": 73,
+      "areaLabel": "Giant Tree 4F",
+      "offset": [
+        2,
+        -3
+      ],
+      "confidence": "high",
+      "matchedMarkers": 6,
+      "totalMarkers": 6,
+      "roomIds": [
+        143,
+        144,
+        145
+      ]
+    },
+    "60307": {
+      "areaId": 74,
+      "areaLabel": "Giant Tree 4F Slime Room",
+      "offset": [
+        38,
+        -1
+      ],
+      "confidence": "high",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        149,
+        148,
+        147
+      ]
+    },
+    "60308": {
+      "areaId": 75,
+      "areaLabel": "Giant Tree 5F",
+      "offset": [
+        2,
+        34
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 2,
+      "roomIds": [
+        150
+      ]
+    },
+    "60401": {
+      "areaId": 83,
+      "areaLabel": "Pazuzu Tower 1F",
+      "offset": [
+        34,
+        1
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        166,
+        168,
+        167
+      ]
+    },
+    "60402": {
+      "areaId": 84,
+      "areaLabel": "Pazuzu 2F",
+      "offset": [
+        3,
+        1
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        169
+      ]
+    },
+    "60403": {
+      "areaId": 85,
+      "areaLabel": "Pazuzu 3F",
+      "offset": [
+        3,
+        1
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        170,
+        171,
+        172
+      ]
+    },
+    "60404": {
+      "areaId": 86,
+      "areaLabel": "Pazuzu 4F",
+      "offset": [
+        35,
+        0
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        173
+      ]
+    },
+    "60405": {
+      "areaId": 87,
+      "areaLabel": "Pazuzu 5F",
+      "offset": [
+        3,
+        33
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        174,
+        175
+      ]
+    },
+    "60406": {
+      "areaId": 88,
+      "areaLabel": "Pazuzu 6F",
+      "offset": [
+        34,
+        33
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        176
+      ]
+    },
+    "60407": {
+      "areaId": 89,
+      "areaLabel": "Pazuzu 7F Main Room",
+      "offset": [
+        1,
+        33
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 3,
+      "totalMarkers": 3,
+      "roomIds": [
+        177,
+        178
+      ]
+    },
+    "60408": {
+      "areaId": 90,
+      "areaLabel": "Pazuzu 1F to 3F",
+      "offset": [
+        34,
+        30
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        180
+      ]
+    },
+    "60409": {
+      "areaId": 91,
+      "areaLabel": "Pazuzu 3F to 5F",
+      "offset": [
+        34,
+        30
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        181
+      ]
+    },
+    "60410": {
+      "areaId": 92,
+      "areaLabel": "Pazuzu 5F to 7F",
+      "offset": [
+        34,
+        30
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        182
+      ]
+    },
+    "60501": {
+      "areaId": 79,
+      "areaLabel": "Mount Gale",
+      "offset": [
+        -5,
+        4
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        155
+      ]
+    },
+    "60601": {
+      "areaId": 66,
+      "areaLabel": "Rope Bridge",
+      "offset": [
+        -6,
+        -2
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 2,
+      "roomIds": [
+        123
+      ]
+    },
+    "60701": {
+      "areaId": 96,
+      "areaLabel": "Ship Dock",
+      "offset": [
+        2,
+        4
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 2,
+      "roomIds": [
+        186
+      ]
+    },
+    "60801": {
+      "areaId": 77,
+      "areaLabel": "Kaidge Temple",
+      "offset": [
+        31,
+        37
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        152,
+        153
+      ]
+    },
+    "60901": {
+      "areaId": 95,
+      "areaLabel": "Light Temple",
+      "offset": [
+        14,
+        54
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 2,
+      "roomIds": [
+        185
+      ]
+    },
+    "61001": {
+      "areaId": 78,
+      "areaLabel": "Windhole Temple",
+      "offset": [
+        0,
+        6
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        154
+      ]
+    },
+    "70101": {
+      "areaId": 101,
+      "areaLabel": "Doom Castle Corridor of Destiny",
+      "offset": [
+        55,
+        -5
+      ],
+      "confidence": "high",
+      "matchedMarkers": 4,
+      "totalMarkers": 5,
+      "roomIds": [
+        195
+      ]
+    },
+    "70102": {
+      "areaId": 7,
+      "areaLabel": "Doom Castle",
+      "offset": [
+        -1,
+        -1
+      ],
+      "confidence": "high",
+      "matchedMarkers": 3,
+      "totalMarkers": 3,
+      "roomIds": [
+        1,
+        2
+      ]
+    },
+    "70103": {
+      "areaId": 102,
+      "areaLabel": "Doom Castle Ice Floor",
+      "offset": [
+        3,
+        1
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        196
+      ]
+    },
+    "70104": {
+      "areaId": 103,
+      "areaLabel": "Doom Castle Lava Floor",
+      "offset": [
+        4,
+        2
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        197
+      ]
+    },
+    "70105": {
+      "areaId": 104,
+      "areaLabel": "Doom Castle Sky Floor",
+      "offset": [
+        3,
+        3
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        198
+      ]
+    },
+    "70106": {
+      "areaId": 107,
+      "areaLabel": "Doom Castle Dark King Room",
+      "offset": [
+        2,
+        2
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 2,
+      "roomIds": [
+        200
+      ]
+    },
+    "70107": {
+      "areaId": 106,
+      "areaLabel": "Doom Castle Hero Room",
+      "offset": [
+        3,
+        -22
+      ],
+      "confidence": "name-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        199
+      ]
+    },
+    "70201": {
+      "areaId": 97,
+      "areaLabel": "Mac Ship Deck",
+      "offset": [
+        4,
+        3
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 5,
+      "totalMarkers": 5,
+      "roomIds": [
+        187
+      ]
+    },
+    "70202": {
+      "areaId": 98,
+      "areaLabel": "Mac Ship B1",
+      "offset": [
+        5,
+        3
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 7,
+      "totalMarkers": 9,
+      "roomIds": [
+        188,
+        189,
+        190
+      ]
+    },
+    "70203": {
+      "areaId": 99,
+      "areaLabel": "Mac Ship B2",
+      "offset": [
+        37,
+        3
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 5,
+      "totalMarkers": 5,
+      "roomIds": [
+        191,
+        192,
+        193
+      ]
+    }
+  },
+  "markers": {
+    "1": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 220,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325727,
+        4325728,
+        4325729
+      ]
+    },
+    "2": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 220,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325727,
+        4325728,
+        4325729
+      ]
+    },
+    "3": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 220,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325727,
+        4325728,
+        4325729
+      ]
+    },
+    "4": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 223,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325736,
+        4325737
+      ]
+    },
+    "5": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 221,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325730,
+        4325731,
+        4325732,
+        4325733,
+        4325734,
+        4325735
+      ]
+    },
+    "6": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 221,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325730,
+        4325731,
+        4325732,
+        4325733,
+        4325734,
+        4325735
+      ]
+    },
+    "7": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 221,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325730,
+        4325731,
+        4325732,
+        4325733,
+        4325734,
+        4325735
+      ]
+    },
+    "8": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 221,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325730,
+        4325731,
+        4325732,
+        4325733,
+        4325734,
+        4325735
+      ]
+    },
+    "9": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 221,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325730,
+        4325731,
+        4325732,
+        4325733,
+        4325734,
+        4325735
+      ]
+    },
+    "10": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 225,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325744
+      ]
+    },
+    "11": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 224,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325738,
+        4325739,
+        4325740,
+        4325741,
+        4325742,
+        4325743
+      ]
+    },
+    "12": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 224,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325738,
+        4325739,
+        4325740,
+        4325741,
+        4325742,
+        4325743
+      ]
+    },
+    "13": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 224,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325738,
+        4325739,
+        4325740,
+        4325741,
+        4325742,
+        4325743
+      ]
+    },
+    "14": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 224,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325738,
+        4325739,
+        4325740,
+        4325741,
+        4325742,
+        4325743
+      ]
+    },
+    "15": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 224,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325738,
+        4325739,
+        4325740,
+        4325741,
+        4325742,
+        4325743
+      ]
+    },
+    "16": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 224,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325738,
+        4325739,
+        4325740,
+        4325741,
+        4325742,
+        4325743
+      ]
+    },
+    "17": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 223,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325736,
+        4325737
+      ]
+    },
+    "18": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 221,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325730,
+        4325731,
+        4325732,
+        4325733,
+        4325734,
+        4325735
+      ]
+    },
+    "19": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 226,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325745,
+        4325746
+      ]
+    },
+    "20": {
+      "kind": "check",
+      "checkType": "Battlefield",
+      "roomId": 226,
+      "confidence": "room-only",
+      "via": "nearest-subregion",
+      "candidates": [
+        4325745,
+        4325746
+      ]
+    },
+    "21": {
+      "kind": "entrance",
+      "entranceId": 446,
+      "confidence": "high",
+      "via": "name"
+    },
+    "22": {
+      "kind": "entrance",
+      "entranceId": 445,
+      "confidence": "high",
+      "via": "name"
+    },
+    "23": {
+      "kind": "entrance",
+      "entranceId": 447,
+      "confidence": "high",
+      "via": "name"
+    },
+    "24": {
+      "kind": "entrance",
+      "entranceId": 448,
+      "confidence": "high",
+      "via": "name"
+    },
+    "25": {
+      "kind": "entrance",
+      "entranceId": 449,
+      "confidence": "high",
+      "via": "name"
+    },
+    "26": {
+      "kind": "entrance",
+      "entranceId": 450,
+      "confidence": "high",
+      "via": "name"
+    },
+    "27": {
+      "kind": "entrance",
+      "entranceId": 467,
+      "confidence": "high",
+      "via": "name"
+    },
+    "28": {
+      "kind": "entrance",
+      "entranceId": 460,
+      "confidence": "high",
+      "via": "name"
+    },
+    "29": {
+      "kind": "entrance",
+      "entranceId": 463,
+      "confidence": "high",
+      "via": "name"
+    },
+    "30": {
+      "kind": "entrance",
+      "entranceId": 461,
+      "confidence": "high",
+      "via": "name"
+    },
+    "31": {
+      "kind": "entrance",
+      "entranceId": 462,
+      "confidence": "high",
+      "via": "name"
+    },
+    "32": {
+      "kind": "entrance",
+      "entranceId": 465,
+      "confidence": "high",
+      "via": "name"
+    },
+    "33": {
+      "kind": "entrance",
+      "entranceId": 464,
+      "confidence": "high",
+      "via": "name"
+    },
+    "34": {
+      "kind": "entrance",
+      "entranceId": 451,
+      "confidence": "high",
+      "via": "name"
+    },
+    "35": {
+      "kind": "entrance",
+      "entranceId": 458,
+      "confidence": "high",
+      "via": "name"
+    },
+    "36": {
+      "kind": "entrance",
+      "entranceId": 454,
+      "confidence": "high",
+      "via": "name"
+    },
+    "37": {
+      "kind": "entrance",
+      "entranceId": 452,
+      "confidence": "high",
+      "via": "name"
+    },
+    "38": {
+      "kind": "entrance",
+      "entranceId": 453,
+      "confidence": "high",
+      "via": "name"
+    },
+    "39": {
+      "kind": "entrance",
+      "entranceId": 456,
+      "confidence": "high",
+      "via": "name"
+    },
+    "40": {
+      "kind": "entrance",
+      "entranceId": 455,
+      "confidence": "high",
+      "via": "name"
+    },
+    "41": {
+      "kind": "entrance",
+      "entranceId": 468,
+      "confidence": "high",
+      "via": "name"
+    },
+    "42": {
+      "kind": "entrance",
+      "entranceId": 470,
+      "confidence": "high",
+      "via": "name"
+    },
+    "43": {
+      "kind": "entrance",
+      "entranceId": 471,
+      "confidence": "high",
+      "via": "name"
+    },
+    "44": {
+      "kind": "entrance",
+      "entranceId": 474,
+      "confidence": "high",
+      "via": "name"
+    },
+    "45": {
+      "kind": "entrance",
+      "entranceId": 473,
+      "confidence": "high",
+      "via": "name"
+    },
+    "46": {
+      "kind": "entrance",
+      "entranceId": 472,
+      "confidence": "high",
+      "via": "name"
+    },
+    "47": {
+      "kind": "entrance",
+      "entranceId": 475,
+      "confidence": "high",
+      "via": "name"
+    },
+    "48": {
+      "kind": "entrance",
+      "entranceId": 457,
+      "confidence": "high",
+      "via": "name"
+    },
+    "49": {
+      "kind": "entrance",
+      "entranceId": 477,
+      "confidence": "high",
+      "via": "name"
+    },
+    "50": {
+      "kind": "entrance",
+      "entranceId": 476,
+      "confidence": "high",
+      "via": "name"
+    },
+    "51": {
+      "kind": "entrance",
+      "entranceId": 478,
+      "confidence": "high",
+      "via": "name"
+    },
+    "52": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325421,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "53": {
+      "kind": "entrance",
+      "entranceId": 44,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "54": {
+      "kind": "entrance",
+      "entranceId": 45,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.75
+    },
+    "55": {
+      "kind": "entrance",
+      "entranceId": 42,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.84
+    },
+    "56": {
+      "kind": "entrance",
+      "entranceId": 43,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.59
+    },
+    "57": {
+      "kind": "entrance",
+      "entranceId": 38,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 2.88
+    },
+    "58": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325422,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "59": {
+      "kind": "entrance",
+      "entranceId": 46,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.49
+    },
+    "60": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325381,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "61": {
+      "kind": "entrance",
+      "entranceId": 47,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "62": {
+      "kind": "entrance",
+      "entranceId": 48,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.76
+    },
+    "63": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325441,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "64": {
+      "kind": "entrance",
+      "entranceId": 93,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "65": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325416,
+        4325417,
+        4325418,
+        4325419,
+        4325420
+      ]
+    },
+    "66": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325416,
+        4325417,
+        4325418,
+        4325419,
+        4325420
+      ]
+    },
+    "67": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325416,
+        4325417,
+        4325418,
+        4325419,
+        4325420
+      ]
+    },
+    "68": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325416,
+        4325417,
+        4325418,
+        4325419,
+        4325420
+      ]
+    },
+    "69": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325416,
+        4325417,
+        4325418,
+        4325419,
+        4325420
+      ]
+    },
+    "70": {
+      "kind": "entrance",
+      "entranceId": 28,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.28
+    },
+    "72": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325429,
+        4325430,
+        4325431
+      ]
+    },
+    "73": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325429,
+        4325430,
+        4325431
+      ]
+    },
+    "74": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325429,
+        4325430,
+        4325431
+      ]
+    },
+    "75": {
+      "kind": "entrance",
+      "entranceId": 55,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.31
+    },
+    "76": {
+      "kind": "entrance",
+      "entranceId": 56,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.13
+    },
+    "79": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325382,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "80": {
+      "kind": "entrance",
+      "entranceId": 59,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.26
+    },
+    "81": {
+      "kind": "entrance",
+      "entranceId": 57,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.34
+    },
+    "84": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "89": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325438,
+        4325439
+      ]
+    },
+    "90": {
+      "kind": "entrance",
+      "entranceId": 74,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.26
+    },
+    "92": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325434,
+        4325435,
+        4325437,
+        4325436
+      ]
+    },
+    "93": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325434,
+        4325435,
+        4325437,
+        4325436
+      ]
+    },
+    "94": {
+      "kind": "entrance",
+      "entranceId": 65,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.34
+    },
+    "95": {
+      "kind": "entrance",
+      "entranceId": 64,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.32
+    },
+    "98": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "107": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325453,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "108": {
+      "kind": "entrance",
+      "entranceId": 106,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.31
+    },
+    "110": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325386,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "111": {
+      "kind": "entrance",
+      "entranceId": 111,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.4
+    },
+    "113": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "114": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "115": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "116": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "117": {
+      "kind": "entrance",
+      "entranceId": 143,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.34
+    },
+    "119": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "120": {
+      "kind": "entrance",
+      "entranceId": 54,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.56
+    },
+    "122": {
+      "kind": "entrance",
+      "entranceId": 3,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.18
+    },
+    "123": {
+      "kind": "entrance",
+      "entranceId": 4,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.13
+    },
+    "124": {
+      "kind": "entrance",
+      "entranceId": 6,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "125": {
+      "kind": "entrance",
+      "entranceId": 8,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.35
+    },
+    "126": {
+      "kind": "entrance",
+      "entranceId": 7,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.38
+    },
+    "127": {
+      "kind": "entrance",
+      "entranceId": 5,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.38
+    },
+    "134": {
+      "kind": "entrance",
+      "entranceId": 11,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "135": {
+      "kind": "entrance",
+      "entranceId": 10,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.84
+    },
+    "136": {
+      "kind": "entrance",
+      "entranceId": 14,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.71
+    },
+    "137": {
+      "kind": "entrance",
+      "entranceId": 9,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.59
+    },
+    "138": {
+      "kind": "entrance",
+      "entranceId": 15,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "139": {
+      "kind": "entrance",
+      "entranceId": 13,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "140": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325409,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "148": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325379,
+        4325378
+      ]
+    },
+    "149": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325379,
+        4325378
+      ]
+    },
+    "150": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325379,
+        4325378
+      ]
+    },
+    "151": {
+      "kind": "entrance",
+      "entranceId": 20,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.62
+    },
+    "152": {
+      "kind": "entrance",
+      "entranceId": 18,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "153": {
+      "kind": "entrance",
+      "entranceId": 19,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "154": {
+      "kind": "entrance",
+      "entranceId": 17,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.64
+    },
+    "155": {
+      "kind": "entrance",
+      "entranceId": 16,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.8
+    },
+    "161": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325410,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "162": {
+      "kind": "entrance",
+      "entranceId": 23,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "163": {
+      "kind": "entrance",
+      "entranceId": 22,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "164": {
+      "kind": "entrance",
+      "entranceId": 25,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.62
+    },
+    "165": {
+      "kind": "entrance",
+      "entranceId": 24,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.76
+    },
+    "170": {
+      "kind": "entrance",
+      "entranceId": 77,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.46
+    },
+    "171": {
+      "kind": "entrance",
+      "entranceId": 83,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.8
+    },
+    "172": {
+      "kind": "entrance",
+      "entranceId": 82,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "173": {
+      "kind": "entrance",
+      "entranceId": 81,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "180": {
+      "kind": "entrance",
+      "entranceId": 89,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.62
+    },
+    "182": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325442,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "183": {
+      "kind": "entrance",
+      "entranceId": 94,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "184": {
+      "kind": "entrance",
+      "entranceId": 95,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.71
+    },
+    "191": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325493,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "192": {
+      "kind": "entrance",
+      "entranceId": 167,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "194": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325459,
+        4325460,
+        4325461
+      ]
+    },
+    "195": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325389,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "196": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325459,
+        4325460,
+        4325461
+      ]
+    },
+    "197": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325459,
+        4325460,
+        4325461
+      ]
+    },
+    "198": {
+      "kind": "entrance",
+      "entranceId": 114,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.69
+    },
+    "199": {
+      "kind": "entrance",
+      "entranceId": 116,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.06
+    },
+    "200": {
+      "kind": "entrance",
+      "entranceId": 119,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.23
+    },
+    "201": {
+      "kind": "entrance",
+      "entranceId": 120,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.14
+    },
+    "202": {
+      "kind": "entrance",
+      "entranceId": 117,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.18
+    },
+    "203": {
+      "kind": "entrance",
+      "entranceId": 118,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.36
+    },
+    "204": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325463,
+        4325467,
+        4325466,
+        4325462,
+        4325464,
+        4325465
+      ]
+    },
+    "205": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325463,
+        4325467,
+        4325466,
+        4325462,
+        4325464,
+        4325465
+      ]
+    },
+    "206": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325463,
+        4325467,
+        4325466,
+        4325462,
+        4325464,
+        4325465
+      ]
+    },
+    "207": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325463,
+        4325467,
+        4325466,
+        4325462,
+        4325464,
+        4325465
+      ]
+    },
+    "208": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325463,
+        4325467,
+        4325466,
+        4325462,
+        4325464,
+        4325465
+      ]
+    },
+    "209": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325463,
+        4325467,
+        4325466,
+        4325462,
+        4325464,
+        4325465
+      ]
+    },
+    "210": {
+      "kind": "entrance",
+      "entranceId": 122,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.09
+    },
+    "211": {
+      "kind": "entrance",
+      "entranceId": 123,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.14
+    },
+    "212": {
+      "kind": "entrance",
+      "entranceId": 124,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.13
+    },
+    "213": {
+      "kind": "entrance",
+      "entranceId": 128,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.35
+    },
+    "214": {
+      "kind": "entrance",
+      "entranceId": 125,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.06
+    },
+    "215": {
+      "kind": "entrance",
+      "entranceId": 126,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.23
+    },
+    "216": {
+      "kind": "entrance",
+      "entranceId": 127,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.2
+    },
+    "217": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325470,
+        4325471,
+        4325468,
+        4325469,
+        4325472,
+        4325473
+      ]
+    },
+    "218": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325470,
+        4325471,
+        4325468,
+        4325469,
+        4325472,
+        4325473
+      ]
+    },
+    "219": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325470,
+        4325471,
+        4325468,
+        4325469,
+        4325472,
+        4325473
+      ]
+    },
+    "220": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325470,
+        4325471,
+        4325468,
+        4325469,
+        4325472,
+        4325473
+      ]
+    },
+    "221": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325470,
+        4325471,
+        4325468,
+        4325469,
+        4325472,
+        4325473
+      ]
+    },
+    "222": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325470,
+        4325471,
+        4325468,
+        4325469,
+        4325472,
+        4325473
+      ]
+    },
+    "223": {
+      "kind": "entrance",
+      "entranceId": 130,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.18
+    },
+    "224": {
+      "kind": "entrance",
+      "entranceId": 131,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.23
+    },
+    "225": {
+      "kind": "entrance",
+      "entranceId": 129,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.31
+    },
+    "226": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "227": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "228": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "229": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "230": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "231": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "232": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "233": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "234": {
+      "kind": "entrance",
+      "entranceId": 132,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.14
+    },
+    "235": {
+      "kind": "entrance",
+      "entranceId": 133,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.14
+    },
+    "236": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325481,
+        4325482,
+        4325483,
+        4325484,
+        4325485,
+        4325486
+      ]
+    },
+    "237": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325481,
+        4325482,
+        4325483,
+        4325484,
+        4325485,
+        4325486
+      ]
+    },
+    "238": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325481,
+        4325482,
+        4325483,
+        4325484,
+        4325485,
+        4325486
+      ]
+    },
+    "239": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325481,
+        4325482,
+        4325483,
+        4325484,
+        4325485,
+        4325486
+      ]
+    },
+    "240": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325481,
+        4325482,
+        4325483,
+        4325484,
+        4325485,
+        4325486
+      ]
+    },
+    "241": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325481,
+        4325482,
+        4325483,
+        4325484,
+        4325485,
+        4325486
+      ]
+    },
+    "242": {
+      "kind": "entrance",
+      "entranceId": 134,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.09
+    },
+    "243": {
+      "kind": "entrance",
+      "entranceId": 137,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.2
+    },
+    "244": {
+      "kind": "entrance",
+      "entranceId": 136,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.32
+    },
+    "245": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325387,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "246": {
+      "kind": "entrance",
+      "entranceId": 113,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.26
+    },
+    "247": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "248": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "249": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "250": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325390,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "251": {
+      "kind": "entrance",
+      "entranceId": 141,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.31
+    },
+    "252": {
+      "kind": "entrance",
+      "entranceId": 139,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.32
+    },
+    "253": {
+      "kind": "entrance",
+      "entranceId": 140,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.27
+    },
+    "254": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "255": {
+      "kind": "entrance",
+      "entranceId": 391,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "257": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325443,
+        4325446,
+        4325444
+      ]
+    },
+    "258": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325443,
+        4325446,
+        4325444
+      ]
+    },
+    "259": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325443,
+        4325446,
+        4325444
+      ]
+    },
+    "260": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325443,
+        4325446,
+        4325444
+      ]
+    },
+    "261": {
+      "kind": "entrance",
+      "entranceId": 99,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.34
+    },
+    "262": {
+      "kind": "entrance",
+      "entranceId": 100,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.46
+    },
+    "263": {
+      "kind": "entrance",
+      "entranceId": 101,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "264": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325447,
+        4325448,
+        4325449,
+        4325450
+      ]
+    },
+    "265": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325447,
+        4325448,
+        4325449,
+        4325450
+      ]
+    },
+    "266": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325447,
+        4325448,
+        4325449,
+        4325450
+      ]
+    },
+    "267": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325447,
+        4325448,
+        4325449,
+        4325450
+      ]
+    },
+    "268": {
+      "kind": "entrance",
+      "entranceId": 103,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.42
+    },
+    "269": {
+      "kind": "entrance",
+      "entranceId": 104,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 48.09
+    },
+    "270": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325451,
+        4325452
+      ]
+    },
+    "271": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325451,
+        4325452
+      ]
+    },
+    "272": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325451,
+        4325452
+      ]
+    },
+    "273": {
+      "kind": "entrance",
+      "entranceId": 105,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "277": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325487,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "278": {
+      "kind": "entrance",
+      "entranceId": 151,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.44
+    },
+    "279": {
+      "kind": "entrance",
+      "entranceId": 150,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.31
+    },
+    "281": {
+      "kind": "entrance",
+      "entranceId": 156,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.48
+    },
+    "282": {
+      "kind": "entrance",
+      "entranceId": 153,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.26
+    },
+    "283": {
+      "kind": "entrance",
+      "entranceId": 155,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.28
+    },
+    "284": {
+      "kind": "entrance",
+      "entranceId": 154,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.23
+    },
+    "285": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325440,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "286": {
+      "kind": "entrance",
+      "entranceId": 75,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.62
+    },
+    "287": {
+      "kind": "entrance",
+      "entranceId": 76,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 14.84
+    },
+    "288": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325454,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "289": {
+      "kind": "entrance",
+      "entranceId": 107,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "290": {
+      "kind": "entrance",
+      "entranceId": 108,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.59
+    },
+    "291": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325488,
+        4325489
+      ]
+    },
+    "292": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325488,
+        4325489
+      ]
+    },
+    "293": {
+      "kind": "entrance",
+      "entranceId": 158,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.54
+    },
+    "294": {
+      "kind": "entrance",
+      "entranceId": 157,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "295": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325492,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "296": {
+      "kind": "entrance",
+      "entranceId": 159,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 23.47
+    },
+    "297": {
+      "kind": "entrance",
+      "entranceId": 165,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.62
+    },
+    "298": {
+      "kind": "entrance",
+      "entranceId": 164,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.76
+    },
+    "299": {
+      "kind": "entrance",
+      "entranceId": 166,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "300": {
+      "kind": "entrance",
+      "entranceId": 163,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.71
+    },
+    "303": {
+      "kind": "entrance",
+      "entranceId": 393,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "304": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "305": {
+      "kind": "entrance",
+      "entranceId": 424,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "306": {
+      "kind": "entrance",
+      "entranceId": 168,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.53
+    },
+    "307": {
+      "kind": "entrance",
+      "entranceId": 169,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "315": {
+      "kind": "entrance",
+      "entranceId": 179,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "316": {
+      "kind": "entrance",
+      "entranceId": 181,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.23
+    },
+    "317": {
+      "kind": "entrance",
+      "entranceId": 182,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.64
+    },
+    "318": {
+      "kind": "entrance",
+      "entranceId": 183,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.71
+    },
+    "319": {
+      "kind": "entrance",
+      "entranceId": 180,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.49
+    },
+    "320": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325495,
+        4325496,
+        4325494
+      ]
+    },
+    "321": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325495,
+        4325496,
+        4325494
+      ]
+    },
+    "322": {
+      "kind": "entrance",
+      "entranceId": 185,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "323": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "324": {
+      "kind": "entrance",
+      "entranceId": 188,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.49
+    },
+    "325": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "327": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "328": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "329": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "330": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "332": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325503,
+        4325504,
+        4325505
+      ]
+    },
+    "333": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325503,
+        4325504,
+        4325505
+      ]
+    },
+    "334": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325503,
+        4325504,
+        4325505
+      ]
+    },
+    "335": {
+      "kind": "entrance",
+      "entranceId": 192,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.23
+    },
+    "336": {
+      "kind": "entrance",
+      "entranceId": 196,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 4.68
+    },
+    "337": {
+      "kind": "entrance",
+      "entranceId": 197,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 4.64
+    },
+    "338": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325511,
+        4325510,
+        4325509
+      ]
+    },
+    "339": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325511,
+        4325510,
+        4325509
+      ]
+    },
+    "340": {
+      "kind": "entrance",
+      "entranceId": 201,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.49
+    },
+    "341": {
+      "kind": "entrance",
+      "entranceId": 204,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.44
+    },
+    "342": {
+      "kind": "entrance",
+      "entranceId": 202,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 2.82
+    },
+    "343": {
+      "kind": "entrance",
+      "entranceId": 203,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "344": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "349": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325506,
+        4325507,
+        4325508
+      ]
+    },
+    "350": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325506,
+        4325507,
+        4325508
+      ]
+    },
+    "351": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325506,
+        4325507,
+        4325508
+      ]
+    },
+    "352": {
+      "kind": "entrance",
+      "entranceId": 199,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "353": {
+      "kind": "entrance",
+      "entranceId": 200,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.59
+    },
+    "355": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325512,
+        4325513,
+        4325514,
+        4325515
+      ]
+    },
+    "356": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325512,
+        4325513,
+        4325514,
+        4325515
+      ]
+    },
+    "357": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325512,
+        4325513,
+        4325514,
+        4325515
+      ]
+    },
+    "358": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325512,
+        4325513,
+        4325514,
+        4325515
+      ]
+    },
+    "359": {
+      "kind": "entrance",
+      "entranceId": 209,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.38
+    },
+    "360": {
+      "kind": "entrance",
+      "entranceId": 211,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.49
+    },
+    "361": {
+      "kind": "entrance",
+      "entranceId": 215,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "362": {
+      "kind": "entrance",
+      "entranceId": 212,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.49
+    },
+    "363": {
+      "kind": "entrance",
+      "entranceId": 214,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "364": {
+      "kind": "entrance",
+      "entranceId": 216,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.89
+    },
+    "365": {
+      "kind": "entrance",
+      "entranceId": 213,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.8
+    },
+    "366": {
+      "kind": "entrance",
+      "entranceId": 218,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.49
+    },
+    "367": {
+      "kind": "entrance",
+      "entranceId": 219,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.94
+    },
+    "368": {
+      "kind": "entrance",
+      "entranceId": 220,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 64.38
+    },
+    "369": {
+      "kind": "entrance",
+      "entranceId": 221,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 64.44
+    },
+    "370": {
+      "kind": "entrance",
+      "entranceId": 222,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 76.56
+    },
+    "371": {
+      "kind": "entrance",
+      "entranceId": 226,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 52.06
+    },
+    "372": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325528,
+        4325529,
+        4325530,
+        4325527
+      ]
+    },
+    "373": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325528,
+        4325529,
+        4325530,
+        4325527
+      ]
+    },
+    "374": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325528,
+        4325529,
+        4325530,
+        4325527
+      ]
+    },
+    "375": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325528,
+        4325529,
+        4325530,
+        4325527
+      ]
+    },
+    "376": {
+      "kind": "entrance",
+      "entranceId": 245,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "377": {
+      "kind": "entrance",
+      "entranceId": 244,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "378": {
+      "kind": "entrance",
+      "entranceId": 241,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.45
+    },
+    "379": {
+      "kind": "entrance",
+      "entranceId": 242,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.59
+    },
+    "380": {
+      "kind": "entrance",
+      "entranceId": 243,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.7
+    },
+    "383": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325516,
+        4325622,
+        4325623,
+        4325624,
+        4325625,
+        4325626
+      ]
+    },
+    "384": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325516,
+        4325622,
+        4325623,
+        4325624,
+        4325625,
+        4325626
+      ]
+    },
+    "385": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325516,
+        4325622,
+        4325623,
+        4325624,
+        4325625,
+        4325626
+      ]
+    },
+    "386": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325516,
+        4325622,
+        4325623,
+        4325624,
+        4325625,
+        4325626
+      ]
+    },
+    "387": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325516,
+        4325622,
+        4325623,
+        4325624,
+        4325625,
+        4325626
+      ]
+    },
+    "388": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325516,
+        4325622,
+        4325623,
+        4325624,
+        4325625,
+        4325626
+      ]
+    },
+    "389": {
+      "kind": "entrance",
+      "entranceId": 227,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.4
+    },
+    "390": {
+      "kind": "entrance",
+      "entranceId": 229,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "391": {
+      "kind": "entrance",
+      "entranceId": 228,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.49
+    },
+    "392": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325517,
+        4325518,
+        4325519,
+        4325520
+      ]
+    },
+    "393": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325517,
+        4325518,
+        4325519,
+        4325520
+      ]
+    },
+    "394": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325517,
+        4325518,
+        4325519,
+        4325520
+      ]
+    },
+    "395": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325517,
+        4325518,
+        4325519,
+        4325520
+      ]
+    },
+    "396": {
+      "kind": "entrance",
+      "entranceId": 232,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.18
+    },
+    "397": {
+      "kind": "entrance",
+      "entranceId": 233,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "398": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325526,
+        4325524,
+        4325525
+      ]
+    },
+    "399": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325526,
+        4325524,
+        4325525
+      ]
+    },
+    "400": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325404,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "401": {
+      "kind": "entrance",
+      "entranceId": 240,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.4
+    },
+    "402": {
+      "kind": "entrance",
+      "entranceId": 239,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.34
+    },
+    "403": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "404": {
+      "kind": "entrance",
+      "entranceId": 253,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.46
+    },
+    "405": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "406": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "407": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "408": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "411": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325522,
+        4325523,
+        4325521
+      ]
+    },
+    "412": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325522,
+        4325523,
+        4325521
+      ]
+    },
+    "413": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325522,
+        4325523,
+        4325521
+      ]
+    },
+    "414": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325395,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "415": {
+      "kind": "entrance",
+      "entranceId": 236,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.44
+    },
+    "416": {
+      "kind": "entrance",
+      "entranceId": 237,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.25
+    },
+    "417": {
+      "kind": "entrance",
+      "entranceId": 235,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.45
+    },
+    "418": {
+      "kind": "entrance",
+      "entranceId": 234,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.25
+    },
+    "419": {
+      "kind": "entrance",
+      "entranceId": 249,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.59
+    },
+    "420": {
+      "kind": "entrance",
+      "entranceId": 248,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.52
+    },
+    "423": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325535,
+        4325536
+      ]
+    },
+    "424": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325396,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "425": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325535,
+        4325536
+      ]
+    },
+    "426": {
+      "kind": "entrance",
+      "entranceId": 250,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.38
+    },
+    "427": {
+      "kind": "entrance",
+      "entranceId": 251,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.45
+    },
+    "428": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325501,
+        4325502
+      ]
+    },
+    "429": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325501,
+        4325502
+      ]
+    },
+    "430": {
+      "kind": "entrance",
+      "entranceId": 190,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.53
+    },
+    "431": {
+      "kind": "entrance",
+      "entranceId": 191,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.8
+    },
+    "432": {
+      "kind": "entrance",
+      "entranceId": 312,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 1.68
+    },
+    "433": {
+      "kind": "entrance",
+      "entranceId": 320,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "434": {
+      "kind": "entrance",
+      "entranceId": 322,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.48
+    },
+    "435": {
+      "kind": "entrance",
+      "entranceId": 323,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.67
+    },
+    "436": {
+      "kind": "entrance",
+      "entranceId": 321,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "437": {
+      "kind": "entrance",
+      "entranceId": 324,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "441": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "442": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "444": {
+      "kind": "entrance",
+      "entranceId": 326,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.62
+    },
+    "445": {
+      "kind": "entrance",
+      "entranceId": 327,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.78
+    },
+    "446": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "451": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "452": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "455": {
+      "kind": "entrance",
+      "entranceId": 329,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "456": {
+      "kind": "entrance",
+      "entranceId": 330,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.73
+    },
+    "462": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325541,
+        4325542,
+        4325543
+      ]
+    },
+    "463": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "464": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "465": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "466": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325398,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "467": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325548,
+        4325550
+      ]
+    },
+    "468": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325548,
+        4325550
+      ]
+    },
+    "469": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325548,
+        4325550
+      ]
+    },
+    "470": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325551,
+        4325552
+      ]
+    },
+    "471": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325551,
+        4325552
+      ]
+    },
+    "472": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325555,
+        4325556
+      ]
+    },
+    "473": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325555,
+        4325556
+      ]
+    },
+    "474": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325555,
+        4325556
+      ]
+    },
+    "475": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325555,
+        4325556
+      ]
+    },
+    "476": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325557,
+        4325558
+      ]
+    },
+    "477": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325559,
+        4325560
+      ]
+    },
+    "478": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325559,
+        4325560
+      ]
+    },
+    "479": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325559,
+        4325560
+      ]
+    },
+    "480": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325559,
+        4325560
+      ]
+    },
+    "481": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325563,
+        4325564
+      ]
+    },
+    "482": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325563,
+        4325564
+      ]
+    },
+    "483": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325565,
+        4325566,
+        4325567,
+        4325568
+      ]
+    },
+    "484": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325565,
+        4325566,
+        4325567,
+        4325568
+      ]
+    },
+    "485": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325565,
+        4325566,
+        4325567,
+        4325568
+      ]
+    },
+    "486": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325565,
+        4325566,
+        4325567,
+        4325568
+      ]
+    },
+    "487": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325578,
+        4325579,
+        4325580,
+        4325581
+      ]
+    },
+    "488": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325578,
+        4325579,
+        4325580,
+        4325581
+      ]
+    },
+    "489": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325578,
+        4325579,
+        4325580,
+        4325581
+      ]
+    },
+    "490": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325578,
+        4325579,
+        4325580,
+        4325581
+      ]
+    },
+    "491": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325582,
+        4325583
+      ]
+    },
+    "492": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325582,
+        4325583
+      ]
+    },
+    "493": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325584,
+        4325585,
+        4325586
+      ]
+    },
+    "494": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325584,
+        4325585,
+        4325586
+      ]
+    },
+    "495": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325584,
+        4325585,
+        4325586
+      ]
+    },
+    "496": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325587,
+        4325588
+      ]
+    },
+    "497": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325587,
+        4325588
+      ]
+    },
+    "498": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325400,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "499": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325589,
+        4325590
+      ]
+    },
+    "500": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325589,
+        4325590
+      ]
+    },
+    "501": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325401,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "502": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325591,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "503": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "504": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325571,
+        4325572
+      ]
+    },
+    "505": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325571,
+        4325572
+      ]
+    },
+    "506": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325539,
+        4325540
+      ]
+    },
+    "507": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325539,
+        4325540
+      ]
+    },
+    "508": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325569,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "509": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325592,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "510": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325570,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "511": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325406,
+        4325407
+      ]
+    },
+    "512": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325406,
+        4325407
+      ]
+    },
+    "513": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325607,
+        4325608,
+        4325609,
+        4325610
+      ]
+    },
+    "514": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325607,
+        4325608,
+        4325609,
+        4325610
+      ]
+    },
+    "515": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325607,
+        4325608,
+        4325609,
+        4325610
+      ]
+    },
+    "516": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325607,
+        4325608,
+        4325609,
+        4325610
+      ]
+    },
+    "517": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325611,
+        4325612,
+        4325613,
+        4325614
+      ]
+    },
+    "518": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325611,
+        4325612,
+        4325613,
+        4325614
+      ]
+    },
+    "519": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325611,
+        4325612,
+        4325613,
+        4325614
+      ]
+    },
+    "520": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325611,
+        4325612,
+        4325613,
+        4325614
+      ]
+    },
+    "521": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325615,
+        4325616
+      ]
+    },
+    "522": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325615,
+        4325616
+      ]
+    },
+    "523": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "524": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "525": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "526": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "527": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325593,
+        4325594,
+        4325595
+      ]
+    },
+    "528": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325593,
+        4325594,
+        4325595
+      ]
+    },
+    "529": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325593,
+        4325594,
+        4325595
+      ]
+    },
+    "530": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325604,
+        4325605,
+        4325606
+      ]
+    },
+    "531": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325604,
+        4325605,
+        4325606
+      ]
+    },
+    "532": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325604,
+        4325605,
+        4325606
+      ]
+    },
+    "533": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "no-area-binding",
+      "candidates": []
+    },
+    "534": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325599,
+        4325600,
+        4325601,
+        4325602
+      ]
+    },
+    "535": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325599,
+        4325600,
+        4325601,
+        4325602
+      ]
+    },
+    "536": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325599,
+        4325600,
+        4325601,
+        4325602
+      ]
+    },
+    "537": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325599,
+        4325600,
+        4325601,
+        4325602
+      ]
+    },
+    "594": {
+      "kind": "entrance",
+      "entranceId": 385,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.26
+    },
+    "595": {
+      "kind": "entrance",
+      "entranceId": 386,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "596": {
+      "kind": "entrance",
+      "entranceId": 387,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.26
+    },
+    "597": {
+      "kind": "entrance",
+      "entranceId": 388,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "598": {
+      "kind": "entrance",
+      "entranceId": 389,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.26
+    },
+    "599": {
+      "kind": "entrance",
+      "entranceId": 390,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "745": {
+      "kind": "entrance",
+      "entranceId": 272,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.48
+    },
+    "748": {
+      "kind": "entrance",
+      "entranceId": 278,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.2
+    },
+    "749": {
+      "kind": "entrance",
+      "entranceId": 280,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.44
+    },
+    "750": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325544,
+        4325545,
+        4325546,
+        4325547
+      ]
+    },
+    "751": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325544,
+        4325545,
+        4325546,
+        4325547
+      ]
+    },
+    "752": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325544,
+        4325545,
+        4325546,
+        4325547
+      ]
+    },
+    "753": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325544,
+        4325545,
+        4325546,
+        4325547
+      ]
+    },
+    "754": {
+      "kind": "entrance",
+      "entranceId": 282,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "755": {
+      "kind": "entrance",
+      "entranceId": 283,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.38
+    },
+    "756": {
+      "kind": "entrance",
+      "entranceId": 281,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.38
+    },
+    "757": {
+      "kind": "entrance",
+      "entranceId": 284,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.4
+    },
+    "758": {
+      "kind": "entrance",
+      "entranceId": 286,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.4
+    },
+    "759": {
+      "kind": "entrance",
+      "entranceId": 287,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.57
+    },
+    "760": {
+      "kind": "entrance",
+      "entranceId": 288,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "761": {
+      "kind": "entrance",
+      "entranceId": 291,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.46
+    },
+    "762": {
+      "kind": "entrance",
+      "entranceId": 290,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.34
+    },
+    "763": {
+      "kind": "entrance",
+      "entranceId": 289,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "764": {
+      "kind": "entrance",
+      "entranceId": 292,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.45
+    },
+    "765": {
+      "kind": "entrance",
+      "entranceId": 293,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.42
+    },
+    "766": {
+      "kind": "entrance",
+      "entranceId": 294,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.44
+    },
+    "767": {
+      "kind": "entrance",
+      "entranceId": 296,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "768": {
+      "kind": "entrance",
+      "entranceId": 297,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.52
+    },
+    "769": {
+      "kind": "entrance",
+      "entranceId": 298,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.59
+    },
+    "770": {
+      "kind": "entrance",
+      "entranceId": 299,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "771": {
+      "kind": "entrance",
+      "entranceId": 300,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.53
+    },
+    "772": {
+      "kind": "entrance",
+      "entranceId": 295,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.53
+    },
+    "773": {
+      "kind": "entrance",
+      "entranceId": 302,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.48
+    },
+    "774": {
+      "kind": "entrance",
+      "entranceId": 303,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.54
+    },
+    "775": {
+      "kind": "entrance",
+      "entranceId": 304,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.42
+    },
+    "776": {
+      "kind": "entrance",
+      "entranceId": 301,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.5
+    },
+    "777": {
+      "kind": "entrance",
+      "entranceId": 305,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.48
+    },
+    "779": {
+      "kind": "entrance",
+      "entranceId": 341,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 1.44
+    },
+    "780": {
+      "kind": "entrance",
+      "entranceId": 346,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.62
+    },
+    "781": {
+      "kind": "entrance",
+      "entranceId": 349,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "782": {
+      "kind": "entrance",
+      "entranceId": 345,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.89
+    },
+    "783": {
+      "kind": "entrance",
+      "entranceId": 352,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.75
+    },
+    "784": {
+      "kind": "entrance",
+      "entranceId": 353,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "785": {
+      "kind": "entrance",
+      "entranceId": 351,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "786": {
+      "kind": "entrance",
+      "entranceId": 350,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "787": {
+      "kind": "entrance",
+      "entranceId": 361,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "788": {
+      "kind": "entrance",
+      "entranceId": 357,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.84
+    },
+    "789": {
+      "kind": "entrance",
+      "entranceId": 360,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.62
+    },
+    "790": {
+      "kind": "entrance",
+      "entranceId": 356,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.71
+    },
+    "791": {
+      "kind": "entrance",
+      "entranceId": 364,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "792": {
+      "kind": "entrance",
+      "entranceId": 363,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.75
+    },
+    "793": {
+      "kind": "entrance",
+      "entranceId": 362,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "794": {
+      "kind": "entrance",
+      "entranceId": 365,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.36
+    },
+    "795": {
+      "kind": "entrance",
+      "entranceId": 369,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.71
+    },
+    "796": {
+      "kind": "entrance",
+      "entranceId": 370,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "797": {
+      "kind": "entrance",
+      "entranceId": 371,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.64
+    },
+    "798": {
+      "kind": "entrance",
+      "entranceId": 368,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.56
+    },
+    "799": {
+      "kind": "entrance",
+      "entranceId": 377,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.68
+    },
+    "800": {
+      "kind": "entrance",
+      "entranceId": 376,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.8
+    },
+    "801": {
+      "kind": "entrance",
+      "entranceId": 375,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.53
+    },
+    "802": {
+      "kind": "entrance",
+      "entranceId": 374,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.44
+    },
+    "803": {
+      "kind": "entrance",
+      "entranceId": 380,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.4
+    },
+    "804": {
+      "kind": "entrance",
+      "entranceId": 382,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.38
+    },
+    "805": {
+      "kind": "entrance",
+      "entranceId": 381,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.56
+    },
+    "806": {
+      "kind": "entrance",
+      "entranceId": 310,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.48
+    },
+    "807": {
+      "kind": "entrance",
+      "entranceId": 255,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.42
+    },
+    "809": {
+      "kind": "entrance",
+      "entranceId": 397,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.38
+    },
+    "810": {
+      "kind": "entrance",
+      "entranceId": 399,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 18.38
+    },
+    "811": {
+      "kind": "entrance",
+      "entranceId": 307,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.54
+    },
+    "812": {
+      "kind": "entrance",
+      "entranceId": 308,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.62
+    },
+    "813": {
+      "kind": "entrance",
+      "entranceId": 395,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "814": {
+      "kind": "entrance",
+      "entranceId": 396,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 40.46
+    },
+    "815": {
+      "kind": "entrance",
+      "entranceId": 309,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.71
+    },
+    "816": {
+      "kind": "entrance",
+      "entranceId": 428,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.54
+    },
+    "817": {
+      "kind": "entrance",
+      "entranceId": 429,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "818": {
+      "kind": "entrance",
+      "entranceId": 430,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.78
+    },
+    "819": {
+      "kind": "entrance",
+      "entranceId": 431,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.89
+    },
+    "820": {
+      "kind": "entrance",
+      "entranceId": 432,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 63.56
+    },
+    "821": {
+      "kind": "entrance",
+      "entranceId": 2,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0
+    },
+    "822": {
+      "kind": "entrance",
+      "entranceId": 1,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.14
+    },
+    "823": {
+      "kind": "entrance",
+      "entranceId": 0,
+      "confidence": "high",
+      "via": "geometry",
+      "distance": 0.18
+    },
+    "824": {
+      "kind": "entrance",
+      "entranceId": 433,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.54
+    },
+    "825": {
+      "kind": "entrance",
+      "entranceId": 434,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "826": {
+      "kind": "entrance",
+      "entranceId": 435,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "827": {
+      "kind": "entrance",
+      "entranceId": 442,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "829": {
+      "kind": "entrance",
+      "entranceId": 436,
+      "confidence": "name-only",
+      "via": "geometry",
+      "distance": 0.66
+    },
+    "830": {
+      "kind": "entrance",
+      "entranceId": 400,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.68
+    },
+    "831": {
+      "kind": "entrance",
+      "entranceId": 401,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "832": {
+      "kind": "entrance",
+      "entranceId": 403,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.71
+    },
+    "833": {
+      "kind": "entrance",
+      "entranceId": 402,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.63
+    },
+    "834": {
+      "kind": "entrance",
+      "entranceId": 404,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.71
+    },
+    "836": {
+      "kind": "entrance",
+      "entranceId": 405,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.62
+    },
+    "837": {
+      "kind": "entrance",
+      "entranceId": 407,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.59
+    },
+    "838": {
+      "kind": "entrance",
+      "entranceId": 412,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.68
+    },
+    "839": {
+      "kind": "entrance",
+      "entranceId": 406,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.49
+    },
+    "840": {
+      "kind": "entrance",
+      "entranceId": 413,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.8
+    },
+    "841": {
+      "kind": "entrance",
+      "entranceId": 409,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.44
+    },
+    "842": {
+      "kind": "entrance",
+      "entranceId": 410,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.7
+    },
+    "843": {
+      "kind": "entrance",
+      "entranceId": 408,
+      "confidence": "leftover",
+      "via": "leftover-in-bound-area",
+      "distance": 19.18
+    },
+    "844": {
+      "kind": "entrance",
+      "entranceId": 414,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.53
+    },
+    "845": {
+      "kind": "entrance",
+      "entranceId": 415,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
+    "846": {
+      "kind": "entrance",
+      "entranceId": 416,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.93
+    },
+    "847": {
+      "kind": "entrance",
+      "entranceId": 417,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.7
+    },
+    "848": {
+      "kind": "entrance",
+      "entranceId": 418,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.62
+    }
+  }
+}

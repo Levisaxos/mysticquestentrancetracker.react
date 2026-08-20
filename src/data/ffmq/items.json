@@ -1,0 +1,558 @@
+[
+  {
+    "name": "Elixir",
+    "apItemId": 4325376,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Tree Wither",
+    "apItemId": 4325377,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Wakewater",
+    "apItemId": 4325378,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Venus Key",
+    "apItemId": 4325379,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Multi Key",
+    "apItemId": 4325380,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Mask",
+    "apItemId": 4325381,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Magic Mirror",
+    "apItemId": 4325382,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Thunder Rock",
+    "apItemId": 4325383,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Captain's Cap",
+    "apItemId": 4325384,
+    "classification": "progression_skip_balancing",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Libra Crest",
+    "apItemId": 4325385,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Gemini Crest",
+    "apItemId": 4325386,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Mobius Crest",
+    "apItemId": 4325387,
+    "classification": "progression",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Sand Coin",
+    "apItemId": 4325388,
+    "classification": "progression",
+    "groups": [
+      "Key Items",
+      "Coins"
+    ]
+  },
+  {
+    "name": "River Coin",
+    "apItemId": 4325389,
+    "classification": "progression",
+    "groups": [
+      "Key Items",
+      "Coins"
+    ]
+  },
+  {
+    "name": "Sun Coin",
+    "apItemId": 4325390,
+    "classification": "progression",
+    "groups": [
+      "Key Items",
+      "Coins"
+    ]
+  },
+  {
+    "name": "Sky Coin",
+    "apItemId": 4325391,
+    "classification": "progression_skip_balancing",
+    "groups": [
+      "Key Items",
+      "Coins"
+    ]
+  },
+  {
+    "name": "Sky Fragment",
+    "apItemId": null,
+    "classification": "progression_skip_balancing",
+    "groups": [
+      "Key Items"
+    ]
+  },
+  {
+    "name": "Cure Potion",
+    "apItemId": 4325392,
+    "classification": "filler",
+    "groups": [
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Heal Potion",
+    "apItemId": 4325393,
+    "classification": "filler",
+    "groups": [
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Seed",
+    "apItemId": 4325394,
+    "classification": "filler",
+    "groups": [
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Refresher",
+    "apItemId": 4325395,
+    "classification": "filler",
+    "groups": [
+      "Consumables"
+    ]
+  },
+  {
+    "name": "Exit Book",
+    "apItemId": 4325396,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Cure Book",
+    "apItemId": 4325397,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Heal Book",
+    "apItemId": 4325398,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Life Book",
+    "apItemId": 4325399,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Quake Book",
+    "apItemId": 4325400,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Blizzard Book",
+    "apItemId": 4325401,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Fire Book",
+    "apItemId": 4325402,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Aero Book",
+    "apItemId": 4325403,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Thunder Seal",
+    "apItemId": 4325404,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "White Seal",
+    "apItemId": 4325405,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Meteor Seal",
+    "apItemId": 4325406,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Flare Seal",
+    "apItemId": 4325407,
+    "classification": "useful",
+    "groups": [
+      "Spells"
+    ]
+  },
+  {
+    "name": "Progressive Sword",
+    "apItemId": null,
+    "classification": "progression",
+    "groups": [
+      "Weapons",
+      "Swords"
+    ]
+  },
+  {
+    "name": "Steel Sword",
+    "apItemId": 4325408,
+    "classification": "progression",
+    "groups": [
+      "Weapons",
+      "Swords"
+    ]
+  },
+  {
+    "name": "Knight Sword",
+    "apItemId": 4325409,
+    "classification": "progression_skip_balancing",
+    "groups": [
+      "Weapons",
+      "Swords"
+    ]
+  },
+  {
+    "name": "Excalibur",
+    "apItemId": 4325410,
+    "classification": "progression_skip_balancing",
+    "groups": [
+      "Weapons",
+      "Swords"
+    ]
+  },
+  {
+    "name": "Progressive Axe",
+    "apItemId": null,
+    "classification": "progression",
+    "groups": [
+      "Weapons",
+      "Axes"
+    ]
+  },
+  {
+    "name": "Axe",
+    "apItemId": 4325411,
+    "classification": "progression",
+    "groups": [
+      "Weapons",
+      "Axes"
+    ]
+  },
+  {
+    "name": "Battle Axe",
+    "apItemId": 4325412,
+    "classification": "progression_skip_balancing",
+    "groups": [
+      "Weapons",
+      "Axes"
+    ]
+  },
+  {
+    "name": "Giant's Axe",
+    "apItemId": 4325413,
+    "classification": "progression_skip_balancing",
+    "groups": [
+      "Weapons",
+      "Axes"
+    ]
+  },
+  {
+    "name": "Progressive Claw",
+    "apItemId": null,
+    "classification": "progression",
+    "groups": [
+      "Weapons",
+      "Claws"
+    ]
+  },
+  {
+    "name": "Cat Claw",
+    "apItemId": 4325414,
+    "classification": "progression",
+    "groups": [
+      "Weapons",
+      "Claws"
+    ]
+  },
+  {
+    "name": "Charm Claw",
+    "apItemId": 4325415,
+    "classification": "progression_skip_balancing",
+    "groups": [
+      "Weapons",
+      "Claws"
+    ]
+  },
+  {
+    "name": "Dragon Claw",
+    "apItemId": 4325416,
+    "classification": "progression",
+    "groups": [
+      "Weapons",
+      "Claws"
+    ]
+  },
+  {
+    "name": "Progressive Bomb",
+    "apItemId": null,
+    "classification": "progression",
+    "groups": [
+      "Weapons",
+      "Bombs"
+    ]
+  },
+  {
+    "name": "Bomb",
+    "apItemId": 4325417,
+    "classification": "progression",
+    "groups": [
+      "Weapons",
+      "Bombs"
+    ]
+  },
+  {
+    "name": "Jumbo Bomb",
+    "apItemId": 4325418,
+    "classification": "progression_skip_balancing",
+    "groups": [
+      "Weapons",
+      "Bombs"
+    ]
+  },
+  {
+    "name": "Mega Grenade",
+    "apItemId": 4325419,
+    "classification": "progression",
+    "groups": [
+      "Weapons",
+      "Bombs"
+    ]
+  },
+  {
+    "name": "Progressive Helm",
+    "apItemId": null,
+    "classification": "useful",
+    "groups": [
+      "Helms"
+    ]
+  },
+  {
+    "name": "Steel Helm",
+    "apItemId": 4325423,
+    "classification": "useful",
+    "groups": [
+      "Helms"
+    ]
+  },
+  {
+    "name": "Moon Helm",
+    "apItemId": 4325424,
+    "classification": "useful",
+    "groups": [
+      "Helms"
+    ]
+  },
+  {
+    "name": "Apollo Helm",
+    "apItemId": 4325425,
+    "classification": "useful",
+    "groups": [
+      "Helms"
+    ]
+  },
+  {
+    "name": "Progressive Armor",
+    "apItemId": null,
+    "classification": "useful",
+    "groups": [
+      "Armors"
+    ]
+  },
+  {
+    "name": "Steel Armor",
+    "apItemId": 4325426,
+    "classification": "useful",
+    "groups": [
+      "Armors"
+    ]
+  },
+  {
+    "name": "Noble Armor",
+    "apItemId": 4325427,
+    "classification": "useful",
+    "groups": [
+      "Armors"
+    ]
+  },
+  {
+    "name": "Gaia's Armor",
+    "apItemId": 4325428,
+    "classification": "useful",
+    "groups": [
+      "Armors"
+    ]
+  },
+  {
+    "name": "Progressive Shield",
+    "apItemId": null,
+    "classification": "useful",
+    "groups": [
+      "Shields"
+    ]
+  },
+  {
+    "name": "Steel Shield",
+    "apItemId": 4325433,
+    "classification": "useful",
+    "groups": [
+      "Shields"
+    ]
+  },
+  {
+    "name": "Venus Shield",
+    "apItemId": 4325434,
+    "classification": "useful",
+    "groups": [
+      "Shields"
+    ]
+  },
+  {
+    "name": "Aegis Shield",
+    "apItemId": 4325435,
+    "classification": "useful",
+    "groups": [
+      "Shields"
+    ]
+  },
+  {
+    "name": "Progressive Accessory",
+    "apItemId": null,
+    "classification": "useful",
+    "groups": [
+      "Accessories"
+    ]
+  },
+  {
+    "name": "Charm",
+    "apItemId": 4325437,
+    "classification": "useful",
+    "groups": [
+      "Accessories"
+    ]
+  },
+  {
+    "name": "Magic Ring",
+    "apItemId": 4325438,
+    "classification": "useful",
+    "groups": [
+      "Accessories"
+    ]
+  },
+  {
+    "name": "Cupid Locket",
+    "apItemId": 4325439,
+    "classification": "useful",
+    "groups": [
+      "Accessories"
+    ]
+  },
+  {
+    "name": "Bomb Refill",
+    "apItemId": 4325597,
+    "classification": "filler",
+    "groups": [
+      "Refills"
+    ]
+  },
+  {
+    "name": "Projectile Refill",
+    "apItemId": 4325598,
+    "classification": "filler",
+    "groups": [
+      "Refills"
+    ]
+  }
+]

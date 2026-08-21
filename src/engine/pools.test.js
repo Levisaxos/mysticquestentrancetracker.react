@@ -153,12 +153,34 @@ describe('fixed destinations on our own maps', () => {
     expect(LOCATIONS_DATA['40301'].map((m) => m.id)).toContain(target);
   });
 
-  // The Bone Dungeon B2 sheets are still mis-bound, so they are still gated.
-  // Naming nothing beats naming the wrong dungeon.
-  test('a floor matched on geometry alone is not named as a destination', () => {
+  // Naming nothing beats naming the wrong dungeon. Stated as a property rather
+  // than by example, so it keeps holding as sheets get bound properly and the
+  // set of coin-flip floors shrinks.
+  test('no destination is named from a floor matched on geometry alone', () => {
+    const floorOfMarker = new Map();
+    for (const [floorId, markers] of Object.entries(LOCATIONS_DATA)) {
+      for (const m of markers) floorOfMarker.set(m.id, floorId);
+    }
+    const coinFlip = (markerId) => binding.floors[floorOfMarker.get(markerId)]?.confidence === 'geometry-only';
+
+    for (const [from, to] of fixedMarkerLinksFor(NONE)) {
+      expect(coinFlip(from), `marker ${from}`).toBe(false);
+      expect(coinFlip(to), `marker ${to}`).toBe(false);
+    }
+  });
+
+  // The Bone Dungeon B2 sheets are drawn one room per sheet where the game
+  // keeps the whole basement in one area, so no automatic pass can place them.
+  // They are stated by hand in bindingOverrides.json instead.
+  test('hand-stated sheets connect through the Two Skulls Room', () => {
     const links = fixedMarkerLinksFor(NONE);
-    expect(links.get(marker('20308', 'Main Exit'))).toBeUndefined();
-    expect([...links.values()]).not.toContain(marker('20308', 'Main Exit'));
+
+    expect(links.get(marker('20306', 'Right'))).toBe(marker('20307', 'Exit to 2F'));
+    expect(links.get(marker('20306', 'Left'))).toBe(marker('20308', 'Main Exit'));
+    expect(links.get(marker('20306', 'Exit'))).toBe(marker('20309', 'To Spencer Cave'));
+    expect(links.get(marker('20303', 'Entrance')))
+      .toBe(marker('20302', 'Waterway - Exit Waterway'));
+    expect(links.get(marker('20105', 'Entrance'))).toBe(marker('20102', 'Rest House'));
   });
 
   // Every one of these was thrown away by the old substring name test, which

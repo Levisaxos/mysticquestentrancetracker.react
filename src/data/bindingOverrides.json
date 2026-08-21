@@ -1,0 +1,40 @@
+{
+  "note": "Hand-stated bindings, read by scripts/build-binding.mjs and merged into binding.json. Edit this; never edit binding.json. Needed where our map sheets are drawn finer than the game's areas: the matcher assigns one sheet per area, so sibling sheets of a shared area are left with nothing to claim and no way to guess correctly between them.",
+  "floors": {
+    "_comment": "our floor id -> the game rooms that sheet actually covers. The area is derived from the rooms, and the check pool is narrowed to exactly these rooms rather than the whole area.",
+
+    "20105": [20],
+    "20303": [28],
+    "20304": [29],
+    "20305": [30, 31, 32],
+    "20306": [35, 36, 37],
+    "20307": [33],
+    "20308": [34],
+    "20309": [38]
+  },
+  "markers": {
+    "_comment": "our marker id -> canonical entrance id.",
+
+    "64": 50,
+    "85": 61,
+    "86": 60,
+    "90": 62,
+    "99": 71,
+    "100": 68,
+    "101": 69,
+    "102": 70,
+    "108": 66,
+    "111": 67,
+    "117": 74
+  },
+  "reasoning": {
+    "20105 Foresta / Southern House": "Is the Rest House interior. Its one door (m64) is the Rest House Exit, e50, which pairs back to m54 on Restored Foresta. Geometry had put it in Wintry Cave.",
+    "20303 Foresta -> Bone Dungeon B1 Area 2": "The Checker Room, room 28. Two doors, matching the room's two entrances: Entrance is To Waterway (e61, pairs with m81 Exit Waterway), Exit is Exit Checker Room (e60, pairs with m94).",
+    "20304 Bone Dungeon B1 Area 3": "The Hidden Room, room 29 — one box, one entrance, which is what the sheet has. It had been bound to the Boss Room area, but the Boss Room is B2 Area 5: that sheet has the Boss Room's two boxes and two chests, and this one does not.",
+    "20305 Bone Dungeon B2 Area 1": "The three Exploding Skull rooms, 30-32. Its e65 and e64 doors already matched; naming the rooms narrows its chests and leaves room for the missing e63 marker (To Hidden Passage) once that is drawn.",
+    "20306 Bone Dungeon B2 Area 2": "The three Two Skulls rooms, 35-37, whose four exits are the sheet's four doors: Entrance is To Exploding Skull Room (e71), Right is To Box Room (e68), Left is To Quake Room (e69), Exit is To Boss Room (e70).",
+    "20307 Bone Dungeon B2 Area 3": "The Box Room, room 33 — one box, one entrance (e66). Geometry had it in Pazuzu's Tower.",
+    "20308 Bone Dungeon B2 Area 4": "The Quake Room, room 34 — one chest, one entrance (e67). Geometry had it in Pazuzu's Tower.",
+    "20309 Bone Dungeon B2 Area 5": "The Boss Room, room 38 — two boxes and two chests, one entrance (e74). Geometry had it in Mac's Ship."
+  }
+}

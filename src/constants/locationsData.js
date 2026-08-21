@@ -512,13 +512,6 @@ export const LOCATIONS_DATA = {
       "type": "door",
       "x": 338,
       "y": 412
-    },
-    {
-      "id": 71,
-      "name": "Exit",
-      "type": "door",
-      "x": 340,
-      "y": 68
     }
   ],
   "20301": [

@@ -8,21 +8,14 @@ grouped by where the chain breaks — each group needs a different fix.
 
 | | |
 |---|---|
-| door markers | 356 |
-| connected automatically | 256 |
-| need a decision | 100 |
+| door markers | 355 |
+| connected automatically | 270 |
+| need a decision | 85 |
 
-## No canonical binding (53)
+## No canonical binding (42)
 
 The marker is not tied to an entrance in the game data at all, usually because our map sheet is finer-grained than the game's areas and lost the one-to-one race for one. Fixing these means binding the floor or the marker by hand.
 
-- **Level Forest · Restored Level Forest — Exit** — floor is bound to "Level Forest" but this marker matched none of its entrances
-- **Bone Dungeon · First Basement - Area 2 — Entrance** — this floor is not bound to any area in the game data
-- **Bone Dungeon · First Basement - Area 2 — Exit** — this floor is not bound to any area in the game data
-- **Bone Dungeon · Second Basement - Area 2 — Entrance** — this floor is not bound to any area in the game data
-- **Bone Dungeon · Second Basement - Area 2 — Right** — this floor is not bound to any area in the game data
-- **Bone Dungeon · Second Basement - Area 2 — Left** — this floor is not bound to any area in the game data
-- **Bone Dungeon · Second Basement - Area 2 — Exit** — this floor is not bound to any area in the game data
 - **Aquaria · Unfrozen Aquaria — Spencers Place** — floor is bound to "Aquaria Winter" but this marker matched none of its entrances
 - **Aquaria · Northwest House Warp Room — Entrance** — this floor is not bound to any area in the game data
 - **Aquaria · Northwest House Warp Room — Crest** — this floor is not bound to any area in the game data
@@ -30,7 +23,6 @@ The marker is not tied to an entrance in the game data at all, usually because o
 - **Spencers Place · After Using Me — Entrance** — floor is bound to "Spencer Cave Unplug" but this marker matched none of its entrances
 - **Fireburg · Hotel — Entrance** — this floor is not bound to any area in the game data
 - **Fireburg · Hotel — Stairs** — this floor is not bound to any area in the game data
-- **Fireburg · Hotel Second Floor — South Stairs** — this floor is not bound to any area in the game data
 - **Fireburg · Arion's Friend's House Warp — Entrance** — this floor is not bound to any area in the game data
 - **Fireburg · Arion's Friend's House Warp — Crest** — this floor is not bound to any area in the game data
 - **Fireburg · Southwest House — Entrance** — this floor is not bound to any area in the game data
@@ -38,8 +30,6 @@ The marker is not tied to an entrance in the game data at all, usually because o
 - **Fireburg · Southwest House Warp — Entrance** — this floor is not bound to any area in the game data
 - **Fireburg · Southwest House Warp — Crest** — this floor is not bound to any area in the game data
 - **Mine · Main Area — Entrance** — floor is bound to "Mine Exterior" but this marker matched none of its entrances
-- **Mine · Third Area — Entrance** — this floor is not bound to any area in the game data
-- **Mine · Fourth Area — Entrance** — this floor is not bound to any area in the game data
 - **Volcano · Third Area — Left Entrance** — this floor is not bound to any area in the game data
 - **Volcano · Third Area — Right Entrance** — this floor is not bound to any area in the game data
 - **Volcano · Third Area — Left Exit** — this floor is not bound to any area in the game data
@@ -54,7 +44,6 @@ The marker is not tied to an entrance in the game data at all, usually because o
 - **Windia · After Lake Restored — Rainbow** — floor is bound to "Windia" but this marker matched none of its entrances
 - **Windia · Inn — Entrance** — this floor is not bound to any area in the game data
 - **Windia · Inn — Stairs** — this floor is not bound to any area in the game data
-- **Windia · Inn Second Floor — Stairs** — this floor is not bound to any area in the game data
 - **Windia · Otto's House Second Floor — Stairs** — this floor is not bound to any area in the game data
 - **Windia · House Near Entrance — Stairs** — this floor is not bound to any area in the game data
 - **Windia · House Above Inn — Entrance** — this floor is not bound to any area in the game data
@@ -70,15 +59,11 @@ The marker is not tied to an entrance in the game data at all, usually because o
 - **Rope Bridge · Rope Bridge — Exit** — floor is bound to "Rope Bridge" but this marker matched none of its entrances
 - **Mac's Ship · First Basement — Stairs #1** — floor is bound to "Mac Ship B1" but this marker matched none of its entrances
 
-## The far side has no marker (37)
+## The far side has no marker (33)
 
 The door itself is bound and its destination is known, but nothing on our maps stands at the other end. These are missing markers — the map sheet needs one adding at the right spot.
 
-- **Foresta · Restored Foresta — Rest House** — leads to e50 "Foresta Houses - Rest House - Rest House Exit", which no marker on our maps claims
-- **Bone Dungeon · First Basement - Area 1 — Waterway - Exit Waterway** — leads to e61 "Bone Dungeon B1 - Checker Room - To Waterway", which no marker on our maps claims
-- **Bone Dungeon · First Basement - Area 3 — Boss Room - To B2 - Two Skulls Room** — leads to e70 "Bonne Dungeon B2 - Two Skulls Room - To Boss Room", which no marker on our maps claims
-- **Bone Dungeon · Second Basement - Area 1 — Exploding Skull Room - To Checker Room** — leads to e60 "Bone Dungeon B1 - Checker Room - Exit Checker Room", which no marker on our maps claims
-- **Bone Dungeon · Second Basement - Area 1 — Exploding Skull Room - To Two Skulls Room** — leads to e71 "Bonne Dungeon B2 - Two Skulls Room - To B2 - Exploding Skull Room", which no marker on our maps claims
+- **Bone Dungeon · First Basement - Area 3 — Boss Room - To B2 - Two Skulls Room** — leads to e63 "Bonne Dungeon B2 - Exploding Skull Room - To Hidden Passage", which no marker on our maps claims
 - **Focus Tower · First Basement — Aero Corridor - To Focus Tower 1F - Sun Coin Room** — leads to e12 "Focus Tower 1F - To Focus Tower B1 - To Aero Chest", which no marker on our maps claims
 - **Focus Tower · First Floor — Focus Tower West Entrance** — leads to e466 "Overworld - Focus Tower Windia", which no marker on our maps claims
 - **Aquaria · Unfrozen Aquaria — Winter INN Entrance** — leads to e98 "Aquaria INN - Aquaria INN entrance", which no marker on our maps claims
@@ -116,14 +101,14 @@ The door itself is bound and its destination is known, but nothing on our maps s
 
 Both ends are bound, but one sheet was matched to its game area on geometry alone with no name agreeing, which is roughly a coin flip. The tracker refuses to name a destination from those rather than risk pointing at the wrong dungeon.
 
-- **Foresta · Southern House — Entrance** — would lead to Wintry Cave · Second Floor — To 3F Bottom — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Bone Dungeon · Second Basement - Area 3 — Exit to 2F** — would lead to Pazuzu's Tower · Second Floor — West Upper Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Bone Dungeon · Second Basement - Area 4 — Main Exit** — would lead to Pazuzu's Tower · Fourth Floor — Southwest Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Bone Dungeon · Second Basement - Area 5 — To Spencer Cave** — would lead to Mac's Ship · Second Basement — South Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Wintry Cave · Second Floor — To 3F Bottom** — would lead to Foresta · Southern House — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Wintry Cave · Second Floor — To 3F Bottom** — would lead to Fireburg · Hotel Second Floor — South Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
 - **Fireburg · Main — GrenadeMan House Script** — would lead to Fireburg · Arion's Friend's House — Entrance Script — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Fireburg · Hotel Second Floor — South Stairs** — would lead to Wintry Cave · Second Floor — To 3F Bottom — but one of those sheets was matched on geometry alone, so it is not trusted
 - **Fireburg · Arion's Friend's House — Entrance Script** — would lead to Fireburg · Main — GrenadeMan House Script — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Pazuzu's Tower · Second Floor — West Upper Stairs** — would lead to Bone Dungeon · Second Basement - Area 3 — Exit to 2F — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Pazuzu's Tower · Fourth Floor — Southwest Stairs** — would lead to Bone Dungeon · Second Basement - Area 4 — Main Exit — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Mac's Ship · Second Basement — South Stairs** — would lead to Bone Dungeon · Second Basement - Area 5 — To Spencer Cave — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Mine · Third Area — Entrance** — would lead to Pazuzu's Tower · Second Floor — West Upper Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Mine · Fourth Area — Entrance** — would lead to Pazuzu's Tower · Fourth Floor — Southwest Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Windia · Inn Second Floor — Stairs** — would lead to Mac's Ship · Second Basement — South Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Pazuzu's Tower · Second Floor — West Upper Stairs** — would lead to Mine · Third Area — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Pazuzu's Tower · Fourth Floor — Southwest Stairs** — would lead to Mine · Fourth Area — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Mac's Ship · Second Basement — South Stairs** — would lead to Windia · Inn Second Floor — Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
 

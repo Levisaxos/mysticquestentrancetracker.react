@@ -93,7 +93,7 @@ describe('binding shape', () => {
   test('every binding declares a kind, a confidence and how it was derived', () => {
     for (const [id, b] of entries) {
       expect(['entrance', 'check'], `marker ${id}`).toContain(b.kind);
-      expect(['high', 'name-only', 'geometry-only', 'leftover', 'room-only', 'unresolved'], `marker ${id}`)
+      expect(['high', 'manual', 'name-only', 'geometry-only', 'leftover', 'room-only', 'unresolved'], `marker ${id}`)
         .toContain(b.confidence);
       expect(b.via, `marker ${id}`).toBeTruthy();
     }

@@ -3,13 +3,13 @@
     "generatedBy": "scripts/build-binding.mjs",
     "note": "Do not edit by hand; re-run the script. Marker ids are our own, from locationsData.js.",
     "totals": {
-      "markers": 599,
-      "bound": 546,
-      "entranceHigh": 205,
-      "entranceReview": 98,
+      "markers": 598,
+      "bound": 556,
+      "entranceHigh": 216,
+      "entranceReview": 97,
       "battlefield": 20,
-      "container": 28,
-      "unresolved": 195
+      "container": 32,
+      "unresolved": 191
     }
   },
   "floors": {
@@ -61,17 +61,17 @@
       ]
     },
     "20105": {
-      "areaId": 31,
-      "areaLabel": "Wintry Cave 3F Bottom",
+      "areaId": 17,
+      "areaLabel": "Foresta Houses",
       "offset": [
-        -4,
-        11
+        27,
+        26
       ],
-      "confidence": "geometry-only",
+      "confidence": "manual",
       "matchedMarkers": 1,
       "totalMarkers": 1,
       "roomIds": [
-        50
+        20
       ]
     },
     "20202": {
@@ -83,7 +83,7 @@
       ],
       "confidence": "name-only",
       "matchedMarkers": 1,
-      "totalMarkers": 2,
+      "totalMarkers": 1,
       "roomIds": [
         15
       ]
@@ -118,18 +118,32 @@
         29
       ]
     },
-    "20304": {
-      "areaId": 22,
-      "areaLabel": "Bone Dungeon B2",
+    "20303": {
+      "areaId": 20,
+      "areaLabel": "Bone Dungeon B1",
       "offset": [
-        28,
-        18
+        8,
+        15
       ],
-      "confidence": "name-only",
+      "confidence": "manual",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        28
+      ]
+    },
+    "20304": {
+      "areaId": 20,
+      "areaLabel": "Bone Dungeon B1",
+      "offset": [
+        25,
+        30
+      ],
+      "confidence": "manual",
       "matchedMarkers": 1,
       "totalMarkers": 1,
       "roomIds": [
-        38
+        29
       ]
     },
     "20305": {
@@ -139,60 +153,71 @@
         -2,
         -1
       ],
-      "confidence": "geometry-only",
-      "matchedMarkers": 2,
+      "confidence": "manual",
+      "matchedMarkers": 0,
       "totalMarkers": 2,
       "roomIds": [
-        31,
-        32,
         30,
-        33,
-        34,
-        36,
+        31,
+        32
+      ]
+    },
+    "20306": {
+      "areaId": 21,
+      "areaLabel": "Bonne Dungeon B2",
+      "offset": [
         37,
-        35
+        -9
+      ],
+      "confidence": "manual",
+      "matchedMarkers": 4,
+      "totalMarkers": 4,
+      "roomIds": [
+        35,
+        36,
+        37
       ]
     },
     "20307": {
-      "areaId": 93,
-      "areaLabel": "Pazuzu 2F to 4F",
+      "areaId": 21,
+      "areaLabel": "Bonne Dungeon B2",
       "offset": [
-        39,
-        49
+        15,
+        2
       ],
-      "confidence": "geometry-only",
+      "confidence": "manual",
       "matchedMarkers": 1,
       "totalMarkers": 1,
       "roomIds": [
-        183
+        33
       ]
     },
     "20308": {
-      "areaId": 94,
-      "areaLabel": "Pazuzu 4F to 6F",
+      "areaId": 21,
+      "areaLabel": "Bonne Dungeon B2",
       "offset": [
-        39,
-        49
+        15,
+        2
       ],
-      "confidence": "geometry-only",
+      "confidence": "manual",
       "matchedMarkers": 1,
       "totalMarkers": 1,
       "roomIds": [
-        184
+        34
       ]
     },
     "20309": {
-      "areaId": 100,
-      "areaLabel": "Mac Ship B1 Mac Room Cleared",
+      "areaId": 22,
+      "areaLabel": "Bone Dungeon B2",
       "offset": [
-        6,
-        36
+        20,
+        12
       ],
-      "confidence": "geometry-only",
+      "confidence": "manual",
       "matchedMarkers": 1,
       "totalMarkers": 1,
       "roomIds": [
-        194
+        38
       ]
     },
     "20501": {
@@ -614,6 +639,20 @@
         208
       ]
     },
+    "50103": {
+      "areaId": 31,
+      "areaLabel": "Wintry Cave 3F Bottom",
+      "offset": [
+        -5,
+        20
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        50
+      ]
+    },
     "50104": {
       "areaId": 48,
       "areaLabel": "Reuben House",
@@ -692,6 +731,34 @@
       "totalMarkers": 1,
       "roomIds": [
         91
+      ]
+    },
+    "50204": {
+      "areaId": 93,
+      "areaLabel": "Pazuzu 2F to 4F",
+      "offset": [
+        32,
+        39
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        183
+      ]
+    },
+    "50205": {
+      "areaId": 94,
+      "areaLabel": "Pazuzu 4F to 6F",
+      "offset": [
+        35,
+        54
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        184
       ]
     },
     "50301": {
@@ -906,6 +973,20 @@
       "totalMarkers": 7,
       "roomIds": [
         156
+      ]
+    },
+    "60104": {
+      "areaId": 100,
+      "areaLabel": "Mac Ship B1 Mac Room Cleared",
+      "offset": [
+        9,
+        44
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        194
       ]
     },
     "60105": {
@@ -1996,16 +2077,15 @@
     "63": {
       "kind": "check",
       "checkType": "Box",
-      "apLocationId": 4325453,
+      "apLocationId": 4325423,
       "confidence": "high",
       "via": "sole-candidate-in-area"
     },
     "64": {
       "kind": "entrance",
-      "entranceId": 106,
-      "confidence": "geometry-only",
-      "via": "geometry",
-      "distance": 0.66
+      "entranceId": 50,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "65": {
       "kind": "check",
@@ -2154,7 +2234,143 @@
       "via": "no-area-binding",
       "candidates": []
     },
+    "85": {
+      "kind": "entrance",
+      "entranceId": 61,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "86": {
+      "kind": "entrance",
+      "entranceId": 60,
+      "confidence": "high",
+      "via": "manual-override"
+    },
     "89": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325433,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "90": {
+      "kind": "entrance",
+      "entranceId": 62,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "92": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325435,
+        4325434
+      ]
+    },
+    "93": {
+      "kind": "check",
+      "checkType": "Box",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325435,
+        4325434
+      ]
+    },
+    "94": {
+      "kind": "entrance",
+      "entranceId": 65,
+      "confidence": "manual",
+      "via": "geometry",
+      "distance": 0.34
+    },
+    "95": {
+      "kind": "entrance",
+      "entranceId": 64,
+      "confidence": "manual",
+      "via": "geometry",
+      "distance": 0.32
+    },
+    "98": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325436,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "99": {
+      "kind": "entrance",
+      "entranceId": 71,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "100": {
+      "kind": "entrance",
+      "entranceId": 68,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "101": {
+      "kind": "entrance",
+      "entranceId": 69,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "102": {
+      "kind": "entrance",
+      "entranceId": 70,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "107": {
+      "kind": "check",
+      "checkType": "Box",
+      "apLocationId": 4325437,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "108": {
+      "kind": "entrance",
+      "entranceId": 66,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "110": {
+      "kind": "check",
+      "checkType": "Chest",
+      "apLocationId": 4325383,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
+    },
+    "111": {
+      "kind": "entrance",
+      "entranceId": 67,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "113": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325384,
+        4325380
+      ]
+    },
+    "114": {
+      "kind": "check",
+      "checkType": "Chest",
+      "confidence": "unresolved",
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325384,
+        4325380
+      ]
+    },
+    "115": {
       "kind": "check",
       "checkType": "Box",
       "confidence": "unresolved",
@@ -2164,124 +2380,21 @@
         4325439
       ]
     },
-    "90": {
-      "kind": "entrance",
-      "entranceId": 74,
-      "confidence": "name-only",
-      "via": "geometry",
-      "distance": 0.26
-    },
-    "92": {
-      "kind": "check",
-      "checkType": "Box",
-      "confidence": "unresolved",
-      "via": "narrowed-to-area",
-      "candidates": [
-        4325434,
-        4325435,
-        4325437,
-        4325436
-      ]
-    },
-    "93": {
-      "kind": "check",
-      "checkType": "Box",
-      "confidence": "unresolved",
-      "via": "narrowed-to-area",
-      "candidates": [
-        4325434,
-        4325435,
-        4325437,
-        4325436
-      ]
-    },
-    "94": {
-      "kind": "entrance",
-      "entranceId": 65,
-      "confidence": "geometry-only",
-      "via": "geometry",
-      "distance": 0.34
-    },
-    "95": {
-      "kind": "entrance",
-      "entranceId": 64,
-      "confidence": "geometry-only",
-      "via": "geometry",
-      "distance": 0.32
-    },
-    "98": {
-      "kind": "check",
-      "checkType": "Box",
-      "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
-    },
-    "107": {
-      "kind": "check",
-      "checkType": "Box",
-      "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
-    },
-    "108": {
-      "kind": "entrance",
-      "entranceId": 391,
-      "confidence": "geometry-only",
-      "via": "geometry",
-      "distance": 0.31
-    },
-    "110": {
-      "kind": "check",
-      "checkType": "Chest",
-      "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
-    },
-    "111": {
-      "kind": "entrance",
-      "entranceId": 393,
-      "confidence": "geometry-only",
-      "via": "geometry",
-      "distance": 0.4
-    },
-    "113": {
-      "kind": "check",
-      "checkType": "Chest",
-      "confidence": "unresolved",
-      "via": "narrowed-to-area",
-      "candidates": [
-        4325403
-      ]
-    },
-    "114": {
-      "kind": "check",
-      "checkType": "Chest",
-      "confidence": "unresolved",
-      "via": "narrowed-to-area",
-      "candidates": [
-        4325403
-      ]
-    },
-    "115": {
-      "kind": "check",
-      "checkType": "Box",
-      "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
-    },
     "116": {
       "kind": "check",
       "checkType": "Box",
       "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325438,
+        4325439
+      ]
     },
     "117": {
       "kind": "entrance",
-      "entranceId": 424,
-      "confidence": "geometry-only",
-      "via": "geometry",
-      "distance": 0.34
+      "entranceId": 74,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "119": {
       "kind": "check",
@@ -3475,6 +3588,13 @@
       "via": "geometry",
       "distance": 0.71
     },
+    "303": {
+      "kind": "entrance",
+      "entranceId": 106,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.58
+    },
     "304": {
       "kind": "check",
       "checkType": "Box",
@@ -3588,6 +3708,13 @@
       "via": "no-area-binding",
       "candidates": []
     },
+    "326": {
+      "kind": "entrance",
+      "entranceId": 391,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.4
+    },
     "327": {
       "kind": "check",
       "checkType": "Box",
@@ -3615,6 +3742,13 @@
       "confidence": "unresolved",
       "via": "no-area-binding",
       "candidates": []
+    },
+    "331": {
+      "kind": "entrance",
+      "entranceId": 393,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.32
     },
     "332": {
       "kind": "check",
@@ -4460,6 +4594,13 @@
       "confidence": "unresolved",
       "via": "no-area-binding",
       "candidates": []
+    },
+    "443": {
+      "kind": "entrance",
+      "entranceId": 424,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.66
     },
     "444": {
       "kind": "entrance",

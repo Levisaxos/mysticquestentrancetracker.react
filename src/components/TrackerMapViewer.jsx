@@ -23,6 +23,10 @@ export function TrackerMapViewer({
   const [successfulPath, setSuccessfulPath] = useState(null);
   const [imageDimensions, setImageDimensions] = useState(null);
   const [locationStates, setLocationStates] = useState({});
+  // Where the pointer is, in the map image's own pixels — the same numbers
+  // locationsData.js stores. Placing a marker means reading a coordinate off
+  // the map, and without this the only way to get one is to guess and re-guess.
+  const [cursor, setCursor] = useState(null);
   const imgRef = useRef(null);
 
   // Load location states for current floor
@@ -160,7 +164,23 @@ export function TrackerMapViewer({
           </div>
         )}
         
-        <div className="max-w-full max-h-full relative">
+        <div
+          className="max-w-full max-h-full relative"
+          // On the wrapper rather than the image, so the readout keeps updating
+          // while the pointer is over a marker — which is exactly when you want
+          // it, because that is how you say "this one is in the wrong place".
+          onMouseMove={(e) => {
+            const image = imgRef.current;
+            if (!image?.naturalWidth) return;
+            const rect = image.getBoundingClientRect();
+            setCursor({
+              x: Math.round((e.clientX - rect.left) / rect.width * image.naturalWidth),
+              y: Math.round((e.clientY - rect.top) / rect.height * image.naturalHeight),
+              scale: rect.width / image.naturalWidth,
+            });
+          }}
+          onMouseLeave={() => setCursor(null)}
+        >
           {imageError ? (
             <div className="flex items-center justify-center p-8 text-center">
               <div>
@@ -202,6 +222,21 @@ export function TrackerMapViewer({
             </>
           ) : null}
         </div>
+
+        {cursor && (
+          <div className="absolute bottom-2 right-2 pointer-events-none rounded bg-slate-900/85
+                          border border-slate-600 px-2 py-1 font-mono text-xs text-slate-300">
+            {cursor.x}, {cursor.y}
+            {/* Shrink the map to fit and one screen pixel stops being one map
+                pixel, so a coordinate read off it is only good to a few. Say so
+                rather than let it quietly round. */}
+            {cursor.scale < 0.995 && (
+              <span className="ml-1.5 text-amber-400">
+                ±{Math.ceil(1 / cursor.scale)} · widen for exact
+              </span>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

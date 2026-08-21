@@ -34,6 +34,20 @@ const TILE = 16;
 const TOLERANCE = 1.5;
 const MIN_CONFIDENT_MATCHES = 3;
 
+// --- manual overrides ---------------------------------------------------------
+//
+// Some of our sheets are drawn finer than the game's areas, and strict
+// one-to-one leaves them unbound with no area left to claim. Rather than let
+// the matcher guess — it guesses badly — those are stated by hand here and win
+// outright. See src/data/bindingOverrides.json for the reasoning per entry.
+const overridePath = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../src/data/bindingOverrides.json');
+const overrides = fs.existsSync(overridePath) ? JSON.parse(fs.readFileSync(overridePath, 'utf8')) : {};
+const numericEntries = (table) => Object.entries(table ?? {})
+  .filter(([key]) => /^\d+$/.test(key))
+  .map(([key, value]) => [Number(key), value]);
+const floorOverrides = new Map(numericEntries(overrides.floors));
+const markerOverrides = new Map(numericEntries(overrides.markers));
+
 const usedIds = new Set(entranceLinks.map((l) => l.entranceId));
 const used = entrances.filter((e) => usedIds.has(e.id));
 const positioned = used.filter((e) => Array.isArray(e.coordinates));
@@ -52,11 +66,13 @@ for (const entrance of positioned) {
 // candidates without any coordinates.
 const roomByEntrance = new Map(entranceLinks.map((l) => [l.entranceId, l.fromRoomId]));
 const roomsByArea = new Map();
+const areaOfRoom = new Map();
 for (const entrance of positioned) {
   const roomId = roomByEntrance.get(entrance.id);
   if (roomId === undefined) continue;
   if (!roomsByArea.has(entrance.area)) roomsByArea.set(entrance.area, new Set());
   roomsByArea.get(entrance.area).add(roomId);
+  areaOfRoom.set(roomId, entrance.area);
 }
 
 const checksByRoom = new Map();
@@ -290,8 +306,41 @@ const takenAreas = new Set();
 // entrances handed out by a real assignment pass, not first-come. Until then a
 // smaller correct result beats a larger wrong one, and the sheets that miss out
 // are listed in docs/ for someone to map by hand.
+// Hand-stated floors first, and outside the one-to-one rule: they name their
+// rooms exactly, so several sheets may sit in one area without competing.
+const overriddenAreas = new Set();
+
+for (const [floorId, roomIds] of floorOverrides) {
+  const floor = floors.find((f) => f.id === floorId);
+  if (!floor) throw new Error(`bindingOverrides names floor ${floorId}, which is not in mapData`);
+
+  const areaId = areaOfRoom.get(roomIds[0]);
+  if (areaId === undefined) throw new Error(`bindingOverrides floor ${floorId}: room ${roomIds[0]} is in no area`);
+
+  takenFloors.add(floorId);
+  overriddenAreas.add(areaId);
+  floorBinding[floorId] = {
+    areaId,
+    areaLabel: areaLabel(areas.get(areaId)),
+    offset: align(floor.doors, areas.get(areaId)).offset ?? [0, 0],
+    confidence: 'manual',
+    matchedMarkers: floor.doors.filter((m) => markerOverrides.has(m.id)).length,
+    totalMarkers: floor.doors.length,
+    // Stated rooms, not the whole area's — which is the point. A sheet that is
+    // one room of a nine-room area gets that room's chests, not all of them.
+    roomIds,
+  };
+}
+
 for (const candidate of candidates) {
   if (takenFloors.has(candidate.floor.id) || takenAreas.has(candidate.areaId)) continue;
+
+  // An area a hand-stated floor sits in stays open to a sibling the name
+  // vouches for — Bone Dungeon B1 holds both our Waterway and Checker Room
+  // sheets — but not to a stranger that merely fits its shape. Fireburg's Hotel
+  // Second Floor walked off with Bone Dungeon B2 that way, taking with it the
+  // one entrance still waiting for a marker to be drawn for it.
+  if (overriddenAreas.has(candidate.areaId) && !candidate.sameplace) continue;
 
   takenFloors.add(candidate.floor.id);
   takenAreas.add(candidate.areaId);
@@ -319,13 +368,16 @@ const stats = { entranceHigh: 0, entranceReview: 0, battlefield: 0, container: 0
 
 // One entrance, one marker. With several sheets sharing an area they overlap in
 // what they could align to, and the best-scoring sheet should keep the door.
-const takenEntrances = new Set();
+// Hand-stated entrances are reserved before the automatic pass runs, so nothing
+// else can take one out from under an override.
+const takenEntrances = new Set(markerOverrides.values());
 
 for (const candidate of candidates) {
   const binding = floorBinding[candidate.floor.id];
   if (!binding || binding.areaId !== candidate.areaId) continue;
 
   for (const pair of candidate.pairs) {
+    if (markerOverrides.has(pair.markerId)) continue;
     if (takenEntrances.has(pair.entranceId)) continue;
     takenEntrances.add(pair.entranceId);
 
@@ -338,6 +390,20 @@ for (const candidate of candidates) {
     };
     if (binding.confidence === 'high') stats.entranceHigh++; else stats.entranceReview++;
   }
+}
+
+// Stated by hand, so they overwrite whatever geometry came up with.
+for (const [markerId, entranceId] of markerOverrides) {
+  if (!usedIds.has(entranceId)) {
+    throw new Error(`bindingOverrides marker ${markerId}: e${entranceId} has no link, so it is never shuffled`);
+  }
+  markerBinding[markerId] = {
+    kind: 'entrance',
+    entranceId,
+    confidence: 'high',
+    via: 'manual-override',
+  };
+  stats.entranceHigh++;
 }
 
 // World map doors are named after where they lead, and so are the overworld

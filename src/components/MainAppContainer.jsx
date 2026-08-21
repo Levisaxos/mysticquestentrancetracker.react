@@ -76,6 +76,16 @@ const MainAppContainer = () => {
 
   return (
     <div className="min-h-screen bg-slate-900 text-slate-200 flex flex-col">
+      {/* Deliberately not dismissible. It is here for someone who arrived from a
+          search result with no idea how finished this is, and that person is
+          exactly the one a dismiss button would fail. */}
+      <div
+        role="status"
+        className="bg-amber-500 text-amber-950 text-center text-sm font-medium px-3 py-1.5"
+      >
+        Work in progress — not ready to use. Door connections and map data are still incomplete.
+      </div>
+
       <MainHeader
         currentMode={mode}
         onModeChange={handleModeChange}

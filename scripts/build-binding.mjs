@@ -88,6 +88,7 @@ for (const region of MAP_DATA.regions) {
       floors.push({
         id: floor.id,
         locationName: location.name,
+        floorName: floor.name,
         label: `${region.name} / ${location.name} / ${floor.name}`,
         doors: markers.filter((m) => m.type === 'door'),
         battlegrounds: markers.filter((m) => m.type === 'battleground'),
@@ -193,10 +194,64 @@ const nameKey = (text) => {
   return out.replace(/[^a-z0-9]/g, '');
 };
 
+// Words that turn up in half the place names in the game and so distinguish
+// nothing. Without this "Libra Temple" happily corroborates "Life Temple".
+const NOISE = new Set([
+  'the', 'of', 'to', 'a', 'and', 'b', 'f',
+  '1', '2', '3', '4', '5', '6', '7', '8', '9', '10',
+  'room', 'rooms', 'floor', 'area', 'inside', 'outside', 'entrance', 'exit',
+  'main', 'north', 'south', 'east', 'west', 'upper', 'lower', 'left', 'right',
+  'top', 'bottom', 'temple', 'cave', 'house', 'houses', 'dungeon', 'tower',
+  'passage', 'corridor', 'script', 'restored', 'unfrozen', 'frozen', 'winter',
+]);
+
+const tokens = (text) => new Set(
+  String(text).toLowerCase().split(/[^a-z0-9]+/i)
+    .map((word) => {
+      let out = word;
+      for (const [pattern, replacement] of SYNONYMS) out = out.replace(pattern, replacement);
+      return out;
+    })
+    .filter((word) => word.length > 1 && !NOISE.has(word))
+);
+
+// Do two names refer to the same place?
+//
+// This used to be substring containment, which meant "Pazuzu's Tower" failed to
+// corroborate the area called "Pazuzu 1F" — and with the name unable to vouch
+// for it, a perfectly good geometric match was filed as a coin flip. The whole
+// of Pazuzu's Tower and Mac's Ship sat in that bucket. What actually identifies
+// a place is a shared distinctive word, so compare word by word, allowing one
+// to be a prefix of the other so a possessive ("Spencer" / "Spencers") still
+// counts.
+// How many distinctive words two names have in common. A count rather than a
+// yes/no, because one shared word is weak evidence and two is strong: "Alive
+// Forest" and "Level Forest" share one, and on a bare yes/no the Alive Forest
+// tree stumps walked off with the Level Forest area.
+function sharedWords(a, b) {
+  const right = tokens(b);
+  let shared = 0;
+  for (const left of tokens(a)) {
+    // Only a possessive or a plural, never a general prefix: letting "Forest"
+    // vouch for "Foresta" handed our Level Forest sheet to Kaeli's House.
+    if ([...right].some((word) => left === word || left === `${word}s` || word === `${left}s`)) shared++;
+  }
+  return shared;
+}
+
+/**
+ * How strongly does this floor look like this area, by name? Zero means the
+ * name says nothing and only geometry is left.
+ *
+ * Our location name is the stronger claim, so it is worth an order of magnitude
+ * more than the name of a floor inside it — but the floor name still counts,
+ * because our "Foresta" holds a "Kaeli's House" and the game calls that area
+ * exactly that. Both "Libra Temple / Inside" and "Alive Forest / Libra Tree
+ * Stump" share a word with the area "Libra Temple"; only one of them is it.
+ */
 function placeMatches(floor, areaEntrances) {
-  const label = nameKey(areaLabel(areaEntrances));
-  const place = nameKey(floor.locationName);
-  return label.includes(place) || place.includes(label.slice(0, Math.max(4, place.length)));
+  const label = areaLabel(areaEntrances);
+  return sharedWords(label, floor.locationName) * 10 + sharedWords(label, floor.floorName);
 }
 
 // --- assign floors to areas, one-to-one, best evidence first ------------------
@@ -216,7 +271,7 @@ for (const floor of floors) {
 }
 
 candidates.sort((a, b) =>
-  (b.sameplace ? 1 : 0) - (a.sameplace ? 1 : 0) ||
+  b.sameplace - a.sameplace ||
   b.matched - a.matched ||
   b.coverage - a.coverage);
 
@@ -224,11 +279,17 @@ const floorBinding = {};
 const takenFloors = new Set();
 const takenAreas = new Set();
 
-// Strict one-to-one. Relaxing it to allow map variants (Frozen/Unfrozen Aquaria
-// and friends) to share an area was tried and made things worse: with only the
-// location name to go on, every Bone Dungeon floor happily claimed "Bone Dungeon
-// 1F". Variants therefore fall through to the review tool rather than being
-// guessed at — a smaller correct result beats a larger wrong one.
+// Strict one-to-one, and it has to stay that way until the matcher gets
+// smarter. Our maps are drawn finer than the game's — the game holds all of
+// Bone Dungeon in four areas where we have nine sheets, one per room — so five
+// of those sheets can never bind and most of the dungeon's doors have nothing
+// to connect to. Letting an area serve several floors fixes that in principle
+// and is worse in practice: every Bone Dungeon sheet then claims the two-door
+// "Bone Dungeon 1F" area, because the game's own data spells the B2 area
+// "Bonne Dungeon B2" and no name can tell the sheets apart. Sharing needs the
+// entrances handed out by a real assignment pass, not first-come. Until then a
+// smaller correct result beats a larger wrong one, and the sheets that miss out
+// are listed in docs/ for someone to map by hand.
 for (const candidate of candidates) {
   if (takenFloors.has(candidate.floor.id) || takenAreas.has(candidate.areaId)) continue;
 
@@ -256,11 +317,18 @@ for (const candidate of candidates) {
 const markerBinding = {};
 const stats = { entranceHigh: 0, entranceReview: 0, battlefield: 0, container: 0, unresolved: 0 };
 
+// One entrance, one marker. With several sheets sharing an area they overlap in
+// what they could align to, and the best-scoring sheet should keep the door.
+const takenEntrances = new Set();
+
 for (const candidate of candidates) {
   const binding = floorBinding[candidate.floor.id];
   if (!binding || binding.areaId !== candidate.areaId) continue;
 
   for (const pair of candidate.pairs) {
+    if (takenEntrances.has(pair.entranceId)) continue;
+    takenEntrances.add(pair.entranceId);
+
     markerBinding[pair.markerId] = {
       kind: 'entrance',
       entranceId: pair.entranceId,
@@ -394,6 +462,10 @@ for (const floor of floors) {
 }
 
 // Chests and boxes: narrow to the checks in the rooms this floor covers.
+// Claimed globally, for the same reason entrances are: sheets sharing an area
+// share its pool, and two markers on one check would tick each other off.
+const takenChecks = new Set();
+
 for (const floor of floors) {
   const binding = floorBinding[floor.id];
   const roomIds = binding?.roomIds ?? [];
@@ -401,9 +473,15 @@ for (const floor of floors) {
 
   for (const marker of floor.containers) {
     const wanted = marker.type === 'chest' ? 'Chest' : 'Box';
-    const candidateChecks = pool.filter((c) => c.type === wanted);
+    const candidateChecks = pool
+      .filter((c) => c.type === wanted && !takenChecks.has(c.apLocationId));
+    const rivals = floor.containers.filter((m) => (m.type === 'chest' ? 'Chest' : 'Box') === wanted);
 
-    if (candidateChecks.length === 1) {
+    // One candidate is only conclusive if one marker wants it. Two chests on a
+    // sheet and one chest in the area is not a match, it is a mis-bound floor —
+    // and handing both markers the same check made them tick each other off.
+    if (candidateChecks.length === 1 && rivals.length === 1) {
+      takenChecks.add(candidateChecks[0].apLocationId);
       markerBinding[marker.id] = {
         kind: 'check',
         checkType: wanted,

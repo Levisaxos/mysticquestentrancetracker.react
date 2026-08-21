@@ -197,9 +197,16 @@ export const LOCATIONS_DATA = {
     },
     {
       "id": 28,
-      "name": "Focus Tower Fireburg",
+      "name": "Focus Tower Frozen Strip",
       "type": "door",
       "x": 395,
+      "y": 349
+    },
+    {
+      "id": 849,
+      "name": "Focus Tower Fireburg",
+      "type": "door",
+      "x": 347,
       "y": 349
     },
     {

@@ -29,6 +29,7 @@
     "test:ci": "vitest run",
     "sync-data": "node scripts/sync-ffmq-data.mjs",
     "build-binding": "node scripts/build-binding.mjs",
+    "audit-doors": "node scripts/audit-doors.mjs",
     "fix-sprites": "node scripts/fix-sprite-transparency.mjs",
     "rename-markers": "node scripts/rename-markers-canonical.mjs"
   },

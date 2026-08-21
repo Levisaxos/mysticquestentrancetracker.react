@@ -145,14 +145,30 @@ describe('fixed destinations on our own maps', () => {
     expect(fixedMarkerLinksFor(EVERYTHING).size).toBe(0);
   });
 
-  // Falls Basin used to claim it led into Bone Dungeon, because our Bone
-  // Dungeon B2 sheet had been matched to the game's Fall Basin area on
-  // geometry alone. Naming nothing beats naming the wrong dungeon.
-  test('a floor matched on geometry alone is not named as a destination', () => {
-    const fallsBasin = marker('10101', 'Falls Basin');
-    const boneB2 = marker('20308', 'Main Exit');
+  // Falls Basin used to claim it led into Bone Dungeon: our Bone Dungeon B2
+  // sheet had been handed the game's Fall Basin area on geometry alone, because
+  // no name could vouch for the right one either way.
+  test('Falls Basin leads into Falls Basin', () => {
+    const target = fixedMarkerLinksFor(NONE).get(marker('10101', 'Falls Basin'));
+    expect(LOCATIONS_DATA['40301'].map((m) => m.id)).toContain(target);
+  });
 
-    expect(fixedMarkerLinksFor(NONE).get(fallsBasin)).toBeUndefined();
-    expect([...fixedMarkerLinksFor(NONE).values()]).not.toContain(boneB2);
+  // The Bone Dungeon B2 sheets are still mis-bound, so they are still gated.
+  // Naming nothing beats naming the wrong dungeon.
+  test('a floor matched on geometry alone is not named as a destination', () => {
+    const links = fixedMarkerLinksFor(NONE);
+    expect(links.get(marker('20308', 'Main Exit'))).toBeUndefined();
+    expect([...links.values()]).not.toContain(marker('20308', 'Main Exit'));
+  });
+
+  // Every one of these was thrown away by the old substring name test, which
+  // could not see that "Pazuzu's Tower" and the area "Pazuzu 1F" are the same
+  // place, so the whole tower and the whole of Mac's Ship went unmatched.
+  test('stairs within one dungeon connect to each other', () => {
+    const links = fixedMarkerLinksFor(NONE);
+
+    expect(links.get(marker('60401', 'South Stairs'))).toBe(marker('60402', 'South Stairs'));
+    expect(links.get(marker('20103', "Kaeli's House Entrance")))
+      .toBe(marker('20102', "Kaeli's House"));
   });
 });

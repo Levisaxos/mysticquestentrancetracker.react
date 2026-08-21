@@ -11,7 +11,7 @@ import { locationTrackerService } from '../services/locationTrackerService';
 import { itemService } from '../services/itemService';
 import { gameService } from '../services/gameService';
 import { computeMarkerStatus } from '../engine/markerStatus';
-import { isShuffled } from '../engine/reachability';
+import { poolOf, vanillaLinksFor, markerOfEntrance } from '../engine/pools';
 import binding from '../data/binding.json';
 import { LOCATIONS_DATA } from '../constants/locationsData';
 
@@ -41,9 +41,15 @@ const GameTracker = ({ game, onCloseGame }) => {
     // canonical entrance ids. Translating through the binding is what makes a
     // link actually affect reachability — without it the engine silently sees
     // no links at all.
-    const discoveredLinks = {};
-    const droppedLinks = new Map();
     const settings = game.settings ?? {};
+
+    // Anything this run does not shuffle has a fixed destination, so fill it in
+    // rather than presenting it as something still to discover. A run with no
+    // shuffle at all therefore starts fully linked, and a dungeons-only run
+    // starts with its towns and overworld already done.
+    const vanillaLinks = vanillaLinksFor(settings);
+    const discoveredLinks = { ...vanillaLinks };
+    const droppedLinks = new Map();
     for (const [from, to] of Object.entries(game.doorConnections ?? {})) {
       const fromMarker = from.replace('door_', '');
       const toMarker = String(to).replace('door_', '');
@@ -55,7 +61,7 @@ const GameTracker = ({ game, onCloseGame }) => {
       if (fromEntrance == null || toEntrance == null) {
         // One end has no binding, so the engine has nothing to connect.
         droppedLinks.set(Number(fromMarker), 'unmapped');
-      } else if (!isShuffled(fromEntrance, settings)) {
+      } else if (!poolOf(fromEntrance, settings)) {
         // The run's settings say this door is not shuffled, so the engine uses
         // its vanilla destination and quietly throws the link away. That is
         // almost always a wrong Map Shuffle setting rather than a wrong link,
@@ -79,6 +85,16 @@ const GameTracker = ({ game, onCloseGame }) => {
       else for (const id of bound?.candidates ?? []) collectedApIds.add(id);
     }
 
+    // The same fixed links, expressed in marker ids so the map can show them.
+    // Kept out of the save: they are a consequence of the run's settings, not
+    // something the player recorded, and they must change if the settings do.
+    const fixedLinks = new Map();
+    for (const [from, to] of Object.entries(vanillaLinks)) {
+      const fromMarker = markerOfEntrance(Number(from));
+      const toMarker = markerOfEntrance(Number(to));
+      if (fromMarker != null && toMarker != null) fixedLinks.set(fromMarker, toMarker);
+    }
+
     return {
       ...computeMarkerStatus({
         ownedItems: itemService.getOwnedCounts(gameId),
@@ -87,6 +103,7 @@ const GameTracker = ({ game, onCloseGame }) => {
         collectedApIds,
       }),
       droppedLinks,
+      fixedLinks,
     };
   }, [gameId, refreshTrigger]);
 
@@ -169,6 +186,9 @@ const GameTracker = ({ game, onCloseGame }) => {
         // Normal mode: follow an existing link, or open the picker to make one
         if (linkedDoorId) {
           navigateToLinkedDoor(linkedDoorId);
+        } else if (logic?.fixedLinks.has(location.id)) {
+          // Fixed by the run's settings — there is nothing for the player to
+          // decide, so opening the picker would only offer refusals.
         } else {
           setLinkingFrom({ location, floorId: currentFloorId });
         }
@@ -305,6 +325,8 @@ const GameTracker = ({ game, onCloseGame }) => {
         onLocationRightClick={handleLocationRightClick}
         refreshTrigger={refreshTrigger}
         markerStatus={logic?.status}
+        droppedLinks={logic?.droppedLinks}
+        fixedLinks={logic?.fixedLinks}
       />
 
       <RunSettingsModal

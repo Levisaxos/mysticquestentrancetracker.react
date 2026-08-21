@@ -15,6 +15,7 @@ const TrackerLocationButton = ({
   editMode, // New prop for edit mode
   status, // { state, reason } from the logic engine, if this marker is bound
   linkIgnored, // linked by the player, but not mapped to canonical logic yet
+  fixedLinkTo, // this run does not shuffle this door, so its destination is known
   onLocationClick,
   onLocationRightClick
 }) => {
@@ -84,6 +85,16 @@ const TrackerLocationButton = ({
             text: '', // No text for connected doors
             color: 'bg-yellow-600 hover:bg-yellow-500',
             size: 'w-6 h-6 text-xs',
+            isText: true
+          };
+        }
+
+        // Fixed by the run's settings: known destination, nothing to record.
+        if (fixedLinkTo != null) {
+          return {
+            text: '',
+            color: 'bg-slate-600/60 hover:bg-slate-500/70',
+            size: 'w-4 h-4 text-xs',
             isText: true
           };
         }
@@ -219,6 +230,15 @@ const TrackerLocationButton = ({
         } else if (linkIgnored) {
           lines.push('⚠ Ignored — this marker is not mapped to game logic yet');
         }
+        return lines;
+      }
+
+      // A door this run does not shuffle already has a known destination.
+      // Presenting it as something to discover would be busywork.
+      if (fixedLinkTo != null) {
+        lines.push(location.name);
+        lines.push(`Goes to ${describeMarkerLocation(fixedLinkTo)}`);
+        lines.push('Fixed — this run does not shuffle this door');
         return lines;
       }
 

@@ -14,7 +14,8 @@ export function TrackerMapViewer({
   onLocationRightClick,
   refreshTrigger,
   markerStatus,
-  droppedLinks
+  droppedLinks,
+  fixedLinks
 }) {
   const [isImageLoading, setIsImageLoading] = useState(false);
   const [imageError, setImageError] = useState(false);
@@ -193,6 +194,7 @@ export function TrackerMapViewer({
                   editMode={editMode}
                   status={markerStatus?.get(location.id)}
                   linkIgnored={droppedLinks?.get(location.id)}
+                  fixedLinkTo={fixedLinks?.get(location.id)}
                   onLocationClick={onLocationClick}
                   onLocationRightClick={onLocationRightClick}
                 />

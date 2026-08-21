@@ -2,6 +2,9 @@ import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { LOCATIONS_DATA } from '../constants/locationsData';
 import { locationTrackerService } from '../services/locationTrackerService';
 import { assetUrl } from '../utils/assetUrl';
+import { canPair, pairingProblem, locationOfMarkerId, isIntraDungeon } from '../engine/pools';
+import { gameService } from '../services/gameService';
+import binding from '../data/binding.json';
 
 /**
  * Pick the entrance a door links to.
@@ -26,6 +29,14 @@ export default function LinkPickerModal({
   const imgRef = useRef(null);
 
   const allFloors = useMemo(() => navigationService.getAllFloorData(), [navigationService]);
+  const settings = useMemo(() => gameService.getSettings(gameId), [gameId]);
+
+  // Which entrance we are linking *from*, in canonical terms. The shuffle mode
+  // decides what may pair with it — an overworld icon never pairs with a
+  // dungeon door, and "Dungeons Internal" keeps floors inside their own dungeon.
+  const sourceEntranceId = sourceLocation
+    ? binding.markers[String(sourceLocation.id)]?.entranceId ?? null
+    : null;
 
   // Which doors on each floor are still free? Drives both the counts in the list
   // and the ordering, since a floor with nothing left is rarely the target.
@@ -36,11 +47,23 @@ export default function LinkPickerModal({
       const doors = (LOCATIONS_DATA[String(floor.floorId)] ?? []).filter((m) => m.type === 'door');
       const unlinked = doors.filter((door) => {
         if (door.id === sourceLocation?.id) return false;
-        return !locationTrackerService.getLinkedDoor(gameId, door.id);
+        if (locationTrackerService.getLinkedDoor(gameId, door.id)) return false;
+
+        // "Dungeons Internal" is checked against our own map hierarchy rather
+        // than the canonical binding, so the rule still holds for the markers
+        // the binding has not resolved yet.
+        if (isIntraDungeon(settings)
+            && locationOfMarkerId(door.id) !== locationOfMarkerId(sourceLocation?.id)) {
+          return false;
+        }
+
+        const targetEntrance = binding.markers[String(door.id)]?.entranceId;
+        if (sourceEntranceId == null || targetEntrance == null) return true;
+        return canPair(sourceEntranceId, targetEntrance, settings);
       });
       return { ...floor, doorCount: doors.length, unlinkedCount: unlinked.length };
     });
-  }, [isOpen, allFloors, gameId, sourceLocation]);
+  }, [isOpen, allFloors, gameId, sourceLocation, sourceEntranceId, settings]);
 
   // Open on the floor you were already looking at: linking two doors on the same
   // screen stays a two-click operation.
@@ -102,10 +125,24 @@ export default function LinkPickerModal({
     if (door.id === sourceLocation.id) return { disabled: true, reason: 'this is the door you are linking from' };
 
     const linkedTo = locationTrackerService.getLinkedDoor(gameId, door.id);
-    if (linkedTo) return { disabled: true, reason: `already linked to location ${linkedTo}` };
+    if (linkedTo) return { disabled: true, reason: 'already linked' };
 
     const state = locationTrackerService.getLocationState(gameId, door.id);
     if (state?.isDisabled) return { disabled: true, reason: 'marked as unusable' };
+
+    // The shuffle mode decides what can legally pair with the source. Offering
+    // an impossible pairing and letting the logic quietly ignore it is how a
+    // tracker ends up lying to you.
+    if (isIntraDungeon(settings)
+        && locationOfMarkerId(door.id) !== locationOfMarkerId(sourceLocation.id)) {
+      return { disabled: true, reason: 'Dungeons Internal only shuffles floors within the same dungeon' };
+    }
+
+    const targetEntrance = binding.markers[String(door.id)]?.entranceId;
+    if (sourceEntranceId != null && targetEntrance != null) {
+      const problem = pairingProblem(sourceEntranceId, targetEntrance, settings);
+      if (problem) return { disabled: true, reason: problem };
+    }
 
     return { disabled: false, reason: 'click to link' };
   };

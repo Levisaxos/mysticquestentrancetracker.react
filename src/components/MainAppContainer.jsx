@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import MainHeader from './MainHeader';
+import Footer from './Footer';
 import GameList from './GameList';
 import GameTracker from './GameTracker';
 import { gameService } from '../services/gameService';
@@ -83,6 +84,8 @@ const MainAppContainer = () => {
       />
       
       {renderCurrentMode()}
+
+      <Footer />
     </div>
   );
 };

@@ -9,17 +9,17 @@ grouped by where the chain breaks — each group needs a different fix.
 | | |
 |---|---|
 | door markers | 356 |
-| connected automatically | 292 |
-| need a decision | 64 |
+| connected automatically | 294 |
+| need a decision | 62 |
 
 ## No canonical binding (30)
 
 The marker is not tied to an entrance in the game data at all, usually because our map sheet is finer-grained than the game's areas and lost the one-to-one race for one. Fixing these means binding the floor or the marker by hand.
 
-- **Wintry Cave · Third Floor — Entrance 2** — floor is bound to "Wintry Cave 3F Top" but this marker matched none of its entrances
 - **Spencers Place · After Using Me — Entrance** — floor is bound to "Spencer Cave Unplug" but this marker matched none of its entrances
 - **Mine · Main Area — Entrance** — floor is bound to "Mine Exterior" but this marker matched none of its entrances
 - **Mine · Third Area — Entrance** — floor is bound to "Phoebe's House" but this marker matched none of its entrances
+- **Mine · Fourth Area — Entrance** — floor is bound to "Wintry Cave 3F Bottom" but this marker matched none of its entrances
 - **Volcano · Third Area — Left Entrance** — this floor is not bound to any area in the game data
 - **Volcano · Third Area — Right Entrance** — this floor is not bound to any area in the game data
 - **Volcano · Third Area — Left Exit** — this floor is not bound to any area in the game data
@@ -78,12 +78,10 @@ The door itself is bound and its destination is known, but nothing on our maps s
 - **Pazuzu's Tower · Sixth Floor — West Stairs** — leads to e394 "Pazuzu 4F to 6F - North Stairs", which no marker on our maps claims
 - **Ship Dock · Inside — Mobius Teleporter Script** — leads to e336 "Windia Old People House Basement - Mobius Teleporter Script", which no marker on our maps claims
 
-## Binding not trusted (8)
+## Binding not trusted (6)
 
 Both ends are bound, but one sheet was matched to its game area on geometry alone with no name agreeing, which is roughly a coin flip. The tracker refuses to name a destination from those rather than risk pointing at the wrong dungeon.
 
-- **Wintry Cave · Second Floor — To 3F Bottom** — would lead to Mine · Fourth Area — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Mine · Fourth Area — Entrance** — would lead to Wintry Cave · Second Floor — To 3F Bottom — but one of those sheets was matched on geometry alone, so it is not trusted
 - **Windia · Inn Second Floor — Stairs** — would lead to Pazuzu's Tower · Second Floor — West Upper Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
 - **Windia · Otto's House Second Floor — Stairs** — would lead to Pazuzu's Tower · Fourth Floor — Southwest Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
 - **Windia · House Near Entrance — Stairs** — would lead to Mac's Ship · Second Basement — South Stairs — but one of those sheets was matched on geometry alone, so it is not trusted

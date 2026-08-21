@@ -1440,7 +1440,7 @@ export const LOCATIONS_DATA = {
     },
     {
       "id": 246,
-      "name": "To Climbing Wall Room",
+      "name": "To 5F Stairs",
       "type": "door",
       "x": 63,
       "y": 276
@@ -1477,7 +1477,7 @@ export const LOCATIONS_DATA = {
     },
     {
       "id": 251,
-      "name": "To 5F Stairs",
+      "name": "To Climbing Wall Room",
       "type": "door",
       "x": 52,
       "y": 131
@@ -1606,14 +1606,14 @@ export const LOCATIONS_DATA = {
     },
     {
       "id": 268,
-      "name": "To 3F Bottom",
+      "name": "To 1F",
       "type": "door",
       "x": 115,
       "y": 314
     },
     {
       "id": 269,
-      "name": "Exit",
+      "name": "To 3F Bottom",
       "type": "door",
       "x": 434,
       "y": 104

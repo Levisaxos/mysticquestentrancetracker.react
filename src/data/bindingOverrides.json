@@ -13,6 +13,10 @@
     "20309": [38],
     "40103": [44],
     "40105": [43],
+    "40206": [70],
+    "40207": [53],
+    "40402": [48],
+    "40403": [49, 50],
     "50102": [82],
     "50103": [83],
     "50105": [78],
@@ -39,6 +43,12 @@
     "187": 97,
     "188": 96,
     "192": 93,
+    "246": 141,
+    "251": 113,
+    "268": 104,
+    "269": 103,
+    "273": 105,
+    "274": 106,
     "275": 148,
     "276": 143,
     "301": 177,
@@ -59,6 +69,11 @@
   "missingMarkers": {
     "_comment": "Doors the game has that our sheets do not draw yet, with where they belong. scripts/audit-doors.mjs finds these; this records what to do about them. Empty is the goal."
   },
+  "todo": {
+    "_comment": "Open questions that need checking in the game itself, because the data cannot settle them.",
+
+    "m280 Spencers Place / After Using Me - Entrance": "Sits 0.44 tiles from e152, Spencer Cave Unplug - Exit to Overworld, which the randomizer has no link for and so never shuffles. Two readings: it is the same physical door as m278 on the Inside sheet, which the randomizer models once as e151 and which would make this marker a duplicate to delete like the Level Forest exit; or it is a genuine second way out that the randomizer folds into the first. Needs checking in game."
+  },
   "reasoning": {
     "20105 Foresta / Southern House": "Is the Rest House interior. Its one door (m64) is the Rest House Exit, e50, which pairs back to m54 on Restored Foresta. Geometry had put it in Wintry Cave.",
     "20303 Foresta -> Bone Dungeon B1 Area 2": "The Checker Room, room 28. Two doors, matching the room's two entrances: Entrance is To Waterway (e61, pairs with m81 Exit Waterway), Exit is Exit Checker Room (e60, pairs with m94).",
@@ -74,6 +89,9 @@
     "174 Aquaria / Unfrozen Aquaria - Spencers Place": "e90, the Summer-side door to Spencer's Place. Geometry cannot reach this one: our single town sheet serves both the game's Winter and Summer areas, which have different origins, so this marker sits 30 tiles from either candidate. It is settled instead by its far side — m275 is e148, and e148 pairs with e90.",
     "192 Aquaria / Phoebe's House - Main Entrance": "e93, its own front door, pairing back to m173 in the town. Pinned because it does not stay put otherwise: freeing e89 when the Inn was corrected let this marker drift onto it, which in turn pushed e93 out to a Fireburg sheet. One wrong binding moving makes its neighbours move.",
     "Fireburg houses (50102, 50103, 50105-50108)": "Named on our maps for where they sit in town and in the game for what they are, so nothing matched: Southwest House is the Vendor House (room 80), Southwest House Warp is the Gemini Room (81), Arion's Friend's House is GrenadeMan's House (78), its Warp is the Mobius Room (79), Hotel is the Hotel Lobby (82) and Hotel Second Floor is the Beds (83). Each sheet's two doors fit its room at one shared offset to within a quarter tile, where swapping them lands 4 to 28 tiles out — so which door is which is not a guess either.",
+    "40206 and 40207 Ice Pyramid": "These two sheets were swapped. Fifth Floor - Area 2 is the Ice Golem Room (room 70) and First Basement - Area 1 is the B1 Taunt Room (room 53), not the reverse: our sheets carry one chest and three-boxes-and-a-chest respectively, and those rooms carry exactly that, the other way round from how they were bound. Inside Ice Pyramid the name test is no help — every sheet shares \"ice pyramid\" with every area — so geometry decided it alone and got these two the wrong way round. Their doors follow: m246 is e141 and m251 is e113.",
+    "40402 Wintry Cave / Second Floor": "Its two doors are named the wrong way round: To 3F Bottom is the way back down to 1F (e104) and Exit is the one to 3F Bottom (e103). That assignment fits both markers at one offset to within 0.14 of a tile, where the names as written land 47 tiles out. Renamed to match.",
+    "40403 Wintry Cave / Third Floor": "One sheet for the game's two areas, 3F Top (room 49) and 3F Bottom (room 50), which have different origins — so no single offset fits both doors and geometry cannot settle them. Exit from 3F Top is e105, back to 1F; Entrance 2 is e106, the way down to 2F, which is the far side of m269.",
     "40601 Libra Temple / Inside": "Its two doors were swapped: the upper one (m286) is the Libra crest tile to Life Temple (e76) and the lower one (m287) is the door to the overworld (e75). Both markers land within 0.15 tiles of those entrances at a shared offset of about (0.5, 0.5), where the binding it came up with fits one marker and misses the other by seven tiles. It went wrong because align() buckets offsets by rounding, and a true offset sitting on the .5 boundary rounds the two correct pairings into different buckets, so neither ever gathers a second vote and a coincidence wins on the tie-break."
   }
 }

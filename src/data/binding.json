@@ -5,8 +5,8 @@
     "totals": {
       "markers": 599,
       "bound": 569,
-      "entranceHigh": 237,
-      "entranceReview": 89,
+      "entranceHigh": 243,
+      "entranceReview": 83,
       "battlefield": 20,
       "container": 32,
       "unresolved": 191
@@ -450,31 +450,31 @@
       ]
     },
     "40206": {
-      "areaId": 34,
-      "areaLabel": "Ice Pyramid B1 Taunt Room",
-      "offset": [
-        39,
-        -11
-      ],
-      "confidence": "name-only",
-      "matchedMarkers": 1,
-      "totalMarkers": 1,
-      "roomIds": [
-        53
-      ]
-    },
-    "40207": {
       "areaId": 42,
       "areaLabel": "Ice Pyramid Ice Golem Room",
       "offset": [
-        41,
-        35
+        40,
+        26
       ],
-      "confidence": "name-only",
+      "confidence": "manual",
       "matchedMarkers": 1,
       "totalMarkers": 1,
       "roomIds": [
         70
+      ]
+    },
+    "40207": {
+      "areaId": 34,
+      "areaLabel": "Ice Pyramid B1 Taunt Room",
+      "offset": [
+        40,
+        -2
+      ],
+      "confidence": "manual",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        53
       ]
     },
     "40208": {
@@ -528,8 +528,8 @@
         51,
         -15
       ],
-      "confidence": "name-only",
-      "matchedMarkers": 1,
+      "confidence": "manual",
+      "matchedMarkers": 2,
       "totalMarkers": 2,
       "roomIds": [
         48
@@ -542,11 +542,12 @@
         22,
         -5
       ],
-      "confidence": "name-only",
-      "matchedMarkers": 1,
+      "confidence": "manual",
+      "matchedMarkers": 2,
       "totalMarkers": 2,
       "roomIds": [
-        49
+        49,
+        50
       ]
     },
     "40501": {
@@ -3278,51 +3279,61 @@
     "245": {
       "kind": "check",
       "checkType": "Chest",
-      "apLocationId": 4325387,
+      "apLocationId": 4325390,
       "confidence": "high",
       "via": "sole-candidate-in-area"
     },
     "246": {
       "kind": "entrance",
-      "entranceId": 113,
-      "confidence": "name-only",
-      "via": "geometry",
-      "distance": 0.26
+      "entranceId": 141,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "247": {
       "kind": "check",
       "checkType": "Box",
       "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325456,
+        4325457,
+        4325458
+      ]
     },
     "248": {
       "kind": "check",
       "checkType": "Box",
       "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325456,
+        4325457,
+        4325458
+      ]
     },
     "249": {
       "kind": "check",
       "checkType": "Box",
       "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325456,
+        4325457,
+        4325458
+      ]
     },
     "250": {
       "kind": "check",
       "checkType": "Chest",
-      "apLocationId": 4325390,
+      "apLocationId": 4325387,
       "confidence": "high",
       "via": "sole-candidate-in-area"
     },
     "251": {
       "kind": "entrance",
-      "entranceId": 141,
-      "confidence": "name-only",
-      "via": "geometry",
-      "distance": 0.31
+      "entranceId": 113,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "252": {
       "kind": "entrance",
@@ -3467,17 +3478,15 @@
     },
     "268": {
       "kind": "entrance",
-      "entranceId": 103,
-      "confidence": "name-only",
-      "via": "geometry",
-      "distance": 0.42
+      "entranceId": 104,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "269": {
       "kind": "entrance",
-      "entranceId": 104,
-      "confidence": "leftover",
-      "via": "leftover-in-bound-area",
-      "distance": 48.09
+      "entranceId": 103,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "270": {
       "kind": "check",
@@ -3486,7 +3495,8 @@
       "via": "narrowed-to-area",
       "candidates": [
         4325451,
-        4325452
+        4325452,
+        4325453
       ]
     },
     "271": {
@@ -3496,7 +3506,8 @@
       "via": "narrowed-to-area",
       "candidates": [
         4325451,
-        4325452
+        4325452,
+        4325453
       ]
     },
     "272": {
@@ -3506,15 +3517,21 @@
       "via": "narrowed-to-area",
       "candidates": [
         4325451,
-        4325452
+        4325452,
+        4325453
       ]
     },
     "273": {
       "kind": "entrance",
       "entranceId": 105,
-      "confidence": "name-only",
-      "via": "geometry",
-      "distance": 0.5
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "274": {
+      "kind": "entrance",
+      "entranceId": 106,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "275": {
       "kind": "entrance",
@@ -3893,13 +3910,6 @@
       "candidates": [
         4325453
       ]
-    },
-    "331": {
-      "kind": "entrance",
-      "entranceId": 106,
-      "confidence": "geometry-only",
-      "via": "geometry",
-      "distance": 0.32
     },
     "332": {
       "kind": "check",

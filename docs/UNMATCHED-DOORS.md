@@ -9,10 +9,10 @@ grouped by where the chain breaks — each group needs a different fix.
 | | |
 |---|---|
 | door markers | 356 |
-| connected automatically | 312 |
-| need a decision | 44 |
+| connected automatically | 318 |
+| need a decision | 38 |
 
-## No canonical binding (19)
+## No canonical binding (14)
 
 The marker is not tied to an entrance in the game data at all, usually because our map sheet is finer-grained than the game's areas and lost the one-to-one race for one. Fixing these means binding the floor or the marker by hand.
 
@@ -25,18 +25,13 @@ The marker is not tied to an entrance in the game data at all, usually because o
 - **Volcano · Third Area — Left Exit** — this floor is not bound to any area in the game data
 - **Volcano · Third Area — Right Exit** — this floor is not bound to any area in the game data
 - **Volcano · Summit — Exit** — floor is bound to "Volcano Top" but this marker matched none of its entrances
-- **Lava Dome · Area 2 — Entrance** — this floor is not bound to any area in the game data
-- **Lava Dome · Area 2 — Exit** — this floor is not bound to any area in the game data
-- **Lava Dome · Area 7 — Entrance** — this floor is not bound to any area in the game data
-- **Lava Dome · Area 7 — Exit** — this floor is not bound to any area in the game data
-- **Lava Dome · Area 10 — Entrance** — this floor is not bound to any area in the game data
-- **Lava Dome · Area 10 — Exit** — this floor is not bound to any area in the game data
+- **Lava Dome · Area 10 — Exit** — floor is bound to "Mac Ship B1 Mac Room Cleared" but this marker matched none of its entrances
 - **Windia · After Lake Restored — Rainbow** — floor is bound to "Windia" but this marker matched none of its entrances
 - **Giant Tree · Fifth Floor — Exit** — floor is bound to "Giant Tree 5F" but this marker matched none of its entrances
 - **Rope Bridge · Rope Bridge — Exit** — floor is bound to "Rope Bridge" but this marker matched none of its entrances
 - **Mac's Ship · First Basement — Stairs #1** — floor is bound to "Mac Ship B1" but this marker matched none of its entrances
 
-## The far side has no marker (19)
+## The far side has no marker (14)
 
 The door itself is bound and its destination is known, but nothing on our maps stands at the other end. These are missing markers — the map sheet needs one adding at the right spot.
 
@@ -53,21 +48,20 @@ The door itself is bound and its destination is known, but nothing on our maps s
 - **Lava Dome · Inside — Door #9** — leads to e230 "Lava Dome Up-Down Corridor - Upper Entrance", which no marker on our maps claims
 - **Lava Dome · Area 1 — Lower Right Stairs** — leads to e247 "Lava Dome Plate Corridor - Left Entrance", which no marker on our maps claims
 - **Lava Dome · Area 3 — Upper Entrance** — leads to e231 "Lava Dome Up-Down Corridor - Lower Entrance", which no marker on our maps claims
-- **Alive Forest · Alive Forest — Entrance** — leads to e52 "Foresta Houses - Gemini House - Gemini House Script", which no marker on our maps claims
-- **Alive Forest · Alive Forest — Crest #2** — leads to e53 "Foresta Houses - Mobius House - Mobius House Script", which no marker on our maps claims
-- **Alive Forest · Alive Forest — Crest #3** — leads to e51 "Foresta Houses - Libra House - Libra House Script", which no marker on our maps claims
 - **Giant Tree · Second Floor - Area 2 — North Face to Meteor** — leads to e285 "Giant Tree Meteor Chest Room - To 2F Mushroom Room", which no marker on our maps claims
-- **Pazuzu's Tower · Fourth Floor — Northwest Stairs** — leads to e392 "Pazuzu 2F to 4F - North Stairs", which no marker on our maps claims
-- **Pazuzu's Tower · Sixth Floor — West Stairs** — leads to e394 "Pazuzu 4F to 6F - North Stairs", which no marker on our maps claims
 
-## Binding not trusted (6)
+## Binding not trusted (10)
 
 Both ends are bound, but one sheet was matched to its game area on geometry alone with no name agreeing, which is roughly a coin flip. The tracker refuses to name a destination from those rather than risk pointing at the wrong dungeon.
 
-- **Alive Forest · Gemini Tree Stump — West Entrance 1** — would lead to Pazuzu's Tower · Second Floor — West Upper Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Alive Forest · Libra Tree Stump — Crest** — would lead to Pazuzu's Tower · Fourth Floor — Southwest Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Alive Forest · Mobius Tree Stump — Crest** — would lead to Mac's Ship · Second Basement — South Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Pazuzu's Tower · Second Floor — West Upper Stairs** — would lead to Alive Forest · Gemini Tree Stump — West Entrance 1 — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Pazuzu's Tower · Fourth Floor — Southwest Stairs** — would lead to Alive Forest · Libra Tree Stump — Crest — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Mac's Ship · Second Basement — South Stairs** — would lead to Alive Forest · Mobius Tree Stump — Crest — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Lava Dome · Area 2 — Entrance** — would lead to Pazuzu's Tower · Second Floor — West Upper Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Lava Dome · Area 2 — Exit** — would lead to Pazuzu's Tower · Fourth Floor — Northwest Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Lava Dome · Area 7 — Entrance** — would lead to Pazuzu's Tower · Fourth Floor — Southwest Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Lava Dome · Area 7 — Exit** — would lead to Pazuzu's Tower · Sixth Floor — West Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Lava Dome · Area 10 — Entrance** — would lead to Mac's Ship · Second Basement — South Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Pazuzu's Tower · Second Floor — West Upper Stairs** — would lead to Lava Dome · Area 2 — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Pazuzu's Tower · Fourth Floor — Southwest Stairs** — would lead to Lava Dome · Area 7 — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Pazuzu's Tower · Fourth Floor — Northwest Stairs** — would lead to Lava Dome · Area 2 — Exit — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Pazuzu's Tower · Sixth Floor — West Stairs** — would lead to Lava Dome · Area 7 — Exit — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Mac's Ship · Second Basement — South Stairs** — would lead to Lava Dome · Area 10 — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
 

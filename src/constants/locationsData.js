@@ -3046,28 +3046,28 @@ export const LOCATIONS_DATA = {
     },
     {
       "id": 460,
-      "name": "Crest",
+      "name": "Mobius Crest",
       "type": "door",
       "x": 393,
       "y": 171
     },
     {
       "id": 461,
-      "name": "Crest",
+      "name": "Gemini Crest",
       "type": "door",
       "x": 920,
       "y": 793
     },
     {
       "id": 743,
-      "name": "Crest #2",
+      "name": "Giant Tree Entrance",
       "type": "door",
-      "x": 920,
-      "y": 793
+      "x": 682,
+      "y": 682
     },
     {
       "id": 744,
-      "name": "Crest #3",
+      "name": "Libra Crest",
       "type": "door",
       "x": 133,
       "y": 838
@@ -3083,7 +3083,7 @@ export const LOCATIONS_DATA = {
     },
     {
       "id": 745,
-      "name": "West Entrance 1",
+      "name": "Crest",
       "type": "door",
       "x": 105,
       "y": 115

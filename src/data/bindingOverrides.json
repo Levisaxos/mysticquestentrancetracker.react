@@ -10,7 +10,15 @@
     "20306": [35, 36, 37],
     "20307": [33],
     "20308": [34],
-    "20309": [38]
+    "20309": [38],
+    "40103": [44],
+    "40105": [43],
+    "50102": [82],
+    "50103": [83],
+    "50105": [78],
+    "50106": [79],
+    "50107": [80],
+    "50108": [81]
   },
   "markers": {
     "_comment": "our marker id -> canonical entrance id.",
@@ -25,16 +33,47 @@
     "102": 70,
     "108": 66,
     "111": 67,
-    "117": 74
+    "117": 74,
+    "174": 90,
+    "180": 98,
+    "187": 97,
+    "188": 96,
+    "192": 93,
+    "275": 148,
+    "276": 143,
+    "301": 177,
+    "302": 176,
+    "303": 178,
+    "306": 168,
+    "307": 169,
+    "308": 170,
+    "309": 171,
+    "310": 172,
+    "311": 173,
+    "312": 174,
+    "313": 175,
+    "286": 76,
+    "287": 75,
+    "850": 63
+  },
+  "missingMarkers": {
+    "_comment": "Doors the game has that our sheets do not draw yet, with where they belong. scripts/audit-doors.mjs finds these; this records what to do about them. Empty is the goal."
   },
   "reasoning": {
     "20105 Foresta / Southern House": "Is the Rest House interior. Its one door (m64) is the Rest House Exit, e50, which pairs back to m54 on Restored Foresta. Geometry had put it in Wintry Cave.",
     "20303 Foresta -> Bone Dungeon B1 Area 2": "The Checker Room, room 28. Two doors, matching the room's two entrances: Entrance is To Waterway (e61, pairs with m81 Exit Waterway), Exit is Exit Checker Room (e60, pairs with m94).",
     "20304 Bone Dungeon B1 Area 3": "The Hidden Room, room 29 — one box, one entrance, which is what the sheet has. It had been bound to the Boss Room area, but the Boss Room is B2 Area 5: that sheet has the Boss Room's two boxes and two chests, and this one does not.",
-    "20305 Bone Dungeon B2 Area 1": "The three Exploding Skull rooms, 30-32. Its e65 and e64 doors already matched; naming the rooms narrows its chests and leaves room for the missing e63 marker (To Hidden Passage) once that is drawn.",
+    "20305 Bone Dungeon B2 Area 1": "The three Exploding Skull rooms, 30-32. Its e65 and e64 doors matched on geometry; m850 was drawn by hand for e63, To Hidden Passage, which the sheet had been missing — that is the far side of m90 on B1 Area 3, the Hidden Room.",
     "20306 Bone Dungeon B2 Area 2": "The three Two Skulls rooms, 35-37, whose four exits are the sheet's four doors: Entrance is To Exploding Skull Room (e71), Right is To Box Room (e68), Left is To Quake Room (e69), Exit is To Boss Room (e70).",
     "20307 Bone Dungeon B2 Area 3": "The Box Room, room 33 — one box, one entrance (e66). Geometry had it in Pazuzu's Tower.",
     "20308 Bone Dungeon B2 Area 4": "The Quake Room, room 34 — one chest, one entrance (e67). Geometry had it in Pazuzu's Tower.",
-    "20309 Bone Dungeon B2 Area 5": "The Boss Room, room 38 — two boxes and two chests, one entrance (e74). Geometry had it in Mac's Ship."
+    "20309 Bone Dungeon B2 Area 5": "The Boss Room, room 38 — two boxes and two chests, one entrance (e74). Geometry had it in Mac's Ship.",
+    "40103 Aquaria / Inn": "Is the Aquaria INN, room 44 — the far side of m171 Winter INN Entrance. It had been handed the Aquaria Summer area, which is not an interior at all but the thawed town itself, and its one door was renamed after a Spencer's Place entrance on the strength of that.",
+    "40105 Aquaria / Northwest House Warp Room": "Is the Aquaria Gemini Room, room 43, reached by the Vendor House stairs. The room has exactly two entrances, so once m187 takes the stairs back up (e97) the Crest is forced: m188 is e96, the Gemini tile to Fireburg's Gemini Room.",
+    "40501 Spencers Place / Passage": "Is the Spencer Waterfall, room 71. Both its doors fit at one offset of about (26, 0.5) to within a fifth of a tile — Entrance is the Aquaria side (e148) and Exit drops into the cave (e143) — where the binding it came up with had Exit on the Aquaria side and an offset that fits neither.",
+    "174 Aquaria / Unfrozen Aquaria - Spencers Place": "e90, the Summer-side door to Spencer's Place. Geometry cannot reach this one: our single town sheet serves both the game's Winter and Summer areas, which have different origins, so this marker sits 30 tiles from either candidate. It is settled instead by its far side — m275 is e148, and e148 pairs with e90.",
+    "192 Aquaria / Phoebe's House - Main Entrance": "e93, its own front door, pairing back to m173 in the town. Pinned because it does not stay put otherwise: freeing e89 when the Inn was corrected let this marker drift onto it, which in turn pushed e93 out to a Fireburg sheet. One wrong binding moving makes its neighbours move.",
+    "Fireburg houses (50102, 50103, 50105-50108)": "Named on our maps for where they sit in town and in the game for what they are, so nothing matched: Southwest House is the Vendor House (room 80), Southwest House Warp is the Gemini Room (81), Arion's Friend's House is GrenadeMan's House (78), its Warp is the Mobius Room (79), Hotel is the Hotel Lobby (82) and Hotel Second Floor is the Beds (83). Each sheet's two doors fit its room at one shared offset to within a quarter tile, where swapping them lands 4 to 28 tiles out — so which door is which is not a guess either.",
+    "40601 Libra Temple / Inside": "Its two doors were swapped: the upper one (m286) is the Libra crest tile to Life Temple (e76) and the lower one (m287) is the door to the overworld (e75). Both markers land within 0.15 tiles of those entrances at a shared offset of about (0.5, 0.5), where the binding it came up with fits one marker and misses the other by seven tiles. It went wrong because align() buckets offsets by rounding, and a true offset sitting on the .5 boundary rounds the two correct pairings into different buckets, so neither ever gathers a second vote and a coincidence wins on the tie-break."
   }
 }

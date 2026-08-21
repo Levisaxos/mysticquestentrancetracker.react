@@ -8,28 +8,18 @@ grouped by where the chain breaks — each group needs a different fix.
 
 | | |
 |---|---|
-| door markers | 355 |
-| connected automatically | 270 |
-| need a decision | 85 |
+| door markers | 356 |
+| connected automatically | 292 |
+| need a decision | 64 |
 
-## No canonical binding (42)
+## No canonical binding (30)
 
 The marker is not tied to an entrance in the game data at all, usually because our map sheet is finer-grained than the game's areas and lost the one-to-one race for one. Fixing these means binding the floor or the marker by hand.
 
-- **Aquaria · Unfrozen Aquaria — Spencers Place** — floor is bound to "Aquaria Winter" but this marker matched none of its entrances
-- **Aquaria · Northwest House Warp Room — Entrance** — this floor is not bound to any area in the game data
-- **Aquaria · Northwest House Warp Room — Crest** — this floor is not bound to any area in the game data
 - **Wintry Cave · Third Floor — Entrance 2** — floor is bound to "Wintry Cave 3F Top" but this marker matched none of its entrances
 - **Spencers Place · After Using Me — Entrance** — floor is bound to "Spencer Cave Unplug" but this marker matched none of its entrances
-- **Fireburg · Hotel — Entrance** — this floor is not bound to any area in the game data
-- **Fireburg · Hotel — Stairs** — this floor is not bound to any area in the game data
-- **Fireburg · Arion's Friend's House Warp — Entrance** — this floor is not bound to any area in the game data
-- **Fireburg · Arion's Friend's House Warp — Crest** — this floor is not bound to any area in the game data
-- **Fireburg · Southwest House — Entrance** — this floor is not bound to any area in the game data
-- **Fireburg · Southwest House — Basement** — this floor is not bound to any area in the game data
-- **Fireburg · Southwest House Warp — Entrance** — this floor is not bound to any area in the game data
-- **Fireburg · Southwest House Warp — Crest** — this floor is not bound to any area in the game data
 - **Mine · Main Area — Entrance** — floor is bound to "Mine Exterior" but this marker matched none of its entrances
+- **Mine · Third Area — Entrance** — floor is bound to "Phoebe's House" but this marker matched none of its entrances
 - **Volcano · Third Area — Left Entrance** — this floor is not bound to any area in the game data
 - **Volcano · Third Area — Right Entrance** — this floor is not bound to any area in the game data
 - **Volcano · Third Area — Left Exit** — this floor is not bound to any area in the game data
@@ -44,8 +34,6 @@ The marker is not tied to an entrance in the game data at all, usually because o
 - **Windia · After Lake Restored — Rainbow** — floor is bound to "Windia" but this marker matched none of its entrances
 - **Windia · Inn — Entrance** — this floor is not bound to any area in the game data
 - **Windia · Inn — Stairs** — this floor is not bound to any area in the game data
-- **Windia · Otto's House Second Floor — Stairs** — this floor is not bound to any area in the game data
-- **Windia · House Near Entrance — Stairs** — this floor is not bound to any area in the game data
 - **Windia · House Above Inn — Entrance** — this floor is not bound to any area in the game data
 - **Windia · House Above Inn — Stairs** — this floor is not bound to any area in the game data
 - **Windia · House Above Inn Warp — Entrance** — this floor is not bound to any area in the game data
@@ -59,20 +47,13 @@ The marker is not tied to an entrance in the game data at all, usually because o
 - **Rope Bridge · Rope Bridge — Exit** — floor is bound to "Rope Bridge" but this marker matched none of its entrances
 - **Mac's Ship · First Basement — Stairs #1** — floor is bound to "Mac Ship B1" but this marker matched none of its entrances
 
-## The far side has no marker (33)
+## The far side has no marker (26)
 
 The door itself is bound and its destination is known, but nothing on our maps stands at the other end. These are missing markers — the map sheet needs one adding at the right spot.
 
-- **Bone Dungeon · First Basement - Area 3 — Boss Room - To B2 - Two Skulls Room** — leads to e63 "Bonne Dungeon B2 - Exploding Skull Room - To Hidden Passage", which no marker on our maps claims
 - **Focus Tower · First Basement — Aero Corridor - To Focus Tower 1F - Sun Coin Room** — leads to e12 "Focus Tower 1F - To Focus Tower B1 - To Aero Chest", which no marker on our maps claims
 - **Focus Tower · First Floor — Focus Tower West Entrance** — leads to e466 "Overworld - Focus Tower Windia", which no marker on our maps claims
-- **Aquaria · Unfrozen Aquaria — Winter INN Entrance** — leads to e98 "Aquaria INN - Aquaria INN entrance", which no marker on our maps claims
-- **Aquaria · Inn — Spencer's Place Entrance Top** — leads to e145 "Spencer Waterfall - Upper Exit to Aquaria 2", which no marker on our maps claims
-- **Aquaria · Northwest House — Vendor House Stairs** — leads to e97 "Aquaria Gemini Room - Gemini Room Stairs", which no marker on our maps claims
-- **Spencers Place · Passage — Exit** — leads to e90 "Aquaria Summer - Spencer's Place Entrance Side", which no marker on our maps claims
-- **Fireburg · Main — Hotel** — leads to e177 "Fireburg Hotel Lobby - Entrance", which no marker on our maps claims
-- **Fireburg · Main — Vendor House** — leads to e172 "Fireburg Vendor House - Entrance Script", which no marker on our maps claims
-- **Fireburg · Arion's Friend's House — To Mobius Crest Room** — leads to e170 "GrenadeMan Mobius Room - Stairs to House", which no marker on our maps claims
+- **Fireburg · Arion's Friend's House Warp — Crest** — leads to e334 "Windia Kid House Basement - Mobius Teleporter", which no marker on our maps claims
 - **Mine · Main Area — To Crescent Room** — leads to e186 "Mine Crescent Room - To Mine Exterior", which no marker on our maps claims
 - **Mine · Main Area — To Climbing Room** — leads to e187 "Mine Climbing Room - To Mine Exterior", which no marker on our maps claims
 - **Volcano · Second Area — Left Exit** — leads to e205 "Volcano Cross Left-Right - To Volcano Left Path", which no marker on our maps claims
@@ -97,18 +78,16 @@ The door itself is bound and its destination is known, but nothing on our maps s
 - **Pazuzu's Tower · Sixth Floor — West Stairs** — leads to e394 "Pazuzu 4F to 6F - North Stairs", which no marker on our maps claims
 - **Ship Dock · Inside — Mobius Teleporter Script** — leads to e336 "Windia Old People House Basement - Mobius Teleporter Script", which no marker on our maps claims
 
-## Binding not trusted (10)
+## Binding not trusted (8)
 
 Both ends are bound, but one sheet was matched to its game area on geometry alone with no name agreeing, which is roughly a coin flip. The tracker refuses to name a destination from those rather than risk pointing at the wrong dungeon.
 
-- **Wintry Cave · Second Floor — To 3F Bottom** — would lead to Fireburg · Hotel Second Floor — South Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Fireburg · Main — GrenadeMan House Script** — would lead to Fireburg · Arion's Friend's House — Entrance Script — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Fireburg · Hotel Second Floor — South Stairs** — would lead to Wintry Cave · Second Floor — To 3F Bottom — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Fireburg · Arion's Friend's House — Entrance Script** — would lead to Fireburg · Main — GrenadeMan House Script — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Mine · Third Area — Entrance** — would lead to Pazuzu's Tower · Second Floor — West Upper Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Mine · Fourth Area — Entrance** — would lead to Pazuzu's Tower · Fourth Floor — Southwest Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Windia · Inn Second Floor — Stairs** — would lead to Mac's Ship · Second Basement — South Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Pazuzu's Tower · Second Floor — West Upper Stairs** — would lead to Mine · Third Area — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Pazuzu's Tower · Fourth Floor — Southwest Stairs** — would lead to Mine · Fourth Area — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Mac's Ship · Second Basement — South Stairs** — would lead to Windia · Inn Second Floor — Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Wintry Cave · Second Floor — To 3F Bottom** — would lead to Mine · Fourth Area — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Mine · Fourth Area — Entrance** — would lead to Wintry Cave · Second Floor — To 3F Bottom — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Windia · Inn Second Floor — Stairs** — would lead to Pazuzu's Tower · Second Floor — West Upper Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Windia · Otto's House Second Floor — Stairs** — would lead to Pazuzu's Tower · Fourth Floor — Southwest Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Windia · House Near Entrance — Stairs** — would lead to Mac's Ship · Second Basement — South Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Pazuzu's Tower · Second Floor — West Upper Stairs** — would lead to Windia · Inn Second Floor — Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Pazuzu's Tower · Fourth Floor — Southwest Stairs** — would lead to Windia · Otto's House Second Floor — Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Mac's Ship · Second Basement — South Stairs** — would lead to Windia · House Near Entrance — Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
 

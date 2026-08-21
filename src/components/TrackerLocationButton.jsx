@@ -26,12 +26,13 @@ const TrackerLocationButton = ({
 
   if (!imageDimensions || !location) return null;
 
-  // Calculate position based on actual rendered image dimensions
-  const scaleX = imageDimensions.width / imageDimensions.naturalWidth;
-  const scaleY = imageDimensions.height / imageDimensions.naturalHeight;
-  
-  const scaledX = location.x * scaleX;
-  const scaledY = location.y * scaleY;
+  // Position as a fraction of the image, not as measured pixels. The measured
+  // rendered size is a snapshot, and it goes stale the moment the window is
+  // resized — every marker then sits at the old scale until you navigate away
+  // and back. A percentage of the natural size needs no measuring: the browser
+  // rescales it for us, and the natural size never changes once loaded.
+  const leftPercent = (location.x / imageDimensions.naturalWidth) * 100;
+  const topPercent = (location.y / imageDimensions.naturalHeight) * 100;
 
   const getLocationDisplay = () => {
     switch (location.type) {
@@ -266,8 +267,8 @@ const TrackerLocationButton = ({
     <div
       className="absolute"
       style={{
-        left: `${scaledX}px`,
-        top: `${scaledY}px`,
+        left: `${leftPercent}%`,
+        top: `${topPercent}%`,
         transform: 'translate(-50%, -50%)',
         // The transform above creates a stacking context, so a z-index on the
         // tooltip alone only competes *inside* this wrapper — sibling markers

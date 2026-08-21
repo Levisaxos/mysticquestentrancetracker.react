@@ -641,6 +641,13 @@ export const LOCATIONS_DATA = {
       "type": "door",
       "x": 495,
       "y": 251
+    },
+    {
+      "id": 850,
+      "name": "Exploding Skull Room - To Hidden Passage",
+      "type": "door",
+      "x": 336,
+      "y": 217
     }
   ],
   "20306": [
@@ -655,8 +662,8 @@ export const LOCATIONS_DATA = {
       "id": 99,
       "name": "Entrance",
       "type": "door",
-      "x": 240,
-      "y": 494
+      "x": 270,
+      "y": 508
     },
     {
       "id": 100,
@@ -995,7 +1002,7 @@ export const LOCATIONS_DATA = {
   "40103": [
     {
       "id": 180,
-      "name": "Spencer's Place Entrance Top",
+      "name": "Entrance",
       "type": "door",
       "x": 185,
       "y": 169
@@ -1735,17 +1742,17 @@ export const LOCATIONS_DATA = {
     },
     {
       "id": 286,
-      "name": "Entrance",
+      "name": "Libra Tile Script",
       "type": "door",
-      "x": 135,
-      "y": 119
+      "x": 129,
+      "y": 131
     },
     {
       "id": 287,
       "name": "Entrance",
       "type": "door",
-      "x": 152,
-      "y": 234
+      "x": 153,
+      "y": 230
     }
   ],
   "40701": [

@@ -1,5 +1,6 @@
 import { describe, test, expect } from 'vitest';
 import { computeMarkerStatus, summariseMarkerStates, STATE_STYLES } from './markerStatus';
+import { vanillaLinksFor } from './pools';
 import binding from '../data/binding.json';
 import { LOCATIONS_DATA } from '../constants/locationsData';
 
@@ -119,5 +120,33 @@ describe('the palette', () => {
       expect(STATE_STYLES[state].marker).toBeTruthy();
       expect(STATE_STYLES[state].label).toBeTruthy();
     }
+  });
+});
+
+// A run with no shuffle used to be handed every vanilla pairing as if the
+// player had walked it. That made "has a link" meaningless: every door was
+// described by the little pocket of rooms directly behind it, with no
+// unexplored exit left anywhere, so Foresta and Sand Temple both went red.
+describe('a run that shuffles nothing', () => {
+  const VANILLA = { mapShuffle: 'none', overworldShuffle: false, skyCoinMode: 'standard' };
+
+  test('reachable doors still read as in logic', () => {
+    const { status } = computeMarkerStatus({ settings: VANILLA });
+
+    expect(stateOf(status, '10101', 'Foresta')).toBe('in-logic');
+    expect(stateOf(status, '10101', 'Sand Temple')).toBe('in-logic');
+  });
+
+  test('and are not nagged about being unlinked', () => {
+    const { status } = computeMarkerStatus({ settings: VANILLA });
+    expect(status.get(marker('10101', 'Foresta').id).reason).toBe('reachable');
+  });
+
+  test('feeding the vanilla pairings in as discoveries is what broke it', () => {
+    const { status } = computeMarkerStatus({
+      settings: VANILLA,
+      discoveredLinks: vanillaLinksFor(VANILLA),
+    });
+    expect(stateOf(status, '10101', 'Sand Temple')).not.toBe('in-logic');
   });
 });

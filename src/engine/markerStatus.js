@@ -3,7 +3,7 @@ import checks from '../data/ffmq/checks.json';
 import internalLinks from '../data/ffmq/internalLinks.json';
 import overworldEntranceIds from '../data/ffmq/overworldEntrances.json';
 import entranceLinks from '../data/ffmq/entranceLinks.json';
-import { computeReachability, classifyChecks } from './reachability';
+import { computeReachability, classifyChecks, isShuffled } from './reachability';
 import { firstUnmet, describeRequirement, meetsRequirements } from './rules';
 
 const checkByApId = new Map(checks.map((c) => [c.apLocationId, c]));
@@ -88,7 +88,7 @@ export function computeMarkerStatus({
     });
 
   const checkStates = classifyChecks(strict, permissive);
-  const context = { strict, permissive, checkStates, collectedApIds, discoveredLinks };
+  const context = { strict, permissive, checkStates, collectedApIds, discoveredLinks, settings };
   const status = new Map();
 
   for (const [markerId, bound] of Object.entries(binding.markers)) {
@@ -119,7 +119,7 @@ function describeMarker(bound, context) {
 }
 
 function describeEntrance(bound, context) {
-  const { strict, permissive, discoveredLinks } = context;
+  const { strict, permissive, discoveredLinks, settings } = context;
 
   const partnerId = discoveredLinks[bound.entranceId];
   if (partnerId != null) {
@@ -137,7 +137,12 @@ function describeEntrance(bound, context) {
   }
 
   if (strict.reachableEntrances.has(bound.entranceId)) {
-    return { state: 'in-logic', reason: 'reachable, not yet linked' };
+    // "not yet linked" is a to-do, so only say it where linking is the player's
+    // job. A door this run does not shuffle already goes where it goes.
+    return {
+      state: 'in-logic',
+      reason: isShuffled(bound.entranceId, settings) ? 'reachable, not yet linked' : 'reachable',
+    };
   }
   if (permissive?.reachableEntrances.has(bound.entranceId)) {
     return { state: 'out-of-logic', reason: 'only reachable out of logic' };

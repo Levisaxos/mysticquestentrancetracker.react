@@ -11,7 +11,7 @@ import { locationTrackerService } from '../services/locationTrackerService';
 import { itemService } from '../services/itemService';
 import { gameService } from '../services/gameService';
 import { computeMarkerStatus } from '../engine/markerStatus';
-import { poolOf, vanillaLinksFor, markerOfEntrance } from '../engine/pools';
+import { poolOf, fixedMarkerLinksFor } from '../engine/pools';
 import binding from '../data/binding.json';
 import { LOCATIONS_DATA } from '../constants/locationsData';
 
@@ -43,12 +43,13 @@ const GameTracker = ({ game, onCloseGame }) => {
     // no links at all.
     const settings = game.settings ?? {};
 
-    // Anything this run does not shuffle has a fixed destination, so fill it in
-    // rather than presenting it as something still to discover. A run with no
-    // shuffle at all therefore starts fully linked, and a dungeons-only run
-    // starts with its towns and overworld already done.
-    const vanillaLinks = vanillaLinksFor(settings);
-    const discoveredLinks = { ...vanillaLinks };
+    // Only what the *player* recorded belongs in here. Doors this run does not
+    // shuffle already resolve to their vanilla destination inside the engine,
+    // so pre-filling them buys nothing — and costs plenty: "has a link" is also
+    // how the engine tells an exit you have walked through from one you have
+    // not, so a vanilla run came out with every door claiming nothing was left
+    // behind it. The fixed destinations are a display concern, below.
+    const discoveredLinks = {};
     const droppedLinks = new Map();
     for (const [from, to] of Object.entries(game.doorConnections ?? {})) {
       const fromMarker = from.replace('door_', '');
@@ -85,15 +86,11 @@ const GameTracker = ({ game, onCloseGame }) => {
       else for (const id of bound?.candidates ?? []) collectedApIds.add(id);
     }
 
-    // The same fixed links, expressed in marker ids so the map can show them.
-    // Kept out of the save: they are a consequence of the run's settings, not
-    // something the player recorded, and they must change if the settings do.
-    const fixedLinks = new Map();
-    for (const [from, to] of Object.entries(vanillaLinks)) {
-      const fromMarker = markerOfEntrance(Number(from));
-      const toMarker = markerOfEntrance(Number(to));
-      if (fromMarker != null && toMarker != null) fixedLinks.set(fromMarker, toMarker);
-    }
+    // Where the unshuffled doors go, in marker ids, so the map can name them and
+    // walk through them. Kept out of the save: they are a consequence of the
+    // run's settings, not something the player recorded, and they must change if
+    // the settings do.
+    const fixedLinks = fixedMarkerLinksFor(settings);
 
     return {
       ...computeMarkerStatus({
@@ -184,11 +181,13 @@ const GameTracker = ({ game, onCloseGame }) => {
         }
       } else {
         // Normal mode: follow an existing link, or open the picker to make one
+        const fixedTarget = logic?.fixedLinks.get(location.id);
         if (linkedDoorId) {
           navigateToLinkedDoor(linkedDoorId);
-        } else if (logic?.fixedLinks.has(location.id)) {
-          // Fixed by the run's settings — there is nothing for the player to
-          // decide, so opening the picker would only offer refusals.
+        } else if (fixedTarget != null) {
+          // Fixed by the run's settings: there is nothing to decide, so clicking
+          // means "take me there" rather than "let me record where this goes".
+          navigateToLinkedDoor(fixedTarget);
         } else {
           setLinkingFrom({ location, floorId: currentFloorId });
         }

@@ -90,11 +90,14 @@ const TrackerLocationButton = ({
         }
 
         // Fixed by the run's settings: known destination, nothing to record.
+        // Full size, like any other door — the small marker means "dealt with,
+        // stop looking at me", and knowing where a door goes is not the same as
+        // being finished with what is behind it.
         if (fixedLinkTo != null) {
           return {
             text: '',
-            color: 'bg-slate-600/60 hover:bg-slate-500/70',
-            size: 'w-4 h-4 text-xs',
+            color: 'bg-slate-600 hover:bg-slate-500',
+            size: 'w-6 h-6 text-xs',
             isText: true
           };
         }

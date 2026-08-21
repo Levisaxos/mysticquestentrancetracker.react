@@ -1,5 +1,5 @@
 import { describe, test, expect } from 'vitest';
-import { poolOf, canPair, pairingProblem, vanillaPartnerOf, vanillaLinksFor, locationOf } from './pools';
+import { poolOf, canPair, pairingProblem, vanillaPartnerOf, vanillaLinksFor, locationOf, fixedMarkerLinksFor } from './pools';
 import binding from '../data/binding.json';
 import entranceLinks from '../data/ffmq/entranceLinks.json';
 import { LOCATIONS_DATA } from '../constants/locationsData';
@@ -126,5 +126,33 @@ describe('pre-filled vanilla links', () => {
   test('overworld icons are pre-filled unless overworld shuffle is on', () => {
     expect(vanillaLinksFor(INTERNAL)[OVERWORLD_ICON]).toBeDefined();
     expect(vanillaLinksFor(OVERWORLD_ONLY)[OVERWORLD_ICON]).toBeUndefined();
+  });
+});
+
+const marker = (floorId, name) => (LOCATIONS_DATA[floorId] ?? []).find((m) => m.name === name)?.id;
+
+describe('fixed destinations on our own maps', () => {
+  test('an unshuffled overworld icon leads to the door it opens', () => {
+    const links = fixedMarkerLinksFor(NONE);
+
+    expect(links.get(marker('10101', 'Bone Dungeon')))
+      .toBe(marker('20301', 'Bone Dungeon Entrance'));
+    expect(links.get(marker('10101', 'Sand Temple')))
+      .toBe(marker('20501', 'Sand Temple Entrance'));
+  });
+
+  test('shuffled doors have no fixed destination to show', () => {
+    expect(fixedMarkerLinksFor(EVERYTHING).size).toBe(0);
+  });
+
+  // Falls Basin used to claim it led into Bone Dungeon, because our Bone
+  // Dungeon B2 sheet had been matched to the game's Fall Basin area on
+  // geometry alone. Naming nothing beats naming the wrong dungeon.
+  test('a floor matched on geometry alone is not named as a destination', () => {
+    const fallsBasin = marker('10101', 'Falls Basin');
+    const boneB2 = marker('20308', 'Main Exit');
+
+    expect(fixedMarkerLinksFor(NONE).get(fallsBasin)).toBeUndefined();
+    expect([...fixedMarkerLinksFor(NONE).values()]).not.toContain(boneB2);
   });
 });

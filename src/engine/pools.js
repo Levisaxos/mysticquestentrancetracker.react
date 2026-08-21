@@ -46,9 +46,13 @@ for (const region of MAP_DATA.regions) {
 }
 
 const locationOfMarker = new Map();
+const floorOfMarker = new Map();
 for (const [floorId, markers] of Object.entries(LOCATIONS_DATA)) {
   const locationId = locationOfFloor.get(floorId);
-  for (const marker of markers) locationOfMarker.set(marker.id, locationId);
+  for (const marker of markers) {
+    locationOfMarker.set(marker.id, locationId);
+    floorOfMarker.set(marker.id, floorId);
+  }
 }
 
 /**
@@ -177,6 +181,42 @@ export function vanillaLinksFor(settings = {}) {
 
     const partner = vanillaPartnerOf(link.entranceId);
     if (partner != null) links[link.entranceId] = partner;
+  }
+
+  return links;
+}
+
+/**
+ * Is this marker's binding solid enough to name a place to the player?
+ *
+ * A floor matched to the game's own map by geometry alone is close to a coin
+ * flip — no name agreed, only the shape of the marker cloud lined up. That is
+ * how our Bone Dungeon B2 sheet ended up bound to the game's Fall Basin area,
+ * and why the Falls Basin icon claimed it led into Bone Dungeon. Saying nothing
+ * is better than saying that, so those floors are left out.
+ */
+function isTrustedMarker(markerId) {
+  const floorBinding = binding.floors[floorOfMarker.get(markerId)];
+  return floorBinding?.confidence !== 'geometry-only';
+}
+
+/**
+ * Fixed destinations in marker ids, ready for the map to show and to walk
+ * through: marker -> the marker you come out at.
+ *
+ * Only pairs we can place on both ends are included. A door left out simply
+ * behaves as it always did — the player can still link it by hand.
+ */
+export function fixedMarkerLinksFor(settings = {}) {
+  const links = new Map();
+
+  for (const [from, to] of Object.entries(vanillaLinksFor(settings))) {
+    const fromMarker = markerOfEntrance(Number(from));
+    const toMarker = markerOfEntrance(to);
+    if (fromMarker == null || toMarker == null) continue;
+    if (!isTrustedMarker(fromMarker) || !isTrustedMarker(toMarker)) continue;
+
+    links.set(fromMarker, toMarker);
   }
 
   return links;

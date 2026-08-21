@@ -18,10 +18,35 @@ describe('build stamp', () => {
   });
 });
 
-describe('about panel', () => {
-  test('stays collapsed until asked for', () => {
+describe('about dialog', () => {
+  test('stays closed until asked for', () => {
     render(<Footer />);
     expect(screen.queryByText(/Not affiliated with/)).not.toBeInTheDocument();
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+  });
+
+  test('opens as a dialog rather than unfolding the footer', () => {
+    render(<Footer />);
+    fireEvent.click(screen.getByText('About & credits'));
+
+    expect(screen.getByRole('dialog')).toHaveAttribute('aria-modal', 'true');
+  });
+
+  test('closes on Escape', () => {
+    render(<Footer />);
+    fireEvent.click(screen.getByText('About & credits'));
+    fireEvent.keyDown(document, { key: 'Escape' });
+
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+  });
+
+  // Someone weighing whether to trust this deserves to know how it was built.
+  test('says how it was written', () => {
+    render(<Footer />);
+    fireEvent.click(screen.getByText('About & credits'));
+
+    expect(screen.getByText(/Vibe coded with Claude Code/)).toBeInTheDocument();
+    expect(screen.getByText(/not audited software/)).toBeInTheDocument();
   });
 
   test('names the trademark holder and disclaims affiliation', () => {

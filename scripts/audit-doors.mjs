@@ -45,17 +45,35 @@ for (const link of entranceLinks) {
 }
 
 const floorLabel = new Map();
+const floorRegion = new Map();
 for (const region of MAP_DATA.regions) {
   for (const location of region.locations) {
-    for (const floor of location.floors) floorLabel.set(String(floor.id), `${location.name} · ${floor.name}`);
+    for (const floor of location.floors) {
+      floorLabel.set(String(floor.id), `${location.name} · ${floor.name}`);
+      floorRegion.set(String(floor.id), region.name);
+    }
   }
 }
+
 
 const floorOfMarker = new Map();
 const nameOfMarker = new Map();
 for (const [floorId, markers] of Object.entries(LOCATIONS_DATA)) {
   for (const marker of markers) { floorOfMarker.set(marker.id, floorId); nameOfMarker.set(marker.id, marker.name); }
 }
+
+// A vanilla door leaves its region only in ways you can name: onto the world
+// map, between Doom Castle and Focus Tower, or through a crest teleporter. So a
+// pairing that crosses regions and is not one of those is not merely
+// unverified, it is wrong — Pazuzu's Tower does not open into the Lava Dome.
+const WORLD_MAP = 'World Map';
+const crossesRegions = (a, b) => {
+  const from = floorRegion.get(floorOfMarker.get(a));
+  const to = floorRegion.get(floorOfMarker.get(b));
+  if (!from || !to || from === to) return null;
+  if (from === WORLD_MAP || to === WORLD_MAP) return null;
+  return `${from} → ${to}`;
+};
 
 const markerOfEntrance = new Map();
 for (const [markerId, bound] of Object.entries(binding.markers)) {
@@ -102,7 +120,13 @@ for (const [floorId, markers] of Object.entries(LOCATIONS_DATA)) {
     }
 
     if (geometryOnly(marker.id) || geometryOnly(otherMarker)) {
-      buckets.untrustedFloor.push({ where, why: `would lead to ${describe(otherMarker)} — but one of those sheets was matched on geometry alone, so it is not trusted` });
+      const across = crossesRegions(marker.id, otherMarker);
+      buckets.untrustedFloor.push({
+        where,
+        why: across
+          ? `would lead to ${describe(otherMarker)} — ${across}, which cannot be right, so one of those sheets is bound to the wrong area`
+          : `would lead to ${describe(otherMarker)} — but one of those sheets was matched on geometry alone, so it is not trusted`,
+      });
       continue;
     }
 

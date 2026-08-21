@@ -8,37 +8,34 @@ grouped by where the chain breaks — each group needs a different fix.
 
 | | |
 |---|---|
-| door markers | 356 |
-| connected automatically | 318 |
-| need a decision | 38 |
+| door markers | 354 |
+| connected automatically | 322 |
+| need a decision | 32 |
 
-## No canonical binding (14)
+## No canonical binding (13)
 
 The marker is not tied to an entrance in the game data at all, usually because our map sheet is finer-grained than the game's areas and lost the one-to-one race for one. Fixing these means binding the floor or the marker by hand.
 
 - **Spencers Place · After Using Me — Entrance** — floor is bound to "Spencer Cave Unplug" but this marker matched none of its entrances
 - **Mine · Main Area — Entrance** — floor is bound to "Mine Exterior" but this marker matched none of its entrances
-- **Mine · Third Area — Entrance** — floor is bound to "Phoebe's House" but this marker matched none of its entrances
-- **Mine · Fourth Area — Entrance** — floor is bound to "Wintry Cave 3F Bottom" but this marker matched none of its entrances
-- **Volcano · Third Area — Left Entrance** — this floor is not bound to any area in the game data
-- **Volcano · Third Area — Right Entrance** — this floor is not bound to any area in the game data
-- **Volcano · Third Area — Left Exit** — this floor is not bound to any area in the game data
-- **Volcano · Third Area — Right Exit** — this floor is not bound to any area in the game data
+- **Volcano · Third Area — Left Entrance** — floor is bound to "Volcano" but this marker matched none of its entrances
+- **Volcano · Third Area — Right Entrance** — floor is bound to "Volcano" but this marker matched none of its entrances
+- **Volcano · Third Area — Left Exit** — floor is bound to "Volcano" but this marker matched none of its entrances
+- **Volcano · Third Area — Right Exit** — floor is bound to "Volcano" but this marker matched none of its entrances
 - **Volcano · Summit — Exit** — floor is bound to "Volcano Top" but this marker matched none of its entrances
-- **Lava Dome · Area 10 — Exit** — floor is bound to "Mac Ship B1 Mac Room Cleared" but this marker matched none of its entrances
-- **Windia · After Lake Restored — Rainbow** — floor is bound to "Windia" but this marker matched none of its entrances
-- **Giant Tree · Fifth Floor — Exit** — floor is bound to "Giant Tree 5F" but this marker matched none of its entrances
+- **Lava Dome · Area 2 — Entrance** — floor is bound to "Phoebe's House" but this marker matched none of its entrances
+- **Lava Dome · Area 2 — Exit** — floor is bound to "Phoebe's House" but this marker matched none of its entrances
+- **Lava Dome · Area 7 — Entrance** — floor is bound to "Wintry Cave 3F Bottom" but this marker matched none of its entrances
+- **Lava Dome · Area 7 — Exit** — floor is bound to "Wintry Cave 3F Bottom" but this marker matched none of its entrances
 - **Rope Bridge · Rope Bridge — Exit** — floor is bound to "Rope Bridge" but this marker matched none of its entrances
 - **Mac's Ship · First Basement — Stairs #1** — floor is bound to "Mac Ship B1" but this marker matched none of its entrances
 
-## The far side has no marker (14)
+## The far side has no marker (15)
 
 The door itself is bound and its destination is known, but nothing on our maps stands at the other end. These are missing markers — the map sheet needs one adding at the right spot.
 
 - **Focus Tower · First Basement — Aero Corridor - To Focus Tower 1F - Sun Coin Room** — leads to e12 "Focus Tower 1F - To Focus Tower B1 - To Aero Chest", which no marker on our maps claims
 - **Focus Tower · First Floor — Focus Tower West Entrance** — leads to e466 "Overworld - Focus Tower Windia", which no marker on our maps claims
-- **Mine · Main Area — To Crescent Room** — leads to e186 "Mine Crescent Room - To Mine Exterior", which no marker on our maps claims
-- **Mine · Main Area — To Climbing Room** — leads to e187 "Mine Climbing Room - To Mine Exterior", which no marker on our maps claims
 - **Volcano · Second Area — Left Exit** — leads to e205 "Volcano Cross Left-Right - To Volcano Left Path", which no marker on our maps claims
 - **Volcano · Second Area — To Volcano Cross Right-Left** — leads to e208 "Volcano Cross Right-Left - To Volcano Left Path", which no marker on our maps claims
 - **Volcano · Summit — To Right-Left Path Script** — leads to e207 "Volcano Cross Right-Left - To Volcano Top Left Script", which no marker on our maps claims
@@ -49,19 +46,16 @@ The door itself is bound and its destination is known, but nothing on our maps s
 - **Lava Dome · Area 1 — Lower Right Stairs** — leads to e247 "Lava Dome Plate Corridor - Left Entrance", which no marker on our maps claims
 - **Lava Dome · Area 3 — Upper Entrance** — leads to e231 "Lava Dome Up-Down Corridor - Lower Entrance", which no marker on our maps claims
 - **Giant Tree · Second Floor - Area 2 — North Face to Meteor** — leads to e285 "Giant Tree Meteor Chest Room - To 2F Mushroom Room", which no marker on our maps claims
+- **Pazuzu's Tower · Fourth Floor — Southwest Stairs** — leads to e393 "Pazuzu 4F to 6F - South Stairs", which no marker on our maps claims
+- **Pazuzu's Tower · Sixth Floor — West Stairs** — leads to e394 "Pazuzu 4F to 6F - North Stairs", which no marker on our maps claims
+- **Mac's Ship · Second Basement — South Stairs** — leads to e424 "Mac Ship B1 Mac Room Cleared - Main Stairs", which no marker on our maps claims
 
-## Binding not trusted (10)
+## Binding not trusted (4)
 
 Both ends are bound, but one sheet was matched to its game area on geometry alone with no name agreeing, which is roughly a coin flip. The tracker refuses to name a destination from those rather than risk pointing at the wrong dungeon.
 
-- **Lava Dome · Area 2 — Entrance** — would lead to Pazuzu's Tower · Second Floor — West Upper Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Lava Dome · Area 2 — Exit** — would lead to Pazuzu's Tower · Fourth Floor — Northwest Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Lava Dome · Area 7 — Entrance** — would lead to Pazuzu's Tower · Fourth Floor — Southwest Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Lava Dome · Area 7 — Exit** — would lead to Pazuzu's Tower · Sixth Floor — West Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Lava Dome · Area 10 — Entrance** — would lead to Mac's Ship · Second Basement — South Stairs — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Pazuzu's Tower · Second Floor — West Upper Stairs** — would lead to Lava Dome · Area 2 — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Pazuzu's Tower · Fourth Floor — Southwest Stairs** — would lead to Lava Dome · Area 7 — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Pazuzu's Tower · Fourth Floor — Northwest Stairs** — would lead to Lava Dome · Area 2 — Exit — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Pazuzu's Tower · Sixth Floor — West Stairs** — would lead to Lava Dome · Area 7 — Exit — but one of those sheets was matched on geometry alone, so it is not trusted
-- **Mac's Ship · Second Basement — South Stairs** — would lead to Lava Dome · Area 10 — Entrance — but one of those sheets was matched on geometry alone, so it is not trusted
+- **Lava Dome · Area 10 — Entrance** — would lead to Pazuzu's Tower · Second Floor — West Upper Stairs — Fire Region → Wind Region, which cannot be right, so one of those sheets is bound to the wrong area
+- **Lava Dome · Area 10 — Exit** — would lead to Pazuzu's Tower · Fourth Floor — Northwest Stairs — Fire Region → Wind Region, which cannot be right, so one of those sheets is bound to the wrong area
+- **Pazuzu's Tower · Second Floor — West Upper Stairs** — would lead to Lava Dome · Area 10 — Entrance — Wind Region → Fire Region, which cannot be right, so one of those sheets is bound to the wrong area
+- **Pazuzu's Tower · Fourth Floor — Northwest Stairs** — would lead to Lava Dome · Area 10 — Exit — Wind Region → Fire Region, which cannot be right, so one of those sheets is bound to the wrong area
 

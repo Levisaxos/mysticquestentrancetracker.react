@@ -6,12 +6,15 @@ import ItemPanel from './ItemPanel';
 import UnexploredExitsModal from './UnexploredExitsModal';
 import ApConnectionModal from './ApConnectionModal';
 import RunSettingsModal from './RunSettingsModal';
+import SniConnectionModal from './SniConnectionModal';
 import { NavigationService } from '../services/navigationService';
 import { locationTrackerService } from '../services/locationTrackerService';
 import { itemService } from '../services/itemService';
 import { gameService } from '../services/gameService';
 import { computeMarkerStatus } from '../engine/markerStatus';
 import { poolOf, fixedMarkerLinksFor } from '../engine/pools';
+import { sniService } from '../services/sniService';
+import { floorForReading } from '../engine/mapFollow';
 import binding from '../data/binding.json';
 import { LOCATIONS_DATA } from '../constants/locationsData';
 
@@ -29,6 +32,8 @@ const GameTracker = ({ game, onCloseGame }) => {
   const [exitsOpen, setExitsOpen] = useState(false);
   const [apOpen, setApOpen] = useState(false);
   const [settingsOpen, setSettingsOpen] = useState(false);
+  const [sniOpen, setSniOpen] = useState(false);
+  const [following, setFollowing] = useState(false);
 
   // Reachability is a whole-graph computation, so do it once per change rather
   // than per marker. refreshTrigger is bumped by every action that could move
@@ -103,6 +108,25 @@ const GameTracker = ({ game, onCloseGame }) => {
       fixedLinks,
     };
   }, [gameId, refreshTrigger]);
+
+  // Move the view to wherever the player actually is.
+  //
+  // Only while following and only on a change of room: without that guard this
+  // fights the player every time they click a link and look somewhere else.
+  useEffect(() => {
+    if (!following) return undefined;
+    return sniService.subscribe((snapshot) => {
+      const floorId = floorForReading(snapshot.reading);
+      if (floorId == null) return;
+      const where = navigationService.getAllFloorData()
+        .find((f) => String(f.floorId) === String(floorId));
+      if (!where) return;
+      setCurrentRegionId(where.regionId);
+      setCurrentLocationId(where.locationId);
+      setCurrentFloorId(where.floorId);
+      setHighlightedDoorId(null);
+    });
+  }, [following]);
 
   // Initialize with World Map
   useEffect(() => {
@@ -300,6 +324,8 @@ const GameTracker = ({ game, onCloseGame }) => {
           checksLeft={logic?.counts.checksLeft ?? 0}
           onShowExits={() => setExitsOpen(true)}
           onShowArchipelago={() => setApOpen(true)}
+        onShowFollowGame={() => setSniOpen(true)}
+        following={following}
           onShowSettings={() => setSettingsOpen(true)}
           droppedLinks={logic?.droppedLinks}
           shuffleConfigured={
@@ -333,6 +359,13 @@ const GameTracker = ({ game, onCloseGame }) => {
         gameId={game.id}
         onClose={() => setSettingsOpen(false)}
         onChange={() => setRefreshTrigger(prev => prev + 1)}
+      />
+
+      <SniConnectionModal
+        isOpen={sniOpen}
+        onClose={() => setSniOpen(false)}
+        following={following}
+        onFollowingChange={setFollowing}
       />
 
       <ApConnectionModal

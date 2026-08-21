@@ -33,6 +33,8 @@ export default function NavigationPanel({
   checksLeft = 0,
   onShowExits,
   onShowArchipelago,
+  onShowFollowGame,
+  following,
   shuffleConfigured,
   onShowSettings,
   droppedLinks,
@@ -193,6 +195,22 @@ export default function NavigationPanel({
             : ap.state === 'connecting' ? 'Connecting…'
             : ap.state === 'error' ? 'Archipelago failed'
             : 'Archipelago'}
+        </button>
+      )}
+
+      {onShowFollowGame && (
+        <button
+          onClick={onShowFollowGame}
+          title={following
+            ? 'The map is following the room you are standing in'
+            : 'Read the room you are in from SNI and show that map'}
+          className={`w-full rounded py-1.5 text-xs font-medium transition-colors flex items-center justify-center gap-1.5 ${
+            following ? 'bg-green-800/70 hover:bg-green-700 text-green-100'
+              : 'bg-slate-700 hover:bg-slate-600 text-slate-300'
+          }`}
+        >
+          <span className={`w-2 h-2 rounded-full ${following ? 'bg-green-400 animate-pulse' : 'bg-slate-500'}`} />
+          {following ? 'Following the game' : 'Follow the game'}
         </button>
       )}
 

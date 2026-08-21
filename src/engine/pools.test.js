@@ -3,6 +3,7 @@ import { poolOf, canPair, pairingProblem, vanillaPartnerOf, vanillaLinksFor, loc
 import binding from '../data/binding.json';
 import entranceLinks from '../data/ffmq/entranceLinks.json';
 import { LOCATIONS_DATA } from '../constants/locationsData';
+import { MAP_DATA } from '../constants/mapData';
 
 const e = (floorId, name) => binding.markers[
   String((LOCATIONS_DATA[floorId] ?? []).find((m) => m.name === name)?.id)
@@ -192,5 +193,44 @@ describe('fixed destinations on our own maps', () => {
     expect(links.get(marker('60401', 'South Stairs'))).toBe(marker('60402', 'South Stairs'));
     expect(links.get(marker('20103', "Kaeli's House Entrance")))
       .toBe(marker('20102', "Kaeli's House"));
+  });
+});
+
+// A door only leaves its region in ways you can name, so anything else on this
+// list is a sheet bound to the wrong area — that is how Pazuzu's Tower came to
+// open into the Lava Dome. Stated as an allowlist rather than a warning,
+// because the wrong ones look exactly like the right ones until you read the
+// region names.
+describe('links that cross regions', () => {
+  const EXPECTED = new Set([
+    'Water Region → Fire Region',   // Gemini crest, Aquaria to Fireburg
+    'Wind Region → Fire Region',    // Mobius crest, Windia to Fireburg
+    'Fire Region → Water Region',
+    'Fire Region → Wind Region',
+    'Other Regions → Center of the World', // Doom Castle to Focus Tower
+    'Center of the World → Other Regions',
+  ]);
+
+  test('are only the world map, the crests, and Doom Castle', () => {
+    const region = new Map();
+    for (const r of MAP_DATA.regions) {
+      for (const l of r.locations) for (const f of l.floors) region.set(String(f.id), r.name);
+    }
+    const floorOf = new Map();
+    for (const [floorId, markers] of Object.entries(LOCATIONS_DATA)) {
+      for (const m of markers) floorOf.set(m.id, floorId);
+    }
+
+    const surprises = [];
+    for (const [from, to] of fixedMarkerLinksFor(NONE)) {
+      const a = region.get(floorOf.get(from));
+      const b = region.get(floorOf.get(to));
+      if (!a || !b || a === b) continue;
+      if (a === 'World Map' || b === 'World Map') continue;
+      const crossing = `${a} → ${b}`;
+      if (!EXPECTED.has(crossing)) surprises.push(`${crossing} (m${from} -> m${to})`);
+    }
+
+    expect(surprises).toEqual([]);
   });
 });

@@ -22,7 +22,16 @@
     "50105": [78],
     "50106": [79],
     "50107": [80],
-    "50108": [81]
+    "50108": [81],
+    "60103": [163],
+    "60104": [164],
+    "60105": [157],
+    "60106": [158],
+    "60107": [165],
+    "60108": [160],
+    "60109": [162],
+    "60110": [159],
+    "60111": [161]
   },
   "markers": {
     "_comment": "our marker id -> canonical entrance id.",
@@ -62,6 +71,21 @@
     "311": 173,
     "312": 174,
     "313": 175,
+    "439": 338,
+    "440": 337,
+    "443": 339,
+    "444": 326,
+    "445": 327,
+    "447": 328,
+    "448": 340,
+    "449": 331,
+    "450": 332,
+    "453": 335,
+    "454": 336,
+    "455": 329,
+    "456": 330,
+    "457": 333,
+    "458": 334,
     "286": 76,
     "287": 75,
     "850": 63
@@ -92,6 +116,7 @@
     "40206 and 40207 Ice Pyramid": "These two sheets were swapped. Fifth Floor - Area 2 is the Ice Golem Room (room 70) and First Basement - Area 1 is the B1 Taunt Room (room 53), not the reverse: our sheets carry one chest and three-boxes-and-a-chest respectively, and those rooms carry exactly that, the other way round from how they were bound. Inside Ice Pyramid the name test is no help — every sheet shares \"ice pyramid\" with every area — so geometry decided it alone and got these two the wrong way round. Their doors follow: m246 is e141 and m251 is e113.",
     "40402 Wintry Cave / Second Floor": "Its two doors are named the wrong way round: To 3F Bottom is the way back down to 1F (e104) and Exit is the one to 3F Bottom (e103). That assignment fits both markers at one offset to within 0.14 of a tile, where the names as written land 47 tiles out. Renamed to match.",
     "40403 Wintry Cave / Third Floor": "One sheet for the game's two areas, 3F Top (room 49) and 3F Bottom (room 50), which have different origins — so no single offset fits both doors and geometry cannot settle them. Exit from 3F Top is e105, back to 1F; Entrance 2 is e106, the way down to 2F, which is the far side of m269.",
+    "Windia houses (60103-60111)": "The game keeps every Windia interior in one area of seven rooms while we draw a sheet per room, so only one sheet could ever claim it and the rest went unbound or drifted onto Pazuzu and Mac's Ship. Named by what each sheet contains: Inn is the Inn Lobby (163), Inn Second Floor the Beds (164, two boxes), House Near Entrance the Vendor House (165), House Above Inn the Old People House (160), House Above Inn Warp its Basement (162, two boxes), Small House Upper Left the Kid House (159), Small House Warp the Kid House Basement (161), Otto's House room 157 and Otto's House Second Floor the Attic (158, one box). Every two-door sheet fits its room at one offset within 0.4 of a tile, against 4.6 to 19.9 for the alternative, so the doors are not guesses either.",
     "40601 Libra Temple / Inside": "Its two doors were swapped: the upper one (m286) is the Libra crest tile to Life Temple (e76) and the lower one (m287) is the door to the overworld (e75). Both markers land within 0.15 tiles of those entrances at a shared offset of about (0.5, 0.5), where the binding it came up with fits one marker and misses the other by seven tiles. It went wrong because align() buckets offsets by rounding, and a true offset sitting on the .5 boundary rounds the two correct pairings into different buckets, so neither ever gathers a second vote and a coincidence wins on the tie-break."
   }
 }

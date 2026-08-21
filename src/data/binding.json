@@ -4,12 +4,12 @@
     "note": "Do not edit by hand; re-run the script. Marker ids are our own, from locationsData.js.",
     "totals": {
       "markers": 599,
-      "bound": 569,
-      "entranceHigh": 243,
-      "entranceReview": 83,
+      "bound": 580,
+      "entranceHigh": 258,
+      "entranceReview": 79,
       "battlefield": 20,
-      "container": 32,
-      "unresolved": 191
+      "container": 33,
+      "unresolved": 190
     }
   },
   "floors": {
@@ -1041,18 +1041,32 @@
         156
       ]
     },
-    "60104": {
-      "areaId": 93,
-      "areaLabel": "Pazuzu 2F to 4F",
+    "60103": {
+      "areaId": 82,
+      "areaLabel": "Windia",
       "offset": [
-        36,
-        53
+        -4,
+        -2
       ],
-      "confidence": "geometry-only",
+      "confidence": "manual",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        163
+      ]
+    },
+    "60104": {
+      "areaId": 82,
+      "areaLabel": "Windia",
+      "offset": [
+        0,
+        3
+      ],
+      "confidence": "manual",
       "matchedMarkers": 1,
       "totalMarkers": 1,
       "roomIds": [
-        183
+        164
       ]
     },
     "60105": {
@@ -1062,40 +1076,67 @@
         0,
         15
       ],
-      "confidence": "name-only",
+      "confidence": "manual",
       "matchedMarkers": 2,
       "totalMarkers": 2,
       "roomIds": [
-        157,
-        158
+        157
       ]
     },
     "60106": {
-      "areaId": 94,
-      "areaLabel": "Pazuzu 4F to 6F",
+      "areaId": 81,
+      "areaLabel": "Otto's",
       "offset": [
-        41,
-        56
+        0,
+        15
       ],
-      "confidence": "geometry-only",
+      "confidence": "manual",
       "matchedMarkers": 1,
       "totalMarkers": 1,
       "roomIds": [
-        184
+        158
       ]
     },
     "60107": {
-      "areaId": 100,
-      "areaLabel": "Mac Ship B1 Mac Room Cleared",
+      "areaId": 82,
+      "areaLabel": "Windia",
       "offset": [
-        4,
-        39
+        -5,
+        -2
       ],
-      "confidence": "geometry-only",
+      "confidence": "manual",
       "matchedMarkers": 1,
       "totalMarkers": 1,
       "roomIds": [
-        194
+        165
+      ]
+    },
+    "60108": {
+      "areaId": 82,
+      "areaLabel": "Windia",
+      "offset": [
+        -3,
+        0
+      ],
+      "confidence": "manual",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        160
+      ]
+    },
+    "60109": {
+      "areaId": 82,
+      "areaLabel": "Windia",
+      "offset": [
+        4,
+        2
+      ],
+      "confidence": "manual",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        162
       ]
     },
     "60110": {
@@ -1105,17 +1146,25 @@
         -1,
         0
       ],
-      "confidence": "name-only",
+      "confidence": "manual",
       "matchedMarkers": 2,
       "totalMarkers": 2,
       "roomIds": [
-        159,
-        160,
-        161,
-        162,
-        163,
-        164,
-        165
+        159
+      ]
+    },
+    "60111": {
+      "areaId": 82,
+      "areaLabel": "Windia",
+      "offset": [
+        1,
+        5
+      ],
+      "confidence": "manual",
+      "matchedMarkers": 2,
+      "totalMarkers": 2,
+      "roomIds": [
+        161
       ]
     },
     "60203": {
@@ -1130,6 +1179,48 @@
       "totalMarkers": 5,
       "roomIds": [
         124
+      ]
+    },
+    "60205": {
+      "areaId": 93,
+      "areaLabel": "Pazuzu 2F to 4F",
+      "offset": [
+        36,
+        53
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        183
+      ]
+    },
+    "60206": {
+      "areaId": 94,
+      "areaLabel": "Pazuzu 4F to 6F",
+      "offset": [
+        37,
+        53
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        184
+      ]
+    },
+    "60207": {
+      "areaId": 100,
+      "areaLabel": "Mac Ship B1 Mac Room Cleared",
+      "offset": [
+        10,
+        44
+      ],
+      "confidence": "geometry-only",
+      "matchedMarkers": 1,
+      "totalMarkers": 1,
+      "roomIds": [
+        194
       ]
     },
     "60301": {
@@ -4742,89 +4833,142 @@
       "via": "geometry",
       "distance": 0.5
     },
+    "439": {
+      "kind": "entrance",
+      "entranceId": 338,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "440": {
+      "kind": "entrance",
+      "entranceId": 337,
+      "confidence": "high",
+      "via": "manual-override"
+    },
     "441": {
       "kind": "check",
       "checkType": "Box",
       "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325574,
+        4325575
+      ]
     },
     "442": {
       "kind": "check",
       "checkType": "Box",
       "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325574,
+        4325575
+      ]
     },
     "443": {
       "kind": "entrance",
-      "entranceId": 391,
-      "confidence": "geometry-only",
-      "via": "geometry",
-      "distance": 0.66
+      "entranceId": 339,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "444": {
       "kind": "entrance",
       "entranceId": 326,
-      "confidence": "name-only",
-      "via": "geometry",
-      "distance": 0.62
+      "confidence": "high",
+      "via": "manual-override"
     },
     "445": {
       "kind": "entrance",
       "entranceId": 327,
-      "confidence": "name-only",
-      "via": "geometry",
-      "distance": 0.78
+      "confidence": "high",
+      "via": "manual-override"
     },
     "446": {
       "kind": "check",
       "checkType": "Box",
-      "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
+      "apLocationId": 4325573,
+      "confidence": "high",
+      "via": "sole-candidate-in-area"
     },
     "447": {
       "kind": "entrance",
-      "entranceId": 393,
-      "confidence": "geometry-only",
-      "via": "geometry",
-      "distance": 0.54
+      "entranceId": 328,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "448": {
       "kind": "entrance",
-      "entranceId": 424,
-      "confidence": "geometry-only",
-      "via": "geometry",
-      "distance": 0.49
+      "entranceId": 340,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "449": {
+      "kind": "entrance",
+      "entranceId": 331,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "450": {
+      "kind": "entrance",
+      "entranceId": 332,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "451": {
       "kind": "check",
       "checkType": "Box",
       "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325576,
+        4325577
+      ]
     },
     "452": {
       "kind": "check",
       "checkType": "Box",
       "confidence": "unresolved",
-      "via": "no-area-binding",
-      "candidates": []
+      "via": "narrowed-to-area",
+      "candidates": [
+        4325576,
+        4325577
+      ]
+    },
+    "453": {
+      "kind": "entrance",
+      "entranceId": 335,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "454": {
+      "kind": "entrance",
+      "entranceId": 336,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "455": {
       "kind": "entrance",
       "entranceId": 329,
-      "confidence": "name-only",
-      "via": "geometry",
-      "distance": 0.66
+      "confidence": "high",
+      "via": "manual-override"
     },
     "456": {
       "kind": "entrance",
       "entranceId": 330,
-      "confidence": "name-only",
-      "via": "geometry",
-      "distance": 0.73
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "457": {
+      "kind": "entrance",
+      "entranceId": 333,
+      "confidence": "high",
+      "via": "manual-override"
+    },
+    "458": {
+      "kind": "entrance",
+      "entranceId": 334,
+      "confidence": "high",
+      "via": "manual-override"
     },
     "459": {
       "kind": "entrance",
@@ -5660,6 +5804,27 @@
       "confidence": "leftover",
       "via": "leftover-in-bound-area",
       "distance": 60.93
+    },
+    "745": {
+      "kind": "entrance",
+      "entranceId": 391,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.48
+    },
+    "746": {
+      "kind": "entrance",
+      "entranceId": 393,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.49
+    },
+    "747": {
+      "kind": "entrance",
+      "entranceId": 424,
+      "confidence": "geometry-only",
+      "via": "geometry",
+      "distance": 0.66
     },
     "748": {
       "kind": "entrance",

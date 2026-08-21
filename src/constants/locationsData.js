@@ -2952,7 +2952,7 @@ export const LOCATIONS_DATA = {
   "60107": [
     {
       "id": 448,
-      "name": "Stairs",
+      "name": "Entrance",
       "type": "door",
       "x": 187,
       "y": 198
